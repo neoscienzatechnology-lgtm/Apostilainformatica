@@ -160,6 +160,356 @@ const modulosApostila = [
                     'Um celular'
                 ],
                 correta: 1
+            },
+            {
+                pergunta: 'Qual a função da memória cache?',
+                alternativas: [
+                    'Armazenar dados permanentemente',
+                    'Acelerar o acesso a dados frequentemente usados pelo processador',
+                    'Substituir o HD',
+                    'Conectar periféricos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa "boot" do computador?',
+                alternativas: [
+                    'Desligar o PC',
+                    'Processo de inicialização do sistema operacional',
+                    'Formatar o disco',
+                    'Instalar programas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a diferença entre bit e byte?',
+                alternativas: [
+                    'Não há diferença',
+                    '1 byte = 8 bits',
+                    '1 bit = 8 bytes',
+                    'São unidades de velocidade'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é um driver?',
+                alternativas: [
+                    'Um tipo de hardware',
+                    'Software que permite ao SO se comunicar com hardware',
+                    'Um navegador',
+                    'Um jogo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve a placa de som?',
+                alternativas: [
+                    'Processar vídeos',
+                    'Processar e reproduzir áudio',
+                    'Armazenar músicas',
+                    'Conectar à internet'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é overclock?',
+                alternativas: [
+                    'Desligar o computador',
+                    'Aumentar a velocidade do processador além do padrão',
+                    'Atualizar o Windows',
+                    'Limpar arquivos temporários'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual componente é responsável pelo armazenamento permanente?',
+                alternativas: [
+                    'RAM',
+                    'Cache',
+                    'HD ou SSD',
+                    'Processador'
+                ],
+                correta: 2
+            },
+            {
+                pergunta: 'O que é barramento (BUS)?',
+                alternativas: [
+                    'Um tipo de transporte',
+                    'Via de comunicação entre componentes do PC',
+                    'Um software',
+                    'Um tipo de memória'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a função do cooler?',
+                alternativas: [
+                    'Armazenar dados',
+                    'Resfriar componentes como CPU e GPU',
+                    'Processar informações',
+                    'Conectar à internet'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é USB?',
+                alternativas: [
+                    'Um tipo de monitor',
+                    'Padrão de conexão para periféricos',
+                    'Sistema operacional',
+                    'Memória RAM'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Quantos bits tem 1 kilobyte (KB)?',
+                alternativas: [
+                    '1000 bits',
+                    '8000 bits',
+                    '1024 bits',
+                    '8192 bits'
+                ],
+                correta: 3
+            },
+            {
+                pergunta: 'O que é firmware?',
+                alternativas: [
+                    'Um tipo de hardware',
+                    'Software permanente gravado em hardware',
+                    'Um antivírus',
+                    'Uma rede social'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve o slot PCIe?',
+                alternativas: [
+                    'Conectar memória RAM',
+                    'Conectar placas de expansão como GPU',
+                    'Conectar HD',
+                    'Conectar teclado'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é dual channel de memória?',
+                alternativas: [
+                    'Usar dois HD',
+                    'Tecnologia que duplica velocidade de acesso à RAM',
+                    'Ter dois processadores',
+                    'Dois sistemas operacionais'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a diferença entre entrada e saída?',
+                alternativas: [
+                    'Entrada envia dados ao PC, saída recebe do PC',
+                    'São a mesma coisa',
+                    'Entrada é mais rápida',
+                    'Saída é mais cara'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é socket do processador?',
+                alternativas: [
+                    'Um software',
+                    'Encaixe físico da CPU na placa-mãe',
+                    'Um tipo de memória',
+                    'Um periférico'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve a bateria CMOS?',
+                alternativas: [
+                    'Alimentar o computador inteiro',
+                    'Manter configurações da BIOS quando o PC está desligado',
+                    'Carregar celular',
+                    'Armazenar arquivos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é clock do processador?',
+                alternativas: [
+                    'Um relógio',
+                    'Frequência de operação medida em GHz',
+                    'Tamanho do HD',
+                    'Quantidade de RAM'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a função da ventoinha (fan)?',
+                alternativas: [
+                    'Fazer barulho',
+                    'Circular ar para refrigeração',
+                    'Processar dados',
+                    'Armazenar informações'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é chipset?',
+                alternativas: [
+                    'Um tipo de batata frita',
+                    'Conjunto de chips que gerenciam comunicação na placa-mãe',
+                    'Um jogo',
+                    'Uma marca de computador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual componente determina a resolução máxima do monitor?',
+                alternativas: [
+                    'RAM',
+                    'Placa de vídeo (GPU)',
+                    'HD',
+                    'Fonte de alimentação'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é memória ROM?',
+                alternativas: [
+                    'Memória volátil',
+                    'Read Only Memory - memória apenas de leitura',
+                    'Memória RAM',
+                    'Um tipo de HD'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve a porta HDMI?',
+                alternativas: [
+                    'Conectar mouse',
+                    'Transmitir áudio e vídeo digital',
+                    'Conectar à internet',
+                    'Carregar bateria'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é multitarefa?',
+                alternativas: [
+                    'Ter vários computadores',
+                    'Executar múltiplos programas simultaneamente',
+                    'Ter várias pessoas usando o PC',
+                    'Vários monitores'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a diferença entre 32 bits e 64 bits?',
+                alternativas: [
+                    'Velocidade da internet',
+                    'Arquitetura do processador e quantidade de RAM suportada',
+                    'Tamanho do HD',
+                    'Qualidade da imagem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é benchmark?',
+                alternativas: [
+                    'Um banco',
+                    'Teste de desempenho de hardware',
+                    'Um jogo',
+                    'Um sistema operacional'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve o dissipador de calor?',
+                alternativas: [
+                    'Esquentar o processador',
+                    'Distribuir e dissipar calor dos componentes',
+                    'Armazenar dados',
+                    'Conectar periféricos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é taxa de atualização (refresh rate) do monitor?',
+                alternativas: [
+                    'Tamanho da tela',
+                    'Quantas vezes por segundo a imagem é atualizada (Hz)',
+                    'Brilho da tela',
+                    'Cor da tela'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a função do gabinete (case)?',
+                alternativas: [
+                    'Apenas estética',
+                    'Proteger e organizar componentes internos',
+                    'Processar dados',
+                    'Armazenar arquivos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é POST?',
+                alternativas: [
+                    'Um tipo de correio',
+                    'Power-On Self-Test - teste inicial ao ligar o PC',
+                    'Um software',
+                    'Uma rede social'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve a placa de rede?',
+                alternativas: [
+                    'Jogar',
+                    'Conectar o computador a redes e internet',
+                    'Armazenar dados',
+                    'Processar vídeos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é latência?',
+                alternativas: [
+                    'Tamanho do arquivo',
+                    'Tempo de atraso na resposta do sistema',
+                    'Velocidade máxima',
+                    'Capacidade de armazenamento'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a diferença entre HDD e SSD em termos de velocidade?',
+                alternativas: [
+                    'HDD é mais rápido',
+                    'SSD é significativamente mais rápido',
+                    'São iguais',
+                    'Depende da marca'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é throughput?',
+                alternativas: [
+                    'Um jogo',
+                    'Taxa de transferência de dados',
+                    'Tamanho da tela',
+                    'Tipo de processador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve o slot M.2?',
+                alternativas: [
+                    'Conectar mouse',
+                    'Conectar SSD compacto de alta velocidade',
+                    'Conectar monitor',
+                    'Conectar impressora'
+                ],
+                correta: 1
             }
         ]
     },
@@ -316,6 +666,346 @@ const modulosApostila = [
                     'Sistema de atualização automática do Windows',
                     'Um navegador',
                     'Um antivírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a diferença entre suspender e hibernar?',
+                alternativas: [
+                    'Não há diferença',
+                    'Suspender mantém RAM ativa, hibernar salva em disco',
+                    'Hibernar é mais rápido',
+                    'Suspender desliga o PC'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é a conta de administrador?',
+                alternativas: [
+                    'Conta de banco',
+                    'Conta com permissões totais no sistema',
+                    'Conta de email',
+                    'Conta de rede social'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve o prompt de comando (CMD)?',
+                alternativas: [
+                    'Jogar',
+                    'Executar comandos de texto no Windows',
+                    'Navegar na web',
+                    'Editar fotos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é o registro do Windows?',
+                alternativas: [
+                    'Um programa',
+                    'Banco de dados de configurações do sistema',
+                    'Uma pasta',
+                    'Um jogo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual atalho minimiza todas as janelas?',
+                alternativas: [
+                    'Alt + Tab',
+                    'Windows + D',
+                    'Ctrl + W',
+                    'Alt + F4'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é modo de segurança?',
+                alternativas: [
+                    'Um jogo',
+                    'Modo de inicialização com recursos mínimos para diagnosticar problemas',
+                    'Um antivírus',
+                    'Um navegador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve o Agendador de Tarefas?',
+                alternativas: [
+                    'Agendar compromissos',
+                    'Automatizar execução de programas em horários específicos',
+                    'Limpar arquivos',
+                    'Navegar na web'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é boot duplo (dual boot)?',
+                alternativas: [
+                    'Dois computadores',
+                    'Ter dois sistemas operacionais instalados',
+                    'Dois monitores',
+                    'Dois teclados'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a função do firewall do Windows?',
+                alternativas: [
+                    'Esquentar o PC',
+                    'Proteger contra acessos não autorizados à rede',
+                    'Acelerar internet',
+                    'Limpar arquivos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são variáveis de ambiente?',
+                alternativas: [
+                    'Temperatura do PC',
+                    'Configurações que afetam comportamento de programas',
+                    'Clima externo',
+                    'Sons do sistema'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve a restauração do sistema?',
+                alternativas: [
+                    'Deletar arquivos',
+                    'Voltar o sistema a um ponto anterior no tempo',
+                    'Instalar jogos',
+                    'Navegar na web'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é UAC (Controle de Conta de Usuário)?',
+                alternativas: [
+                    'Um jogo',
+                    'Recurso de segurança que pede confirmação para alterações',
+                    'Um navegador',
+                    'Uma rede social'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual atalho abre configurações no Windows 10/11?',
+                alternativas: [
+                    'Windows + I',
+                    'Ctrl + S',
+                    'Alt + P',
+                    'Windows + P'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é swap/arquivo de paginação?',
+                alternativas: [
+                    'Um programa',
+                    'Espaço em disco usado como extensão da RAM',
+                    'Um jogo',
+                    'Um navegador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve o Visualizador de Eventos?',
+                alternativas: [
+                    'Ver filmes',
+                    'Registrar e visualizar logs do sistema',
+                    'Ver fotos',
+                    'Jogar'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é indexação de arquivos?',
+                alternativas: [
+                    'Deletar arquivos',
+                    'Criar índice para busca rápida de arquivos',
+                    'Copiar arquivos',
+                    'Mover arquivos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a diferença entre shutdown e restart?',
+                alternativas: [
+                    'Não há diferença',
+                    'Shutdown desliga, restart reinicia o sistema',
+                    'Restart é mais lento',
+                    'Shutdown apaga arquivos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são permissões de arquivo?',
+                alternativas: [
+                    'Preço dos arquivos',
+                    'Regras de quem pode ler, escrever ou executar',
+                    'Tamanho dos arquivos',
+                    'Cor dos ícones'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve a ferramenta msconfig?',
+                alternativas: [
+                    'Jogar',
+                    'Configurar inicialização e serviços do Windows',
+                    'Editar textos',
+                    'Navegar na web'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é um serviço do Windows?',
+                alternativas: [
+                    'Uma loja',
+                    'Programa que roda em segundo plano',
+                    'Um jogo',
+                    'Um navegador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual atalho bloqueia o computador?',
+                alternativas: [
+                    'Windows + L',
+                    'Ctrl + L',
+                    'Alt + L',
+                    'Shift + L'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é formatação rápida vs completa?',
+                alternativas: [
+                    'São iguais',
+                    'Rápida só apaga índice, completa verifica setores defeituosos',
+                    'Rápida é melhor',
+                    'Completa é mais rápida'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve o comando "sfc /scannow"?',
+                alternativas: [
+                    'Escanear vírus',
+                    'Verificar e reparar arquivos do sistema',
+                    'Acelerar internet',
+                    'Limpar disco'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é Windows Defender?',
+                alternativas: [
+                    'Um jogo',
+                    'Antivírus integrado do Windows',
+                    'Um navegador',
+                    'Uma pasta'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a diferença entre pastas do sistema e pastas do usuário?',
+                alternativas: [
+                    'Não há diferença',
+                    'Sistema contém arquivos do Windows, usuário contém arquivos pessoais',
+                    'Sistema é menor',
+                    'Usuário é protegido'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são bibliotecas no Windows?',
+                alternativas: [
+                    'Lojas de livros',
+                    'Coleções virtuais que agrupam pastas',
+                    'Programas de leitura',
+                    'Jogos educativos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve o recurso de área de transferência?',
+                alternativas: [
+                    'Transferir dinheiro',
+                    'Armazenar temporariamente dados copiados',
+                    'Mover pastas',
+                    'Deletar arquivos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é sistema de arquivos?',
+                alternativas: [
+                    'Um programa',
+                    'Método de organizar e armazenar arquivos (NTFS, FAT32)',
+                    'Um navegador',
+                    'Um jogo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual atalho alterna entre janelas abertas?',
+                alternativas: [
+                    'Alt + Tab',
+                    'Ctrl + Tab',
+                    'Windows + Tab',
+                    'Shift + Tab'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é a Central de Ações?',
+                alternativas: [
+                    'Um jogo de ação',
+                    'Painel de notificações e configurações rápidas',
+                    'Um filme',
+                    'Um navegador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve o snap (dividir tela)?',
+                alternativas: [
+                    'Tirar fotos',
+                    'Organizar janelas lado a lado automaticamente',
+                    'Fazer barulho',
+                    'Deletar arquivos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são áreas de trabalho virtuais?',
+                alternativas: [
+                    'Computadores virtuais',
+                    'Múltiplas áreas de trabalho para organizar janelas',
+                    'Jogos online',
+                    'Redes sociais'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a função do Monitor de Recursos?',
+                alternativas: [
+                    'Ver vídeos',
+                    'Monitorar uso detalhado de CPU, RAM, disco e rede',
+                    'Monitorar clima',
+                    'Ver notícias'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é compactação de arquivos?',
+                alternativas: [
+                    'Deletar arquivos',
+                    'Reduzir tamanho de arquivos para economizar espaço',
+                    'Mover arquivos',
+                    'Copiar arquivos'
                 ],
                 correta: 1
             }
@@ -476,6 +1166,346 @@ const modulosApostila = [
                     'Apenas para ter novos ícones'
                 ],
                 correta: 1
+            },
+            {
+                pergunta: 'O que é URL?',
+                alternativas: [
+                    'Um vírus',
+                    'Endereço de um site na internet',
+                    'Um programa',
+                    'Um tipo de arquivo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa HTTPS?',
+                alternativas: [
+                    'Hyper Text Transfer Protocol Secure - protocolo seguro',
+                    'High Technology Protocol System',
+                    'Home Text Transfer',
+                    'Apenas um erro de digitação'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é download?',
+                alternativas: [
+                    'Enviar arquivo da internet para o PC',
+                    'Baixar arquivo da internet para o PC',
+                    'Deletar arquivo',
+                    'Copiar texto'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é upload?',
+                alternativas: [
+                    'Baixar arquivo',
+                    'Enviar arquivo do PC para internet',
+                    'Deletar arquivo',
+                    'Mover pasta'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é um navegador?',
+                alternativas: [
+                    'Um mapa',
+                    'Programa para acessar sites (Chrome, Firefox, Edge)',
+                    'Um GPS',
+                    'Um jogo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são favoritos/marcadores?',
+                alternativas: [
+                    'Sites salvos para acesso rápido',
+                    'Vírus de navegador',
+                    'Programas especiais',
+                    'Arquivos deletados'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é cache do navegador?',
+                alternativas: [
+                    'Um vírus',
+                    'Armazenamento temporário de dados de sites para carregamento rápido',
+                    'Um tipo de cookie',
+                    'Uma senha'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve o gerenciador de senhas?',
+                alternativas: [
+                    'Hackear contas',
+                    'Armazenar e gerar senhas fortes com segurança',
+                    'Deletar senhas',
+                    'Compartilhar senhas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é autenticação de dois fatores (2FA)?',
+                alternativas: [
+                    'Usar duas senhas',
+                    'Segurança extra que pede código adicional além da senha',
+                    'Dois computadores',
+                    'Duas contas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é spam?',
+                alternativas: [
+                    'Um alimento',
+                    'Emails indesejados e não solicitados',
+                    'Um programa útil',
+                    'Um tipo de vírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é malware?',
+                alternativas: [
+                    'Um programa bom',
+                    'Software malicioso que danifica ou rouba dados',
+                    'Um navegador',
+                    'Um antivírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como identificar site falso?',
+                alternativas: [
+                    'Cor do site',
+                    'Verificar URL, ausência de HTTPS, erros de português',
+                    'Tamanho da tela',
+                    'Tipo de fonte'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é VPN?',
+                alternativas: [
+                    'Um jogo',
+                    'Rede privada virtual que criptografa conexão',
+                    'Um vírus',
+                    'Uma rede social'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que não usar WiFi público para banco?',
+                alternativas: [
+                    'É mais lento',
+                    'Risco de interceptação de dados sensíveis',
+                    'Gasta mais bateria',
+                    'Não há problema'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é ransomware?',
+                alternativas: [
+                    'Um jogo',
+                    'Malware que sequestra dados e pede resgate',
+                    'Um antivírus',
+                    'Um navegador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que fazer se clicar em link suspeito?',
+                alternativas: [
+                    'Ignorar',
+                    'Escanear com antivírus, mudar senhas, monitorar contas',
+                    'Desligar internet',
+                    'Nada'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é firewall?',
+                alternativas: [
+                    'Um incêndio',
+                    'Barreira de segurança que filtra tráfego de rede',
+                    'Um jogo',
+                    'Uma parede física'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que não compartilhar senhas?',
+                alternativas: [
+                    'É proibido por lei',
+                    'Compromete segurança e responsabilidade sobre ações',
+                    'Não há problema',
+                    'Senhas expiram'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é engenharia social?',
+                alternativas: [
+                    'Uma profissão',
+                    'Manipulação psicológica para obter informações',
+                    'Uma rede social',
+                    'Um curso técnico'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são extensões de navegador?',
+                alternativas: [
+                    'Vírus',
+                    'Complementos que adicionam funcionalidades ao navegador',
+                    'Sites',
+                    'Programas separados'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que verificar remetente de email?',
+                alternativas: [
+                    'Por educação',
+                    'Evitar golpes de phishing com endereços falsos',
+                    'Não é necessário',
+                    'Para responder rápido'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é criptografia end-to-end?',
+                alternativas: [
+                    'Um tipo de cabo',
+                    'Mensagens legíveis apenas por remetente e destinatário',
+                    'Um programa',
+                    'Um jogo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que fazer ao perder celular com apps bancários?',
+                alternativas: [
+                    'Esperar',
+                    'Bloquear apps, mudar senhas, avisar banco imediatamente',
+                    'Nada',
+                    'Comprar novo celular'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é backup na nuvem?',
+                alternativas: [
+                    'Guardar dados no céu',
+                    'Cópia de segurança em servidores online',
+                    'Um tipo de vírus',
+                    'Um jogo online'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que desconfiar de promoções "boas demais"?',
+                alternativas: [
+                    'Inveja',
+                    'Podem ser golpes para roubar dados ou dinheiro',
+                    'Não há motivo',
+                    'São sempre falsas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é certificado digital?',
+                alternativas: [
+                    'Um diploma online',
+                    'Documento eletrônico que garante autenticidade',
+                    'Um jogo',
+                    'Uma rede social'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa cadeado verde no navegador?',
+                alternativas: [
+                    'Site é verde',
+                    'Conexão segura com HTTPS',
+                    'Site é lento',
+                    'Site é pago'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é adware?',
+                alternativas: [
+                    'Um anúncio bom',
+                    'Software que exibe propagandas indesejadas',
+                    'Um navegador',
+                    'Um jogo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que atualizar antivírus regularmente?',
+                alternativas: [
+                    'Para gastar espaço',
+                    'Manter proteção contra novas ameaças',
+                    'Não é necessário',
+                    'Apenas visual'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é DoS/DDoS?',
+                alternativas: [
+                    'Dois sistemas operacionais',
+                    'Ataque que sobrecarrega servidor para derrubá-lo',
+                    'Um programa',
+                    'Uma dose de remédio'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que fazer antes de vender/doar PC?',
+                alternativas: [
+                    'Apenas desligar',
+                    'Fazer backup e apagar todos os dados completamente',
+                    'Nada',
+                    'Só tirar a senha'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é política de privacidade?',
+                alternativas: [
+                    'Lei do governo',
+                    'Documento que explica como site usa seus dados',
+                    'Um programa',
+                    'Uma configuração'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que não baixar programas de sites desconhecidos?',
+                alternativas: [
+                    'São mais lentos',
+                    'Risco de malware e vírus',
+                    'Não funcionam',
+                    'São pagos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são permissões de app?',
+                alternativas: [
+                    'Preços',
+                    'Acessos que app pede (câmera, localização, etc)',
+                    'Cores do app',
+                    'Tamanho do app'
+                ],
+                correta: 1
             }
         ]
     },
@@ -634,6 +1664,346 @@ const modulosApostila = [
                     'Um formato de arquivo'
                 ],
                 correta: 1
+            },
+            {
+                pergunta: 'Como inserir cabeçalho e rodapé no Word?',
+                alternativas: [
+                    'Menu Inserir > Cabeçalho/Rodapé',
+                    'Menu Arquivo > Cabeçalho',
+                    'Ctrl + H',
+                    'Menu Exibir > Cabeçalho'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz a função COUNT no Excel?',
+                alternativas: [
+                    'Soma valores',
+                    'Conta células com números',
+                    'Calcula média',
+                    'Multiplica valores'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como adicionar animações em slides do PowerPoint?',
+                alternativas: [
+                    'Menu Animações',
+                    'Menu Arquivo',
+                    'Menu Exibir',
+                    'Menu Inserir'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual atalho seleciona tudo no documento?',
+                alternativas: [
+                    'Ctrl + T',
+                    'Ctrl + A',
+                    'Ctrl + S',
+                    'Ctrl + E'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar uma lista numerada no Word?',
+                alternativas: [
+                    'Menu Página Inicial > Numeração',
+                    'Menu Inserir > Lista',
+                    'Ctrl + L',
+                    'Menu Arquivo > Numeração'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é uma referência relativa no Excel?',
+                alternativas: [
+                    'Referência que muda ao copiar fórmula',
+                    'Referência fixa com $',
+                    'Um tipo de gráfico',
+                    'Uma função'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como inserir um vídeo no PowerPoint?',
+                alternativas: [
+                    'Menu Inserir > Vídeo',
+                    'Menu Arquivo > Vídeo',
+                    'Arrastar e soltar apenas',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual função calcula o maior valor em um intervalo?',
+                alternativas: [
+                    'MIN',
+                    'MAX',
+                    'SUM',
+                    'AVERAGE'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar uma tabela de conteúdo automática no Word?',
+                alternativas: [
+                    'Menu Referências > Sumário',
+                    'Menu Inserir > Índice',
+                    'Digitar manualmente',
+                    'Menu Arquivo > Sumário'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz a função IF no Excel?',
+                alternativas: [
+                    'Soma valores',
+                    'Testa condição e retorna valores diferentes',
+                    'Conta células',
+                    'Formata células'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como duplicar um slide no PowerPoint?',
+                alternativas: [
+                    'Clicar com botão direito > Duplicar Slide',
+                    'Ctrl + D',
+                    'Menu Inserir > Duplicar',
+                    'Ambas A e B estão corretas'
+                ],
+                correta: 3
+            },
+            {
+                pergunta: 'Qual atalho aplica negrito ao texto?',
+                alternativas: [
+                    'Ctrl + B',
+                    'Ctrl + N',
+                    'Ctrl + I',
+                    'Ctrl + U'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como congelar painéis no Excel?',
+                alternativas: [
+                    'Menu Exibir > Congelar Painéis',
+                    'Menu Arquivo > Congelar',
+                    'Ctrl + F',
+                    'Menu Inserir > Congelar'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é um slide mestre no PowerPoint?',
+                alternativas: [
+                    'Primeiro slide da apresentação',
+                    'Template que controla formatação de todos os slides',
+                    'Slide mais importante',
+                    'Último slide'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como inserir símbolos especiais no Word?',
+                alternativas: [
+                    'Menu Inserir > Símbolo',
+                    'Menu Arquivo > Caracteres',
+                    'Ctrl + Símbolo',
+                    'Menu Exibir > Símbolos'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual função retorna o menor valor em um intervalo?',
+                alternativas: [
+                    'MAX',
+                    'MIN',
+                    'SMALL',
+                    'LOW'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como alterar o tema de uma apresentação?',
+                alternativas: [
+                    'Menu Design > Temas',
+                    'Menu Arquivo > Tema',
+                    'Menu Inserir > Tema',
+                    'Ctrl + T'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz Ctrl + F no Word?',
+                alternativas: [
+                    'Salvar documento',
+                    'Localizar/Buscar texto',
+                    'Formatar texto',
+                    'Fechar documento'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como mesclar células no Excel?',
+                alternativas: [
+                    'Menu Página Inicial > Mesclar e Centralizar',
+                    'Menu Inserir > Mesclar',
+                    'Ctrl + M',
+                    'Menu Arquivo > Mesclar'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como adicionar notas do apresentador no PowerPoint?',
+                alternativas: [
+                    'Na área de anotações abaixo do slide',
+                    'Menu Arquivo > Notas',
+                    'Ctrl + N',
+                    'Menu Inserir > Notas'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual atalho aplica itálico ao texto?',
+                alternativas: [
+                    'Ctrl + B',
+                    'Ctrl + I',
+                    'Ctrl + U',
+                    'Ctrl + T'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é autosoma no Excel?',
+                alternativas: [
+                    'Recurso que soma automaticamente células adjacentes',
+                    'Um tipo de gráfico',
+                    'Uma função avançada',
+                    'Uma formatação'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como configurar orientação da página no Word?',
+                alternativas: [
+                    'Menu Layout > Orientação',
+                    'Menu Arquivo > Página',
+                    'Ctrl + O',
+                    'Menu Inserir > Orientação'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual extensão de arquivo do Excel?',
+                alternativas: [
+                    '.docx',
+                    '.pptx',
+                    '.xlsx',
+                    '.txt'
+                ],
+                correta: 2
+            },
+            {
+                pergunta: 'Como inserir um gráfico SmartArt no PowerPoint?',
+                alternativas: [
+                    'Menu Inserir > SmartArt',
+                    'Menu Design > SmartArt',
+                    'Ctrl + S',
+                    'Menu Arquivo > SmartArt'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz Ctrl + H no Word?',
+                alternativas: [
+                    'Localizar',
+                    'Localizar e Substituir',
+                    'Ajuda',
+                    'Ocultar texto'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar um gráfico de pizza no Excel?',
+                alternativas: [
+                    'Selecionar dados > Menu Inserir > Gráfico de Pizza',
+                    'Menu Arquivo > Gráfico',
+                    'Ctrl + P',
+                    'Menu Exibir > Pizza'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como configurar transição automática de slides?',
+                alternativas: [
+                    'Menu Transições > Definir tempo',
+                    'Menu Animações > Tempo',
+                    'Ctrl + T',
+                    'Menu Arquivo > Timer'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual atalho sublinha o texto?',
+                alternativas: [
+                    'Ctrl + S',
+                    'Ctrl + U',
+                    'Ctrl + L',
+                    'Ctrl + B'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é filtro de dados no Excel?',
+                alternativas: [
+                    'Deletar dados',
+                    'Recurso para exibir apenas linhas que atendem critérios',
+                    'Formatar células',
+                    'Criar gráficos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como adicionar hiperlink no PowerPoint?',
+                alternativas: [
+                    'Menu Inserir > Hiperlink ou Ctrl + K',
+                    'Menu Arquivo > Link',
+                    'Clicar com botão direito apenas',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como verificar ortografia no Word?',
+                alternativas: [
+                    'Menu Revisar > Ortografia e Gramática ou F7',
+                    'Menu Arquivo > Verificar',
+                    'Ctrl + O',
+                    'Menu Inserir > Ortografia'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz a função NOW no Excel?',
+                alternativas: [
+                    'Retorna data e hora atual',
+                    'Soma valores',
+                    'Conta células',
+                    'Formata células'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como agrupar objetos no PowerPoint?',
+                alternativas: [
+                    'Selecionar objetos > Botão direito > Agrupar',
+                    'Menu Arquivo > Agrupar',
+                    'Ctrl + G',
+                    'Menu Inserir > Grupo'
+                ],
+                correta: 0
             }
         ]
     },
@@ -790,6 +2160,346 @@ const modulosApostila = [
                     'Podem conter vírus, trojans, spyware e roubar seus dados',
                     'Apenas deixam PC lento',
                     'Só ocupam espaço'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é phishing?',
+                alternativas: [
+                    'Um jogo online',
+                    'Tentativa de roubar dados se passando por entidade confiável',
+                    'Um navegador',
+                    'Um antivírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar uma senha forte?',
+                alternativas: [
+                    'Usar apenas letras minúsculas',
+                    'Usar nome e data de nascimento',
+                    'Combinar letras, números, símbolos e ter 12+ caracteres',
+                    'Usar "123456"'
+                ],
+                correta: 2
+            },
+            {
+                pergunta: 'O que é spyware?',
+                alternativas: [
+                    'Um jogo',
+                    'Malware que monitora atividades sem consentimento',
+                    'Um navegador',
+                    'Um antivírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que atualizar o antivírus regularmente?',
+                alternativas: [
+                    'Não é necessário',
+                    'Para detectar ameaças novas e mais recentes',
+                    'Apenas para ocupar espaço',
+                    'Para deixar PC lento'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é um trojan?',
+                alternativas: [
+                    'Um programa útil',
+                    'Malware disfarçado de software legítimo',
+                    'Um navegador',
+                    'Um antivírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como identificar email de phishing?',
+                alternativas: [
+                    'Sempre são seguros',
+                    'Verificar remetente, erros de português, urgência exagerada',
+                    'Todos são verdadeiros',
+                    'Não há como identificar'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é firewall?',
+                alternativas: [
+                    'Um tipo de vírus',
+                    'Barreira de segurança que monitora tráfego de rede',
+                    'Um navegador',
+                    'Um jogo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que não usar a mesma senha em todos os sites?',
+                alternativas: [
+                    'Não há problema',
+                    'Se um site vazar, todos ficam comprometidos',
+                    'Para economizar memória',
+                    'É mais rápido'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é SSL/HTTPS?',
+                alternativas: [
+                    'Um vírus',
+                    'Protocolo de segurança que criptografa dados na web',
+                    'Um navegador',
+                    'Um jogo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como proteger dispositivos móveis?',
+                alternativas: [
+                    'Não usar senha',
+                    'Usar senha/biometria, antivírus e cuidado com apps',
+                    'Baixar apps de qualquer lugar',
+                    'Desativar bloqueio'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é adware?',
+                alternativas: [
+                    'Um programa útil',
+                    'Software que exibe anúncios indesejados',
+                    'Um navegador',
+                    'Um antivírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que desconfiar de ofertas "boas demais"?',
+                alternativas: [
+                    'Sempre são verdadeiras',
+                    'Podem ser golpes para roubar dados ou dinheiro',
+                    'Não há problema',
+                    'São sempre seguras'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é engenharia social?',
+                alternativas: [
+                    'Uma ciência',
+                    'Manipulação psicológica para obter informações confidenciais',
+                    'Um programa',
+                    'Um jogo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como proteger redes WiFi domésticas?',
+                alternativas: [
+                    'Deixar sem senha',
+                    'Usar WPA3/WPA2, senha forte e ocultar SSID',
+                    'Usar WEP apenas',
+                    'Compartilhar senha com todos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é keylogger?',
+                alternativas: [
+                    'Um teclado',
+                    'Malware que registra tudo que você digita',
+                    'Um programa útil',
+                    'Um jogo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que verificar URL antes de clicar?',
+                alternativas: [
+                    'Não é necessário',
+                    'Para evitar sites maliciosos disfarçados',
+                    'Apenas por curiosidade',
+                    'Não faz diferença'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é um ataque DDoS?',
+                alternativas: [
+                    'Um jogo',
+                    'Sobrecarga de servidor com múltiplas requisições',
+                    'Um antivírus',
+                    'Um navegador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como proteger dados em dispositivos perdidos?',
+                alternativas: [
+                    'Não fazer nada',
+                    'Usar criptografia, bloqueio remoto e localização',
+                    'Deixar sem senha',
+                    'Compartilhar com todos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é zero-day exploit?',
+                alternativas: [
+                    'Um jogo',
+                    'Vulnerabilidade explorada antes de correção disponível',
+                    'Um antivírus',
+                    'Um navegador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que desconfiar de anexos de email desconhecidos?',
+                alternativas: [
+                    'Sempre são seguros',
+                    'Podem conter malware que infecta ao abrir',
+                    'Não há perigo',
+                    'São sempre úteis'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é gerenciador de senhas?',
+                alternativas: [
+                    'Um vírus',
+                    'Ferramenta segura que armazena e gera senhas fortes',
+                    'Um jogo',
+                    'Um navegador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como identificar sites seguros?',
+                alternativas: [
+                    'Qualquer site é seguro',
+                    'Verificar HTTPS, cadeado, certificado SSL válido',
+                    'Pela cor do site',
+                    'Pelo design'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é botnet?',
+                alternativas: [
+                    'Um jogo',
+                    'Rede de computadores infectados controlados remotamente',
+                    'Um navegador',
+                    'Um antivírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que revisar permissões de aplicativos?',
+                alternativas: [
+                    'Não é necessário',
+                    'Para evitar acesso indevido a dados pessoais',
+                    'Apenas por curiosidade',
+                    'Não faz diferença'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é man-in-the-middle attack?',
+                alternativas: [
+                    'Um jogo',
+                    'Interceptação de comunicação entre duas partes',
+                    'Um navegador',
+                    'Um antivírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como proteger crianças online?',
+                alternativas: [
+                    'Deixar sem supervisão',
+                    'Usar controle parental, educar e monitorar atividades',
+                    'Liberar tudo',
+                    'Proibir totalmente'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é credential stuffing?',
+                alternativas: [
+                    'Um jogo',
+                    'Usar senhas vazadas para invadir outras contas',
+                    'Um antivírus',
+                    'Um navegador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que fazer logout em computadores públicos?',
+                alternativas: [
+                    'Não é necessário',
+                    'Para evitar acesso não autorizado às suas contas',
+                    'Apenas por educação',
+                    'Não faz diferença'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é rootkit?',
+                alternativas: [
+                    'Um programa útil',
+                    'Malware que se oculta no sistema operacional',
+                    'Um navegador',
+                    'Um jogo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como verificar se email é autêntico?',
+                alternativas: [
+                    'Confiar sempre',
+                    'Verificar endereço completo, cabeçalhos, links',
+                    'Pela aparência apenas',
+                    'Não há como verificar'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é whaling em segurança?',
+                alternativas: [
+                    'Um jogo',
+                    'Phishing direcionado a executivos importantes',
+                    'Um navegador',
+                    'Um antivírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que limpar histórico e cookies periodicamente?',
+                alternativas: [
+                    'Não é necessário',
+                    'Para proteger privacidade e remover rastreamento',
+                    'Apenas para economizar espaço',
+                    'Não faz diferença'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é biometria?',
+                alternativas: [
+                    'Um vírus',
+                    'Autenticação por características físicas únicas',
+                    'Um navegador',
+                    'Um jogo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como identificar aplicativos falsos?',
+                alternativas: [
+                    'Todos são verdadeiros',
+                    'Verificar desenvolvedor, avaliações, permissões',
+                    'Pela cor do ícone',
+                    'Não há como saber'
                 ],
                 correta: 1
             }
@@ -950,6 +2660,346 @@ const modulosApostila = [
                     'Formatar texto'
                 ],
                 correta: 1
+            },
+            {
+                pergunta: 'O que é um operador aritmético?',
+                alternativas: [
+                    'Uma variável',
+                    'Símbolos como +, -, *, / para operações matemáticas',
+                    'Uma função',
+                    'Um loop'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que faz o operador AND lógico?',
+                alternativas: [
+                    'Retorna true se AMBAS condições forem verdadeiras',
+                    'Retorna true se UMA condição for verdadeira',
+                    'Inverte o valor',
+                    'Soma valores'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é um comentário em código?',
+                alternativas: [
+                    'Um erro',
+                    'Texto explicativo ignorado pelo computador',
+                    'Uma variável',
+                    'Uma função'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve ELSE IF?',
+                alternativas: [
+                    'Terminar programa',
+                    'Testar condição adicional se IF for falso',
+                    'Criar loops',
+                    'Deletar variáveis'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é incremento (++)?',
+                alternativas: [
+                    'Diminui valor em 1',
+                    'Aumenta valor em 1',
+                    'Multiplica por 2',
+                    'Divide por 2'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que faz o operador OR lógico?',
+                alternativas: [
+                    'Retorna true se PELO MENOS UMA condição for verdadeira',
+                    'Retorna true se TODAS forem verdadeiras',
+                    'Inverte valores',
+                    'Soma valores'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é um índice de array?',
+                alternativas: [
+                    'Um tipo de loop',
+                    'Posição numérica de elemento no array',
+                    'Uma variável',
+                    'Uma função'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa variável global?',
+                alternativas: [
+                    'Variável acessível em todo o programa',
+                    'Variável que só existe em uma função',
+                    'Uma constante',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Para que serve o operador NOT?',
+                alternativas: [
+                    'Somar valores',
+                    'Inverter valor booleano (true vira false)',
+                    'Multiplicar',
+                    'Deletar'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é um loop infinito?',
+                alternativas: [
+                    'Um loop que nunca para de executar',
+                    'Um loop que executa 10 vezes',
+                    'Uma função',
+                    'Uma variável'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz BREAK em um loop?',
+                alternativas: [
+                    'Continua para próxima iteração',
+                    'Interrompe e sai do loop',
+                    'Reinicia o loop',
+                    'Deleta variáveis'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é uma constante?',
+                alternativas: [
+                    'Valor que pode mudar',
+                    'Valor que não pode ser alterado após definido',
+                    'Um loop',
+                    'Uma função'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve CONTINUE em um loop?',
+                alternativas: [
+                    'Sai do loop',
+                    'Pula para próxima iteração do loop',
+                    'Para o programa',
+                    'Deleta o loop'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é concatenação?',
+                alternativas: [
+                    'Dividir textos',
+                    'Juntar strings/textos',
+                    'Deletar textos',
+                    'Multiplicar números'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é tipo de dado String?',
+                alternativas: [
+                    'Números inteiros',
+                    'Texto/caracteres',
+                    'Verdadeiro/Falso',
+                    'Números decimais'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é tipo de dado Integer?',
+                alternativas: [
+                    'Texto',
+                    'Números inteiros sem casas decimais',
+                    'Verdadeiro/Falso',
+                    'Caracteres especiais'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é fluxograma?',
+                alternativas: [
+                    'Um tipo de código',
+                    'Representação gráfica de algoritmo com símbolos',
+                    'Uma variável',
+                    'Um erro'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é pseudocódigo?',
+                alternativas: [
+                    'Código com erros',
+                    'Descrição de algoritmo em linguagem simplificada',
+                    'Um vírus',
+                    'Uma função'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que faz o operador módulo (%) ?',
+                alternativas: [
+                    'Multiplica',
+                    'Retorna resto da divisão',
+                    'Soma',
+                    'Subtrai'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é variável local?',
+                alternativas: [
+                    'Variável global',
+                    'Variável que só existe dentro de função/bloco',
+                    'Uma constante',
+                    'Um erro'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve RETURN em função?',
+                alternativas: [
+                    'Deletar função',
+                    'Retornar valor da função',
+                    'Criar loop',
+                    'Imprimir texto'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é recursão?',
+                alternativas: [
+                    'Um erro',
+                    'Função que chama a si mesma',
+                    'Um loop',
+                    'Uma variável'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são estruturas de dados?',
+                alternativas: [
+                    'Tipos de loops',
+                    'Formas de organizar e armazenar dados',
+                    'Erros de código',
+                    'Funções especiais'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é tipo de dado Boolean?',
+                alternativas: [
+                    'Números',
+                    'Verdadeiro (true) ou Falso (false)',
+                    'Textos',
+                    'Caracteres'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é escopo de variável?',
+                alternativas: [
+                    'Cor da variável',
+                    'Região do código onde variável é acessível',
+                    'Tamanho da variável',
+                    'Tipo da variável'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve SWITCH/CASE?',
+                alternativas: [
+                    'Criar loops',
+                    'Testar múltiplas condições de forma organizada',
+                    'Deletar variáveis',
+                    'Somar números'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é um objeto em programação?',
+                alternativas: [
+                    'Um arquivo',
+                    'Estrutura que agrupa dados e funções relacionadas',
+                    'Um loop',
+                    'Um erro'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é tipo de dado Float?',
+                alternativas: [
+                    'Números inteiros',
+                    'Números com casas decimais',
+                    'Textos',
+                    'Verdadeiro/Falso'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é iteração?',
+                alternativas: [
+                    'Uma função',
+                    'Cada repetição de um loop',
+                    'Um erro',
+                    'Uma variável'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve TRY/CATCH?',
+                alternativas: [
+                    'Criar loops',
+                    'Capturar e tratar erros no código',
+                    'Deletar variáveis',
+                    'Somar números'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é casting?',
+                alternativas: [
+                    'Deletar variável',
+                    'Converter tipo de dado de uma variável',
+                    'Criar função',
+                    'Fazer loop'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é lógica booleana?',
+                alternativas: [
+                    'Matemática avançada',
+                    'Sistema lógico com valores verdadeiro/falso',
+                    'Um tipo de loop',
+                    'Uma linguagem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são parâmetros opcionais?',
+                alternativas: [
+                    'Parâmetros obrigatórios',
+                    'Parâmetros que têm valor padrão se não fornecidos',
+                    'Erros',
+                    'Loops'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é null/nulo?',
+                alternativas: [
+                    'Um número',
+                    'Ausência intencional de valor',
+                    'Uma string',
+                    'Um loop'
+                ],
+                correta: 1
             }
         ]
     },
@@ -1106,6 +3156,346 @@ const modulosApostila = [
                     '<form>',
                     '<field>',
                     '<submit>'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é DOM?',
+                alternativas: [
+                    'Um navegador',
+                    'Document Object Model - estrutura de objetos da página',
+                    'Um vírus',
+                    'Uma linguagem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar um parágrafo em HTML?',
+                alternativas: [
+                    '<p>Texto</p>',
+                    '<paragraph>Texto</paragraph>',
+                    '<text>Texto</text>',
+                    '<para>Texto</para>'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é ID em HTML?',
+                alternativas: [
+                    'Um tipo de tag',
+                    'Identificador único para elemento',
+                    'Uma classe',
+                    'Um estilo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como incluir CSS externo em HTML?',
+                alternativas: [
+                    '<style src="estilo.css">',
+                    '<link rel="stylesheet" href="estilo.css">',
+                    '<css href="estilo.css">',
+                    '<include css="estilo.css">'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que faz a tag <div>?',
+                alternativas: [
+                    'Cria divisão',
+                    'Container genérico para agrupar elementos',
+                    'Divide página',
+                    'Deleta conteúdo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar lista não ordenada?',
+                alternativas: [
+                    '<ul><li>Item</li></ul>',
+                    '<ol><li>Item</li></ol>',
+                    '<list>Item</list>',
+                    '<items>Item</items>'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é Bootstrap?',
+                alternativas: [
+                    'Um navegador',
+                    'Framework CSS para design responsivo',
+                    'Uma linguagem',
+                    'Um servidor'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve a tag <head>?',
+                alternativas: [
+                    'Criar cabeçalho visual',
+                    'Conter metadados, título, links CSS/JS',
+                    'Criar rodapé',
+                    'Exibir texto'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar botão em HTML?',
+                alternativas: [
+                    '<button>Clique</button>',
+                    '<btn>Clique</btn>',
+                    '<click>Clique</click>',
+                    '<input type="click">'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é Flexbox?',
+                alternativas: [
+                    'Um navegador',
+                    'Sistema de layout CSS unidimensional',
+                    'Uma linguagem',
+                    'Um framework'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como adicionar JavaScript em HTML?',
+                alternativas: [
+                    '<script src="codigo.js"></script>',
+                    '<js src="codigo.js">',
+                    '<javascript src="codigo.js">',
+                    '<code src="codigo.js">'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é Grid CSS?',
+                alternativas: [
+                    'Um jogo',
+                    'Sistema de layout bidimensional em linhas e colunas',
+                    'Um navegador',
+                    'Uma linguagem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve a tag <meta>?',
+                alternativas: [
+                    'Criar texto',
+                    'Fornecer metadados sobre a página',
+                    'Criar imagens',
+                    'Fazer links'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar campo de entrada de texto?',
+                alternativas: [
+                    '<input type="text">',
+                    '<text>',
+                    '<field>',
+                    '<textbox>'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é viewport?',
+                alternativas: [
+                    'Um navegador',
+                    'Área visível da página web no dispositivo',
+                    'Um servidor',
+                    'Uma linguagem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar título principal em HTML?',
+                alternativas: [
+                    '<h1>Título</h1>',
+                    '<title>Título</title>',
+                    '<header>Título</header>',
+                    '<head>Título</head>'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz z-index em CSS?',
+                alternativas: [
+                    'Define tamanho',
+                    'Controla ordem de empilhamento (profundidade)',
+                    'Define cor',
+                    'Cria animação'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como fazer comentário em HTML?',
+                alternativas: [
+                    '// comentário',
+                    '/* comentário */',
+                    '<!-- comentário -->',
+                    '# comentário'
+                ],
+                correta: 2
+            },
+            {
+                pergunta: 'O que é media query?',
+                alternativas: [
+                    'Um banco de dados',
+                    'CSS que aplica estilos baseados em características do dispositivo',
+                    'Um navegador',
+                    'Uma linguagem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve a tag <span>?',
+                alternativas: [
+                    'Quebrar linha',
+                    'Container inline para estilizar parte do texto',
+                    'Criar parágrafo',
+                    'Fazer divisão'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar tabela em HTML?',
+                alternativas: [
+                    '<table><tr><td>Célula</td></tr></table>',
+                    '<grid><row><cell></cell></row></grid>',
+                    '<tabela><linha><celula></celula></linha></tabela>',
+                    '<data-table>'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é CDN?',
+                alternativas: [
+                    'Uma linguagem',
+                    'Content Delivery Network - rede de distribuição de conteúdo',
+                    'Um navegador',
+                    'Um servidor local'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como aplicar estilo inline em HTML?',
+                alternativas: [
+                    '<p style="color: red;">Texto</p>',
+                    '<p css="color: red;">Texto</p>',
+                    '<p class="red">Texto</p>',
+                    '<p color="red">Texto</p>'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é AJAX?',
+                alternativas: [
+                    'Um navegador',
+                    'Técnica para atualizar partes da página sem recarregar',
+                    'Uma linguagem',
+                    'Um framework'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve a tag <footer>?',
+                alternativas: [
+                    'Criar cabeçalho',
+                    'Definir rodapé da página ou seção',
+                    'Fazer menu',
+                    'Criar formulário'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar link que abre em nova aba?',
+                alternativas: [
+                    '<a href="url" target="_blank">Link</a>',
+                    '<a href="url" new-tab>Link</a>',
+                    '<a href="url" open="new">Link</a>',
+                    '<link href="url" target="new">'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é Framework?',
+                alternativas: [
+                    'Um vírus',
+                    'Estrutura/conjunto de ferramentas para desenvolvimento',
+                    'Um navegador',
+                    'Um servidor'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar checkbox em HTML?',
+                alternativas: [
+                    '<input type="checkbox">',
+                    '<checkbox>',
+                    '<input type="check">',
+                    '<check>'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que são Semantic HTML tags?',
+                alternativas: [
+                    'Tags decorativas',
+                    'Tags que descrevem significado do conteúdo (article, nav, etc)',
+                    'Tags antigas',
+                    'Tags de estilo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como definir cor de fundo em CSS?',
+                alternativas: [
+                    'background-color: blue;',
+                    'bg-color: blue;',
+                    'color-background: blue;',
+                    'fundo: blue;'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é API REST?',
+                alternativas: [
+                    'Um navegador',
+                    'Interface de programação que usa HTTP para comunicação',
+                    'Uma linguagem',
+                    'Um framework CSS'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Para que serve a tag <nav>?',
+                alternativas: [
+                    'Criar rodapé',
+                    'Definir seção de navegação/menu',
+                    'Fazer formulário',
+                    'Criar título'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como centralizar elemento com CSS?',
+                alternativas: [
+                    'text-align: center; ou margin: 0 auto;',
+                    'align: center;',
+                    'center: true;',
+                    'position: center;'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é CORS?',
+                alternativas: [
+                    'Um framework',
+                    'Cross-Origin Resource Sharing - política de segurança',
+                    'Uma linguagem',
+                    'Um navegador'
                 ],
                 correta: 1
             }
@@ -1266,6 +3656,376 @@ const modulosApostila = [
                     'Temperatura não importa'
                 ],
                 correta: 1
+            },
+            {
+                pergunta: 'Por que organizar cabos e fios?',
+                alternativas: [
+                    'Não é necessário',
+                    'Evitar acidentes, facilitar manutenção e melhorar ventilação',
+                    'Apenas estética',
+                    'Para economizar energia'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual altura ideal do monitor?',
+                alternativas: [
+                    'Muito acima dos olhos',
+                    'Topo do monitor na altura dos olhos ou pouco abaixo',
+                    'Muito abaixo dos olhos',
+                    'Não importa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que evitar multitarefa excessiva?',
+                alternativas: [
+                    'Não há problema',
+                    'Reduz produtividade e aumenta erros',
+                    'Deixa PC mais rápido',
+                    'Economiza energia'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como proteger os pulsos ao digitar?',
+                alternativas: [
+                    'Forçar muito',
+                    'Manter retos, usar apoio, fazer pausas e exercícios',
+                    'Dobrá-los muito',
+                    'Não é necessário cuidado'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a importância da iluminação adequada?',
+                alternativas: [
+                    'Apenas estética',
+                    'Reduz fadiga ocular e melhora produtividade',
+                    'Não faz diferença',
+                    'Deixa PC mais rápido'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que desligar computador corretamente?',
+                alternativas: [
+                    'Pode usar botão de energia sempre',
+                    'Evita perda de dados e danos ao sistema',
+                    'Não faz diferença',
+                    'Apenas para economizar'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como limpar teclado corretamente?',
+                alternativas: [
+                    'Jogar água',
+                    'Desligar PC, virar de cabeça para baixo, ar comprimido',
+                    'Usar sabonete',
+                    'Não limpar nunca'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a importância de usar filtro de linha?',
+                alternativas: [
+                    'Não é importante',
+                    'Protege contra picos de tensão e raios',
+                    'Apenas deixa bonito',
+                    'Para economizar energia'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que evitar fundo de tela muito claro?',
+                alternativas: [
+                    'Não há problema',
+                    'Pode cansar vista com excesso de luminosidade',
+                    'Deixa PC lento',
+                    'Ocupa memória'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como ajustar brilho da tela adequadamente?',
+                alternativas: [
+                    'Sempre no máximo',
+                    'Igualar à iluminação ambiente, nem muito claro nem escuro',
+                    'Sempre no mínimo',
+                    'Não importa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a importância de versionar documentos importantes?',
+                alternativas: [
+                    'Não é necessário',
+                    'Permite recuperar versões anteriores em caso de erro',
+                    'Apenas ocupa espaço',
+                    'Para deixar desorganizado'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que usar teclado e mouse ergonômicos?',
+                alternativas: [
+                    'Apenas moda',
+                    'Reduzem lesões por esforço repetitivo (LER)',
+                    'São mais bonitos',
+                    'Não fazem diferença'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como organizar área de trabalho do Windows?',
+                alternativas: [
+                    'Deixar cheio de ícones',
+                    'Manter limpo, usar pastas e atalhos organizados',
+                    'Não organizar',
+                    'Deletar tudo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a importância de alongamento?',
+                alternativas: [
+                    'Não é necessário',
+                    'Previne lesões e melhora circulação',
+                    'Apenas para atletas',
+                    'Deixa PC mais rápido'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que esvaziar lixeira regularmente?',
+                alternativas: [
+                    'Não é necessário',
+                    'Libera espaço em disco',
+                    'Para criar vírus',
+                    'Deixa PC lento'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como cuidar da bateria do notebook?',
+                alternativas: [
+                    'Deixar sempre na tomada',
+                    'Evitar descargas completas, manter entre 20-80%',
+                    'Descarregar sempre até 0%',
+                    'Não importa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a importância de usar screensaver ou desligar tela?',
+                alternativas: [
+                    'Não é importante',
+                    'Economiza energia e prolonga vida útil da tela',
+                    'Apenas bonito',
+                    'Deixa PC mais rápido'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que manter software sempre atualizado?',
+                alternativas: [
+                    'Não é necessário',
+                    'Corrige falhas de segurança e bugs',
+                    'Apenas ocupa espaço',
+                    'Deixa PC lento'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como evitar superaquecimento do notebook?',
+                alternativas: [
+                    'Usar em superfícies macias',
+                    'Usar base refrigerada, limpar ventilação, superfície rígida',
+                    'Cobrir as saídas de ar',
+                    'Usar no colo sempre'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a importância de nomear arquivos de forma descritiva?',
+                alternativas: [
+                    'Não importa',
+                    'Facilita localização e identificação rápida',
+                    'Apenas para ficar bonito',
+                    'Ocupa mais espaço'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que evitar instalar muitos programas desnecessários?',
+                alternativas: [
+                    'Não há problema',
+                    'Ocupa espaço, consome recursos e pode deixar PC lento',
+                    'Deixa PC mais rápido',
+                    'Melhora desempenho'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como ajustar cadeira corretamente?',
+                alternativas: [
+                    'Qualquer altura serve',
+                    'Pés no chão, coxas paralelas, costas apoiadas',
+                    'Muito alta',
+                    'Muito baixa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a importância de desinstalar programas não usados?',
+                alternativas: [
+                    'Não é importante',
+                    'Libera espaço e recursos do sistema',
+                    'Deixa PC mais lento',
+                    'Cria vírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que usar mousepad?',
+                alternativas: [
+                    'Não é necessário',
+                    'Melhora precisão e protege superfície da mesa',
+                    'Apenas decoração',
+                    'Deixa mouse mais lento'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como evitar reflexão na tela?',
+                alternativas: [
+                    'Aumentar brilho',
+                    'Posicionar tela perpendicular à janela/luz',
+                    'Usar óculos escuros',
+                    'Não há como evitar'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a importância de usar estabilizador ou nobreak?',
+                alternativas: [
+                    'Não é importante',
+                    'Protege contra variações de energia e quedas',
+                    'Apenas deixa bonito',
+                    'Deixa PC lento'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que evitar comer sobre o teclado?',
+                alternativas: [
+                    'Não há problema',
+                    'Migalhas podem danificar mecanismo das teclas',
+                    'Apenas para não sujar',
+                    'Não faz diferença'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como limpar tela do monitor?',
+                alternativas: [
+                    'Usar álcool puro',
+                    'Pano de microfibra levemente umedecido, sem pressão',
+                    'Papel toalha seco',
+                    'Esponja com sabão'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a importância de desfragmentar HD (HDD)?',
+                alternativas: [
+                    'Não é necessário',
+                    'Melhora velocidade de acesso aos dados',
+                    'Cria vírus',
+                    'Apaga dados'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que não desfragmentar SSD?',
+                alternativas: [
+                    'Deve desfragmentar sempre',
+                    'Reduz vida útil do SSD desnecessariamente',
+                    'Deixa mais rápido',
+                    'Não faz diferença'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como evitar fadiga ocular digital?',
+                alternativas: [
+                    'Olhar fixo na tela',
+                    'Regra 20-20-20, piscar, ajustar brilho, pausas',
+                    'Aumentar brilho ao máximo',
+                    'Não piscar'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a importância de usar atalhos de teclado?',
+                alternativas: [
+                    'Não é importante',
+                    'Aumenta produtividade e reduz esforço repetitivo',
+                    'Apenas para experts',
+                    'Deixa PC mais lento'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que evitar baixar arquivos de fontes desconhecidas?',
+                alternativas: [
+                    'Não há problema',
+                    'Podem conter vírus e malware',
+                    'São sempre seguros',
+                    'Deixam PC mais rápido'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como organizar sistema de pastas eficientemente?',
+                alternativas: [
+                    'Salvar tudo na raiz',
+                    'Criar hierarquia lógica e consistente',
+                    'Usar apenas área de trabalho',
+                    'Não organizar'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Por que criar senhas únicas para cada serviço?',
+                alternativas: [
+                    'Não é necessário',
+                    'Se uma vazar, outras permanecem seguras',
+                    'Para complicar',
+                    'Não faz diferença'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como manter privacidade ao usar PC compartilhado?',
+                alternativas: [
+                    'Deixar logado',
+                    'Sempre fazer logout, usar modo privado, limpar histórico',
+                    'Salvar todas as senhas',
+                    'Não se preocupar'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual a importância de fazer manutenção preventiva?',
+                alternativas: [
+                    'Não é necessária',
+                    'Prolonga vida útil e previne problemas',
+                    'Apenas gasta dinheiro',
+                    'Danifica o PC'
+                ],
+                correta: 1
             }
         ]
     },
@@ -1424,6 +4184,426 @@ const modulosApostila = [
                     'Ctrl + Tab'
                 ],
                 correta: 1
+            },
+            {
+                pergunta: 'Como reabrir aba fechada acidentalmente?',
+                alternativas: [
+                    'Ctrl + Shift + T',
+                    'Ctrl + T',
+                    'Ctrl + R',
+                    'Ctrl + W'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual atalho para capturar apenas uma janela?',
+                alternativas: [
+                    'Print Screen',
+                    'Alt + Print Screen',
+                    'Ctrl + Print',
+                    'Shift + Print'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como abrir o Gerenciador de Tarefas?',
+                alternativas: [
+                    'Ctrl + Alt + Del',
+                    'Ctrl + Shift + Esc',
+                    'Alt + Tab',
+                    'Ambas A e B estão corretas'
+                ],
+                correta: 3
+            },
+            {
+                pergunta: 'Qual atalho para renomear arquivo selecionado?',
+                alternativas: [
+                    'F1',
+                    'F2',
+                    'F3',
+                    'F4'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como atualizar página do navegador?',
+                alternativas: [
+                    'F4',
+                    'F5 ou Ctrl + R',
+                    'F6',
+                    'F7'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual atalho para mover janela para monitor secundário?',
+                alternativas: [
+                    'Windows + Shift + Setas',
+                    'Ctrl + Shift + M',
+                    'Alt + M',
+                    'Windows + M'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como abrir execução rápida (Executar)?',
+                alternativas: [
+                    'Windows + E',
+                    'Windows + R',
+                    'Windows + D',
+                    'Windows + X'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual atalho para recortar texto/arquivo?',
+                alternativas: [
+                    'Ctrl + C',
+                    'Ctrl + V',
+                    'Ctrl + X',
+                    'Ctrl + Z'
+                ],
+                correta: 2
+            },
+            {
+                pergunta: 'Como maximizar janela ativa?',
+                alternativas: [
+                    'Windows + Seta Cima',
+                    'Windows + M',
+                    'Alt + Enter',
+                    'F11'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual atalho para fechar aba do navegador?',
+                alternativas: [
+                    'Alt + F4',
+                    'Ctrl + W',
+                    'Ctrl + Q',
+                    'Esc'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como abrir uma nova janela do navegador?',
+                alternativas: [
+                    'Ctrl + N',
+                    'Ctrl + T',
+                    'Ctrl + Shift + N',
+                    'Ctrl + W'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual atalho para modo anônimo/privado no navegador?',
+                alternativas: [
+                    'Ctrl + N',
+                    'Ctrl + Shift + N (Chrome) ou Ctrl + Shift + P (Firefox)',
+                    'Ctrl + P',
+                    'Ctrl + H'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como minimizar janela ativa?',
+                alternativas: [
+                    'Windows + Seta Baixo',
+                    'Windows + M',
+                    'Alt + F4',
+                    'Ctrl + M'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual atalho para abrir Configurações do Windows?',
+                alternativas: [
+                    'Windows + S',
+                    'Windows + I',
+                    'Windows + C',
+                    'Windows + P'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como navegar entre janelas abertas em ordem?',
+                alternativas: [
+                    'Alt + Tab',
+                    'Ctrl + Tab',
+                    'Windows + Tab',
+                    'Shift + Tab'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual atalho para deletar arquivo permanentemente?',
+                alternativas: [
+                    'Delete',
+                    'Shift + Delete',
+                    'Ctrl + Delete',
+                    'Alt + Delete'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como abrir histórico do navegador?',
+                alternativas: [
+                    'Ctrl + H',
+                    'Ctrl + Shift + H',
+                    'Alt + H',
+                    'Windows + H'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual atalho para ir ao início de documento/página?',
+                alternativas: [
+                    'Ctrl + End',
+                    'Home',
+                    'Ctrl + Home',
+                    'Page Up'
+                ],
+                correta: 2
+            },
+            {
+                pergunta: 'Como ir ao fim de documento/página?',
+                alternativas: [
+                    'End',
+                    'Ctrl + End',
+                    'Page Down',
+                    'Ctrl + Down'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual atalho para zoom in (aumentar)?',
+                alternativas: [
+                    'Ctrl + -',
+                    'Ctrl + +',
+                    'Ctrl + 0',
+                    'Alt + +'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como zoom out (diminuir)?',
+                alternativas: [
+                    'Ctrl + +',
+                    'Ctrl + -',
+                    'Ctrl + 0',
+                    'Alt + -'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual atalho para resetar zoom (100%)?',
+                alternativas: [
+                    'Ctrl + 1',
+                    'Ctrl + 0',
+                    'Ctrl + R',
+                    'Ctrl + Z'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como abrir propriedades de arquivo selecionado?',
+                alternativas: [
+                    'Alt + Enter',
+                    'Ctrl + P',
+                    'F4',
+                    'Shift + Enter'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual atalho para selecionar tudo em pasta?',
+                alternativas: [
+                    'Ctrl + S',
+                    'Ctrl + A',
+                    'Ctrl + E',
+                    'Ctrl + T'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como abrir barra de endereços no navegador?',
+                alternativas: [
+                    'Ctrl + E',
+                    'Ctrl + L ou F6',
+                    'Ctrl + U',
+                    'Ctrl + B'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual atalho para adicionar favorito no navegador?',
+                alternativas: [
+                    'Ctrl + B',
+                    'Ctrl + D',
+                    'Ctrl + F',
+                    'Ctrl + M'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como abrir downloads do navegador?',
+                alternativas: [
+                    'Ctrl + D',
+                    'Ctrl + J',
+                    'Ctrl + H',
+                    'Ctrl + L'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual atalho para tela cheia no navegador?',
+                alternativas: [
+                    'F10',
+                    'F11',
+                    'F12',
+                    'Alt + Enter'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como abrir ferramentas de desenvolvedor?',
+                alternativas: [
+                    'F11',
+                    'F12 ou Ctrl + Shift + I',
+                    'F10',
+                    'Ctrl + F12'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual atalho para navegar abas do navegador?',
+                alternativas: [
+                    'Alt + Tab',
+                    'Ctrl + Tab',
+                    'Shift + Tab',
+                    'Windows + Tab'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como abrir menu de contexto (botão direito)?',
+                alternativas: [
+                    'Shift + F10',
+                    'Tecla Menu (entre Alt e Ctrl)',
+                    'Ctrl + M',
+                    'Ambas A e B estão corretas'
+                ],
+                correta: 3
+            },
+            {
+                pergunta: 'Qual atalho para duplicar linha/seleção (editores)?',
+                alternativas: [
+                    'Ctrl + C, Ctrl + V',
+                    'Ctrl + D',
+                    'Ctrl + Shift + D',
+                    'Varia por editor'
+                ],
+                correta: 3
+            },
+            {
+                pergunta: 'Como bloquear computador rapidamente?',
+                alternativas: [
+                    'Windows + L',
+                    'Ctrl + Alt + Del',
+                    'Alt + F4',
+                    'Windows + X'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual atalho para abrir central de ações?',
+                alternativas: [
+                    'Windows + A',
+                    'Windows + N',
+                    'Windows + C',
+                    'Windows + X'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como exibir área de trabalho temporariamente?',
+                alternativas: [
+                    'Windows + D',
+                    'Windows + , (vírgula)',
+                    'Windows + Space',
+                    'Windows + T'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual atalho para abrir gerenciador de clipboard?',
+                alternativas: [
+                    'Windows + C',
+                    'Windows + V',
+                    'Ctrl + Shift + V',
+                    'Alt + V'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como alternar entre layouts de teclado?',
+                alternativas: [
+                    'Alt + Shift',
+                    'Windows + Shift',
+                    'Ctrl + Shift',
+                    'Windows + Space'
+                ],
+                correta: 3
+            },
+            {
+                pergunta: 'Qual atalho para abrir configurações de projeção?',
+                alternativas: [
+                    'Windows + P',
+                    'Windows + O',
+                    'Windows + S',
+                    'Windows + D'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como abrir assistente virtual (Cortana)?',
+                alternativas: [
+                    'Windows + Q',
+                    'Windows + C',
+                    'Windows + A',
+                    'Windows + S'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual atalho para abrir emoji picker?',
+                alternativas: [
+                    'Windows + .',
+                    'Windows + ;',
+                    'Windows + E',
+                    'Ambas A e B estão corretas'
+                ],
+                correta: 3
+            },
+            {
+                pergunta: 'Como criar nova área de trabalho virtual?',
+                alternativas: [
+                    'Windows + Ctrl + D',
+                    'Windows + Tab',
+                    'Alt + Tab',
+                    'Ctrl + Alt + D'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual atalho para fechar área de trabalho virtual atual?',
+                alternativas: [
+                    'Windows + Ctrl + F4',
+                    'Alt + F4',
+                    'Ctrl + W',
+                    'Windows + X'
+                ],
+                correta: 0
             }
         ]
     },
@@ -1580,6 +4760,446 @@ const modulosApostila = [
                     'Graphical User Interface - interface gráfica do usuário',
                     'Global Universal Integration',
                     'Generic Upload Interface'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é bandwidth?',
+                alternativas: [
+                    'Largura de banda - capacidade de transmissão de dados',
+                    'Um tipo de cabo',
+                    'Um navegador',
+                    'Uma placa de vídeo'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que significa BIOS?',
+                alternativas: [
+                    'Basic Internet Operating System',
+                    'Basic Input/Output System - sistema básico de entrada/saída',
+                    'Binary Information Output System',
+                    'Boot Interface Operating System'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é cookie?',
+                alternativas: [
+                    'Um vírus',
+                    'Pequeno arquivo de texto que sites armazenam no navegador',
+                    'Um programa',
+                    'Um tipo de imagem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa FPS?',
+                alternativas: [
+                    'Fast Processing System',
+                    'Frames Per Second - quadros por segundo',
+                    'File Processing Service',
+                    'Full Performance Speed'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é driver?',
+                alternativas: [
+                    'Um jogo',
+                    'Software que permite comunicação entre SO e hardware',
+                    'Um vírus',
+                    'Um navegador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa HD?',
+                alternativas: [
+                    'High Definition',
+                    'Hard Disk - disco rígido',
+                    'Ambas A e B podem estar corretas dependendo do contexto',
+                    'Home Directory'
+                ],
+                correta: 2
+            },
+            {
+                pergunta: 'O que é bug?',
+                alternativas: [
+                    'Um inseto',
+                    'Erro ou falha em programa de computador',
+                    'Um vírus',
+                    'Um hardware'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa RAM?',
+                alternativas: [
+                    'Rapid Access Memory',
+                    'Random Access Memory - memória de acesso aleatório',
+                    'Read And Modify',
+                    'Rotation Access Module'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é patch?',
+                alternativas: [
+                    'Um jogo',
+                    'Atualização que corrige bugs ou adiciona recursos',
+                    'Um hardware',
+                    'Um cabo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa OS?',
+                alternativas: [
+                    'Online System',
+                    'Operating System - sistema operacional',
+                    'Output Service',
+                    'Open Source'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é firmware?',
+                alternativas: [
+                    'Software embutido em hardware',
+                    'Um tipo de vírus',
+                    'Um programa antivírus',
+                    'Uma placa de vídeo'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que significa LAN?',
+                alternativas: [
+                    'Long Area Network',
+                    'Local Area Network - rede de área local',
+                    'Linear Access Network',
+                    'Link Area Node'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é beta?',
+                alternativas: [
+                    'Versão final de software',
+                    'Versão de testes públicos antes do lançamento',
+                    'Um tipo de arquivo',
+                    'Um vírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa WAN?',
+                alternativas: [
+                    'Wide Area Network - rede de área ampla',
+                    'Wireless Access Network',
+                    'World Area Node',
+                    'Web Application Network'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é localhost?',
+                alternativas: [
+                    'Um servidor remoto',
+                    'Referência ao próprio computador (127.0.0.1)',
+                    'Uma rede social',
+                    'Um tipo de cabo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa CPU?',
+                alternativas: [
+                    'Computer Processing Unit',
+                    'Central Processing Unit - unidade central de processamento',
+                    'Core Performance Unit',
+                    'Central Program Utility'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é script?',
+                alternativas: [
+                    'Um tipo de vírus',
+                    'Programa ou sequência de instruções',
+                    'Um hardware',
+                    'Uma rede'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa HTML?',
+                alternativas: [
+                    'High Text Markup Language',
+                    'HyperText Markup Language',
+                    'Home Tool Markup Language',
+                    'Hyperlink and Text Markup Language'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é open source?',
+                alternativas: [
+                    'Software pago',
+                    'Software com código-fonte aberto e modificável',
+                    'Um tipo de vírus',
+                    'Um navegador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa URL?',
+                alternativas: [
+                    'Universal Resource Locator',
+                    'Uniform Resource Locator - localizador uniforme de recursos',
+                    'United Reference Link',
+                    'Universal Reference Location'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é kernel?',
+                alternativas: [
+                    'Um programa',
+                    'Núcleo do sistema operacional',
+                    'Um tipo de arquivo',
+                    'Um hardware'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa FTP?',
+                alternativas: [
+                    'Fast Transfer Protocol',
+                    'File Transfer Protocol - protocolo de transferência de arquivos',
+                    'Free Text Program',
+                    'Full Transmission Process'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é bit?',
+                alternativas: [
+                    'Um programa',
+                    'Menor unidade de informação (0 ou 1)',
+                    'Um tipo de arquivo',
+                    'Uma placa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa byte?',
+                alternativas: [
+                    'Um programa',
+                    'Conjunto de 8 bits',
+                    'Um tipo de vírus',
+                    'Uma unidade de velocidade'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é thread?',
+                alternativas: [
+                    'Um cabo',
+                    'Menor unidade de processamento em um programa',
+                    'Um tipo de vírus',
+                    'Uma rede'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa ISP?',
+                alternativas: [
+                    'Internet Server Protocol',
+                    'Internet Service Provider - provedor de internet',
+                    'Internal System Process',
+                    'Integrated Software Platform'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é GUI?',
+                alternativas: [
+                    'Um vírus',
+                    'Interface gráfica do usuário',
+                    'Um tipo de rede',
+                    'Um cabo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa SSD?',
+                alternativas: [
+                    'Super Speed Drive',
+                    'Solid State Drive - unidade de estado sólido',
+                    'System Storage Device',
+                    'Secure Storage Disk'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é log?',
+                alternativas: [
+                    'Um tipo de madeira',
+                    'Registro de eventos do sistema',
+                    'Um programa',
+                    'Um tipo de vírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa HTTPS?',
+                alternativas: [
+                    'HyperText Transfer Protocol Secure',
+                    'High Transfer Protocol System',
+                    'Home Text Transfer Protocol Safe',
+                    'Hyperlink Transfer Protection System'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é render?',
+                alternativas: [
+                    'Deletar arquivo',
+                    'Processar e gerar imagem/vídeo final',
+                    'Copiar arquivo',
+                    'Criar backup'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa WIFI?',
+                alternativas: [
+                    'Wireless Internet For Information',
+                    'Wireless Fidelity - fidelidade sem fio',
+                    'Wide Field Internet',
+                    'Web Interface For Information'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é benchmark?',
+                alternativas: [
+                    'Um tipo de banco',
+                    'Teste de desempenho de hardware/software',
+                    'Um programa',
+                    'Um vírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa GPU?',
+                alternativas: [
+                    'General Processing Unit',
+                    'Graphics Processing Unit - unidade de processamento gráfico',
+                    'Global Program Utility',
+                    'Graphic Performance Unit'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é kernel?',
+                alternativas: [
+                    'Um tipo de milho',
+                    'Núcleo do sistema operacional',
+                    'Um programa',
+                    'Um navegador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa IDE?',
+                alternativas: [
+                    'Internet Development Environment',
+                    'Integrated Development Environment - ambiente de desenvolvimento',
+                    'Internal Data Engine',
+                    'Interactive Design Editor'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é pixel?',
+                alternativas: [
+                    'Um programa',
+                    'Menor elemento de uma imagem digital',
+                    'Um tipo de arquivo',
+                    'Uma medida de velocidade'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa LAN?',
+                alternativas: [
+                    'Large Area Network',
+                    'Local Area Network - rede local',
+                    'Long Access Network',
+                    'Limited Application Network'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é byte?',
+                alternativas: [
+                    'Um programa',
+                    'Unidade de informação com 8 bits',
+                    'Um tipo de vírus',
+                    'Uma velocidade'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa VPN?',
+                alternativas: [
+                    'Virtual Public Network',
+                    'Virtual Private Network - rede privada virtual',
+                    'Very Protected Network',
+                    'Visual Program Navigator'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é debug?',
+                alternativas: [
+                    'Criar bugs',
+                    'Processo de encontrar e corrigir erros no código',
+                    'Deletar programas',
+                    'Instalar software'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa GUI?',
+                alternativas: [
+                    'General User Interface',
+                    'Graphical User Interface - interface gráfica',
+                    'Global Unified Interface',
+                    'Guided User Interaction'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é script?',
+                alternativas: [
+                    'Um documento',
+                    'Programa ou sequência de comandos automatizados',
+                    'Uma pasta',
+                    'Um navegador'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa IoT?',
+                alternativas: [
+                    'Internet of Technology',
+                    'Internet of Things - internet das coisas',
+                    'Internal Operating Technology',
+                    'Interactive Online Tools'
                 ],
                 correta: 1
             }
@@ -1745,6 +5365,466 @@ const modulosApostila = [
                     'Um navegador'
                 ],
                 correta: 1
+            },
+            {
+                pergunta: 'O que é modem?',
+                alternativas: [
+                    'Um tipo de monitor',
+                    'Dispositivo que modula/demodula sinais para internet',
+                    'Um programa',
+                    'Uma placa de vídeo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa Mbps?',
+                alternativas: [
+                    'Megabytes por segundo',
+                    'Megabits por segundo - medida de velocidade',
+                    'Megabits por minuto',
+                    'Milhares de bytes'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é porta de rede?',
+                alternativas: [
+                    'Uma entrada física',
+                    'Número que identifica serviço/aplicação em rede',
+                    'Um tipo de cabo',
+                    'Um programa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é protocolo de rede?',
+                alternativas: [
+                    'Um tipo de cabo',
+                    'Conjunto de regras para comunicação entre dispositivos',
+                    'Um programa',
+                    'Um hardware'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que faz um hub?',
+                alternativas: [
+                    'Conecta dispositivos mas envia dados para todos',
+                    'Filtra dados',
+                    'Armazena arquivos',
+                    'Protege contra vírus'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual diferença entre hub e switch?',
+                alternativas: [
+                    'Não há diferença',
+                    'Switch é inteligente e envia dados só ao destino',
+                    'Hub é mais rápido',
+                    'Switch é mais antigo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é IP estático?',
+                alternativas: [
+                    'IP que muda sempre',
+                    'Endereço IP fixo que não muda',
+                    'Um tipo de protocolo',
+                    'Um cabo de rede'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é IP dinâmico?',
+                alternativas: [
+                    'IP que não muda',
+                    'Endereço IP atribuído automaticamente e pode mudar',
+                    'Um protocolo',
+                    'Um tipo de cabo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é IPv4?',
+                alternativas: [
+                    'Versão 4 do protocolo IP com endereços de 32 bits',
+                    'Um tipo de cabo',
+                    'Um programa',
+                    'Um navegador'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é IPv6?',
+                alternativas: [
+                    'Versão antiga de IP',
+                    'Nova versão de IP com 128 bits para mais endereços',
+                    'Um tipo de cabo',
+                    'Um programa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é banda larga?',
+                alternativas: [
+                    'Um tipo de cabo largo',
+                    'Conexão de alta velocidade à internet',
+                    'Um programa',
+                    'Um tipo de modem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é latency/latência?',
+                alternativas: [
+                    'Velocidade de download',
+                    'Tempo de atraso na comunicação de rede',
+                    'Tamanho do arquivo',
+                    'Tipo de cabo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é throughput?',
+                alternativas: [
+                    'Um tipo de cabo',
+                    'Taxa real de transferência de dados',
+                    'Um protocolo',
+                    'Um programa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que significa SSID?',
+                alternativas: [
+                    'Super Secure Internet Device',
+                    'Service Set Identifier - nome da rede WiFi',
+                    'System Security ID',
+                    'Secure Socket ID'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é WPA2?',
+                alternativas: [
+                    'Um tipo de cabo',
+                    'Protocolo de segurança para redes WiFi',
+                    'Um programa',
+                    'Um tipo de modem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é NAT?',
+                alternativas: [
+                    'Um tipo de cabo',
+                    'Network Address Translation - tradução de endereços',
+                    'Um programa',
+                    'Um protocolo de email'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é proxy?',
+                alternativas: [
+                    'Um vírus',
+                    'Servidor intermediário entre usuário e internet',
+                    'Um tipo de cabo',
+                    'Um programa antivírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é port forwarding?',
+                alternativas: [
+                    'Deletar portas',
+                    'Redirecionar tráfego de porta externa para interna',
+                    'Criar portas',
+                    'Bloquear portas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é QoS?',
+                alternativas: [
+                    'Quality of Service - priorização de tráfego',
+                    'Quantum of Speed',
+                    'Quick Online System',
+                    'Query Operating Service'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é ethernet?',
+                alternativas: [
+                    'Tecnologia para redes locais com fio',
+                    'Uma rede sem fio',
+                    'Um tipo de modem',
+                    'Um programa'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é UTP?',
+                alternativas: [
+                    'Ultra Transfer Protocol',
+                    'Unshielded Twisted Pair - cabo de par trançado',
+                    'Universal Transmission Port',
+                    'Unified TCP Protocol'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é cat5e/cat6 em cabos?',
+                alternativas: [
+                    'Tipos de animais',
+                    'Categorias de cabos ethernet com diferentes velocidades',
+                    'Tipos de conectores',
+                    'Protocolos de rede'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é traceroute/tracert?',
+                alternativas: [
+                    'Um vírus',
+                    'Comando que mostra caminho dos dados na rede',
+                    'Um programa de email',
+                    'Um tipo de cabo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é MTU?',
+                alternativas: [
+                    'Maximum Transmission Unit - tamanho máximo de pacote',
+                    'Minimum Transfer Upload',
+                    'Multiple TCP Unit',
+                    'Modern Transmission Utility'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é firewall de hardware?',
+                alternativas: [
+                    'Software instalado',
+                    'Dispositivo físico dedicado à segurança de rede',
+                    'Um tipo de cabo',
+                    'Um programa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é VLAN?',
+                alternativas: [
+                    'Virtual LAN - segmentação lógica de rede',
+                    'Very Large Area Network',
+                    'Visual LAN',
+                    'Variable Link Access Network'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que significa PoE?',
+                alternativas: [
+                    'Protocol of Ethernet',
+                    'Power over Ethernet - alimentação pelo cabo de rede',
+                    'Port of Entry',
+                    'Process of Encoding'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é mesh network?',
+                alternativas: [
+                    'Rede com fio',
+                    'Rede onde dispositivos se conectam entre si formando malha',
+                    'Um tipo de cabo',
+                    'Um protocolo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é packet loss?',
+                alternativas: [
+                    'Ganho de velocidade',
+                    'Perda de pacotes de dados durante transmissão',
+                    'Um tipo de cabo',
+                    'Um programa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é jitter?',
+                alternativas: [
+                    'Variação no tempo de latência',
+                    'Um tipo de cabo',
+                    'Um protocolo',
+                    'Um programa'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é DMZ em redes?',
+                alternativas: [
+                    'Demilitarized Zone - área de rede menos protegida',
+                    'Data Management Zone',
+                    'Digital Media Zone',
+                    'Dynamic Memory Zone'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é ARP?',
+                alternativas: [
+                    'Address Resolution Protocol - converte IP em MAC',
+                    'Automatic Routing Protocol',
+                    'Advanced Router Process',
+                    'Access Request Protocol'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é ICMP?',
+                alternativas: [
+                    'Internet Control Message Protocol - usado pelo ping',
+                    'Internal Connection Management Protocol',
+                    'Integrated Computer Messaging Process',
+                    'Interactive Communication Module Protocol'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é multicast?',
+                alternativas: [
+                    'Enviar para um destino',
+                    'Enviar dados para múltiplos destinos simultaneamente',
+                    'Receber múltiplos dados',
+                    'Deletar dados'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é broadcast?',
+                alternativas: [
+                    'Enviar dados para todos da rede',
+                    'Receber dados',
+                    'Deletar rede',
+                    'Criar rede'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é switch gerenciável?',
+                alternativas: [
+                    'Switch comum',
+                    'Switch com configurações avançadas (VLANs, QoS)',
+                    'Um router',
+                    'Um modem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é PoE?',
+                alternativas: [
+                    'Power over Ethernet - energia por cabo de rede',
+                    'Protocol of Ethernet',
+                    'Point of Entry',
+                    'Program of Execution'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é QoS?',
+                alternativas: [
+                    'Quality of Service - priorização de tráfego',
+                    'Quick Operating System',
+                    'Query of Status',
+                    'Quantum of Speed'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é gateway padrão?',
+                alternativas: [
+                    'Um programa',
+                    'Roteador que conecta rede local à internet',
+                    'Um cabo',
+                    'Uma senha'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é port forwarding?',
+                alternativas: [
+                    'Deletar portas',
+                    'Redirecionar tráfego de porta externa para interna',
+                    'Criar portas',
+                    'Fechar portas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é NAT?',
+                alternativas: [
+                    'Network Address Translation - tradução de endereços',
+                    'New Access Technology',
+                    'Network Automatic Transmission',
+                    'Node Authentication Token'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é traceroute?',
+                alternativas: [
+                    'Deletar rede',
+                    'Comando que mostra caminho de pacotes até destino',
+                    'Criar rota',
+                    'Fechar conexão'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é SSID?',
+                alternativas: [
+                    'Service Set Identifier - nome da rede WiFi',
+                    'Secure System ID',
+                    'Super Speed Internet Device',
+                    'System Security Identification'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é canal WiFi?',
+                alternativas: [
+                    'Um cabo',
+                    'Frequência específica usada pela rede sem fio',
+                    'Um programa',
+                    'Uma senha'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é interferência WiFi?',
+                alternativas: [
+                    'Melhora sinal',
+                    'Obstrução do sinal por outros dispositivos/redes',
+                    'Aumenta velocidade',
+                    'Protege rede'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é dual-band router?',
+                alternativas: [
+                    'Dois cabos',
+                    'Router que opera em 2.4GHz e 5GHz',
+                    'Dois modems',
+                    'Duas antenas'
+                ],
+                correta: 1
             }
         ]
     },
@@ -1901,6 +5981,456 @@ const modulosApostila = [
                     'Várias pessoas podem editar simultaneamente',
                     'É mais lento',
                     'Não tem vantagem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é backup incremental?',
+                alternativas: [
+                    'Backup completo sempre',
+                    'Backup apenas das mudanças desde último backup',
+                    'Não fazer backup',
+                    'Deletar arquivos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é nuvem pública?',
+                alternativas: [
+                    'Nuvem privada',
+                    'Serviço de nuvem disponível para qualquer cliente',
+                    'Sem custo sempre',
+                    'Apenas para governo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é nuvem privada?',
+                alternativas: [
+                    'Nuvem pública',
+                    'Infraestrutura exclusiva para uma organização',
+                    'Gratuíta sempre',
+                    'Sem segurança'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como funciona versionamento na nuvem?',
+                alternativas: [
+                    'Apaga versões antigas',
+                    'Mantém histórico de versões de arquivos',
+                    'Cria cópias duplicadas',
+                    'Deleta arquivos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é CDN na nuvem?',
+                alternativas: [
+                    'Content Delivery Network - distribui conteúdo globalmente',
+                    'Cloud Data Network',
+                    'Central Download Node',
+                    'Computer Deployment Network'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Qual desvantagem da nuvem?',
+                alternativas: [
+                    'Acesso de qualquer lugar',
+                    'Necessita de internet constante',
+                    'Backup automático',
+                    'Escalabilidade'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é escala horizontal na nuvem?',
+                alternativas: [
+                    'Aumentar poder de um servidor',
+                    'Adicionar mais servidores',
+                    'Deletar servidores',
+                    'Mudar de nuvem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é escala vertical na nuvem?',
+                alternativas: [
+                    'Adicionar mais servidores',
+                    'Aumentar recursos (CPU/RAM) de servidor existente',
+                    'Deletar recursos',
+                    'Criar backup'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são snapshots na nuvem?',
+                alternativas: [
+                    'Fotos',
+                    'Cópias instantâneas do estado do sistema',
+                    'Vídeos',
+                    'Documentos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é multi-tenant?',
+                alternativas: [
+                    'Um usuário apenas',
+                    'Múltiplos clientes compartilham infraestrutura',
+                    'Muitos servidores',
+                    'Vários programas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como funciona pagamento pay-as-you-go?',
+                alternativas: [
+                    'Pagar tudo adiantado',
+                    'Pagar apenas pelo que usar',
+                    'Gratuíto sempre',
+                    'Pagar mensalidade fixa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é elasticidade na nuvem?',
+                alternativas: [
+                    'Ser rígido',
+                    'Capacidade de ajustar recursos automaticamente conforme demanda',
+                    'Deletar recursos',
+                    'Criar backups'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é alta disponibilidade?',
+                alternativas: [
+                    'Sistema offline sempre',
+                    'Sistema online e acessível quase 100% do tempo',
+                    'Sistema lento',
+                    'Backup diário'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são regiões na nuvem?',
+                alternativas: [
+                    'Países',
+                    'Localizações geográficas de datacenters',
+                    'Tipos de arquivos',
+                    'Programas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é redundancy?',
+                alternativas: [
+                    'Ter apenas uma cópia',
+                    'Múltiplas cópias para evitar perda de dados',
+                    'Deletar dados',
+                    'Comprimir arquivos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é container na nuvem?',
+                alternativas: [
+                    'Uma caixa física',
+                    'Ambiente isolado para executar aplicações',
+                    'Um tipo de arquivo',
+                    'Uma pasta'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é serverless computing?',
+                alternativas: [
+                    'Sem servidores físicos',
+                    'Executar código sem gerenciar servidores',
+                    'Deletar servidores',
+                    'Criar servidores'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é disaster recovery?',
+                alternativas: [
+                    'Causar desastres',
+                    'Plano de recuperação após falhas catastróficas',
+                    'Deletar dados',
+                    'Criar vírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são zonas de disponibilidade?',
+                alternativas: [
+                    'Uma única localização',
+                    'Datacenters isolados dentro de região para redundância',
+                    'Tipos de arquivos',
+                    'Programas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é migration para nuvem?',
+                alternativas: [
+                    'Sair da nuvem',
+                    'Transferir sistemas locais para nuvem',
+                    'Deletar dados',
+                    'Criar backup'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é object storage?',
+                alternativas: [
+                    'Armazenar objetos físicos',
+                    'Armazenamento de dados como objetos com metadados',
+                    'Uma pasta',
+                    'Um programa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é block storage?',
+                alternativas: [
+                    'Bloquear arquivos',
+                    'Armazenamento em blocos fixos como discos virtuais',
+                    'Deletar blocos',
+                    'Criar pastas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é API na nuvem?',
+                alternativas: [
+                    'Um tipo de arquivo',
+                    'Interface para programas se comunicarem com serviços',
+                    'Um navegador',
+                    'Um vírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é autoscaling?',
+                alternativas: [
+                    'Escala manual',
+                    'Ajuste automático de recursos conforme demanda',
+                    'Deletar recursos',
+                    'Criar backup'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é load balancer?',
+                alternativas: [
+                    'Pesar arquivos',
+                    'Distribuir tráfego entre múltiplos servidores',
+                    'Deletar dados',
+                    'Criar backup'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é edge computing?',
+                alternativas: [
+                    'Processar tudo na nuvem',
+                    'Processar dados próximo à fonte para reduzir latência',
+                    'Deletar dados',
+                    'Criar backup'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é bandwidth na nuvem?',
+                alternativas: [
+                    'Largura física',
+                    'Capacidade de transferência de dados',
+                    'Tamanho de arquivo',
+                    'Espaço em disco'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é SLA?',
+                alternativas: [
+                    'Service Level Agreement - acordo de nível de serviço',
+                    'System Load Average',
+                    'Storage Limit Access',
+                    'Security Level Authentication'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é compliance na nuvem?',
+                alternativas: [
+                    'Descumprir regras',
+                    'Conformidade com regulamentações e leis',
+                    'Deletar dados',
+                    'Criar arquivos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é encryption at rest?',
+                alternativas: [
+                    'Dados não criptografados',
+                    'Criptografia de dados armazenados',
+                    'Dados em trânsito',
+                    'Deletar dados'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é encryption in transit?',
+                alternativas: [
+                    'Dados armazenados',
+                    'Criptografia de dados sendo transmitidos',
+                    'Dados deletados',
+                    'Backup'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é virtual machine na nuvem?',
+                alternativas: [
+                    'Máquina física',
+                    'Simulação de computador rodando na nuvem',
+                    'Um programa',
+                    'Um arquivo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é database as a service?',
+                alternativas: [
+                    'Banco de dados local',
+                    'Banco de dados gerenciado na nuvem',
+                    'Deletar banco',
+                    'Criar backup'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é cold storage?',
+                alternativas: [
+                    'Armazenamento quente',
+                    'Armazenamento de baixo custo para dados raramente acessados',
+                    'Deletar dados',
+                    'Backup diário'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é hot storage?',
+                alternativas: [
+                    'Armazenamento para dados frequentemente acessados',
+                    'Dados antigos',
+                    'Deletar tudo',
+                    'Backup frio'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é disaster recovery?',
+                alternativas: [
+                    'Criar desastres',
+                    'Plano de recuperação após falhas/desastres',
+                    'Deletar backups',
+                    'Remover proteção'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é multi-region deployment?',
+                alternativas: [
+                    'Deploy em uma região',
+                    'Implantar aplicação em múltiplas regiões geográficas',
+                    'Deletar deployment',
+                    'Criar backup'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é edge computing?',
+                alternativas: [
+                    'Processamento centralizado',
+                    'Processamento próximo à fonte de dados',
+                    'Deletar dados',
+                    'Backup na nuvem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é CDN?',
+                alternativas: [
+                    'Content Delivery Network - rede de distribuição de conteúdo',
+                    'Central Data Network',
+                    'Cloud Distribution Node',
+                    'Computer Delivery Network'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é load balancer?',
+                alternativas: [
+                    'Deleta servidores',
+                    'Distribui tráfego entre múltiplos servidores',
+                    'Cria backups',
+                    'Desliga servidores'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é auto-scaling?',
+                alternativas: [
+                    'Escala fixa',
+                    'Ajuste automático de recursos baseado na demanda',
+                    'Deletar recursos',
+                    'Desligar tudo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é serverless computing?',
+                alternativas: [
+                    'Sem servidores físicos',
+                    'Código executado sem gerenciar servidores',
+                    'Deletar servidores',
+                    'Criar servidores'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é container?',
+                alternativas: [
+                    'Uma caixa física',
+                    'Pacote leve de software com dependências',
+                    'Um arquivo',
+                    'Uma pasta'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é Kubernetes?',
+                alternativas: [
+                    'Um jogo',
+                    'Plataforma para orquestrar containers',
+                    'Um navegador',
+                    'Um antivírus'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é cloud migration?',
+                alternativas: [
+                    'Mover dados da nuvem para local',
+                    'Processo de mover dados/apps para nuvem',
+                    'Deletar nuvem',
+                    'Criar backup'
                 ],
                 correta: 1
             }
@@ -2061,6 +6591,476 @@ const modulosApostila = [
                     'Não é possível'
                 ],
                 correta: 1
+            },
+            {
+                pergunta: 'O que faz a função HLOOKUP?',
+                alternativas: [
+                    'Busca vertical',
+                    'Busca horizontal em tabela',
+                    'Deleta dados',
+                    'Soma valores'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar lista suspensa?',
+                alternativas: [
+                    'Menu Dados > Validação de Dados > Lista',
+                    'Menu Inserir > Lista',
+                    'Ctrl + L',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz a função CONCATENATE ou CONCAT?',
+                alternativas: [
+                    'Divide texto',
+                    'Junta/une textos de várias células',
+                    'Deleta texto',
+                    'Conta caracteres'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como remover duplicatas?',
+                alternativas: [
+                    'Menu Dados > Remover Duplicatas',
+                    'Menu Arquivo > Duplicatas',
+                    'Ctrl + D',
+                    'Deletar manualmente'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz a função LEN?',
+                alternativas: [
+                    'Soma valores',
+                    'Conta número de caracteres em texto',
+                    'Multiplica',
+                    'Divide'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como dividir texto em colunas?',
+                alternativas: [
+                    'Menu Dados > Texto para Colunas',
+                    'Menu Inserir > Dividir',
+                    'Ctrl + T',
+                    'Manualmente apenas'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz TRIM?',
+                alternativas: [
+                    'Remove espaços extras do texto',
+                    'Corta números',
+                    'Deleta células',
+                    'Formata datas'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como criar nome definido para intervalo?',
+                alternativas: [
+                    'Menu Fórmulas > Definir Nome',
+                    'Menu Arquivo > Nome',
+                    'Ctrl + N',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz IFERROR?',
+                alternativas: [
+                    'Cria erros',
+                    'Retorna valor alternativo se fórmula resultar em erro',
+                    'Deleta erros',
+                    'Conta erros'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como agrupar dados em Tabela Dinâmica?',
+                alternativas: [
+                    'Botão direito > Agrupar',
+                    'Menu Arquivo > Agrupar',
+                    'Ctrl + G',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz a função TEXT?',
+                alternativas: [
+                    'Deleta texto',
+                    'Formata número como texto com formato específico',
+                    'Conta letras',
+                    'Cria texto'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como aplicar formatação condicional com fórmula?',
+                alternativas: [
+                    'Menu Página Inicial > Formatação Condicional > Nova Regra',
+                    'Menu Arquivo > Formatar',
+                    'Ctrl + F',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz SUBSTITUTE?',
+                alternativas: [
+                    'Substitui texto específico dentro de string',
+                    'Deleta texto',
+                    'Conta palavras',
+                    'Formata células'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como criar série de preenchimento personalizada?',
+                alternativas: [
+                    'Menu Arquivo > Opções > Avançado > Editar Listas',
+                    'Menu Inserir > Série',
+                    'Ctrl + S',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz a função CHOOSE?',
+                alternativas: [
+                    'Deleta opções',
+                    'Retorna valor de lista baseado em número de índice',
+                    'Cria listas',
+                    'Formata células'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como auditar fórmulas?',
+                alternativas: [
+                    'Menu Fórmulas > Rastrear Precedência/Dependência',
+                    'Menu Arquivo > Auditar',
+                    'Ctrl + A',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz INDIRECT?',
+                alternativas: [
+                    'Retorna referência especificada por string de texto',
+                    'Deleta referências',
+                    'Cria links',
+                    'Formata células'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como criar botão para executar macro?',
+                alternativas: [
+                    'Menu Desenvolvedor > Inserir > Botão',
+                    'Menu Arquivo > Botão',
+                    'Ctrl + B',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz OFFSET?',
+                alternativas: [
+                    'Retorna referência deslocada de ponto inicial',
+                    'Deleta células',
+                    'Formata dados',
+                    'Cria gráficos'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como criar campo calculado em Tabela Dinâmica?',
+                alternativas: [
+                    'Analisar > Campos, Itens e Conjuntos > Campo Calculado',
+                    'Menu Inserir > Campo',
+                    'Ctrl + F',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz MATCH?',
+                alternativas: [
+                    'Retorna posição de item em intervalo',
+                    'Deleta itens',
+                    'Formata células',
+                    'Cria gráficos'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como usar referência estruturada em tabelas?',
+                alternativas: [
+                    'Usar nome da coluna entre [ ]',
+                    'Usar números apenas',
+                    'Ctrl + R',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz TRANSPOSE?',
+                alternativas: [
+                    'Inverte linhas e colunas',
+                    'Deleta dados',
+                    'Formata células',
+                    'Cria gráficos'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como criar gráfico de cascata?',
+                alternativas: [
+                    'Menu Inserir > Gráficos Recomendados > Cascata',
+                    'Menu Arquivo > Cascata',
+                    'Ctrl + W',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz GETPIVOTDATA?',
+                alternativas: [
+                    'Extrai dados de Tabela Dinâmica',
+                    'Deleta tabela',
+                    'Cria tabela',
+                    'Formata dados'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como usar fórmula de array?',
+                alternativas: [
+                    'Ctrl + Shift + Enter (versões antigas)',
+                    'Ctrl + Enter',
+                    'Shift + Enter',
+                    'Enter apenas'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz UNIQUE?',
+                alternativas: [
+                    'Retorna lista de valores únicos',
+                    'Deleta duplicatas',
+                    'Conta valores',
+                    'Formata células'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como criar sparklines?',
+                alternativas: [
+                    'Menu Inserir > Sparklines (mini gráficos em célula)',
+                    'Menu Arquivo > Spark',
+                    'Ctrl + S',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz FILTER?',
+                alternativas: [
+                    'Filtra intervalo baseado em critérios',
+                    'Deleta dados',
+                    'Formata células',
+                    'Cria tabelas'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como consolidar dados de várias planilhas?',
+                alternativas: [
+                    'Menu Dados > Consolidar',
+                    'Menu Arquivo > Consolidar',
+                    'Ctrl + C',
+                    'Copiar e colar apenas'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz XLOOKUP?',
+                alternativas: [
+                    'Função moderna e flexível de busca',
+                    'Deleta dados',
+                    'Formata células',
+                    'Cria tabelas'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como criar segmentação de dados?',
+                alternativas: [
+                    'Menu Inserir > Segmentação de Dados (filtro visual)',
+                    'Menu Arquivo > Filtro',
+                    'Ctrl + F',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz LET?',
+                alternativas: [
+                    'Define variáveis dentro de fórmula',
+                    'Deleta variáveis',
+                    'Formata células',
+                    'Cria gráficos'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como ativar guia Desenvolvedor?',
+                alternativas: [
+                    'Arquivo > Opções > Personalizar Faixa de Opções',
+                    'Menu Exibir > Desenvolvedor',
+                    'Ctrl + D',
+                    'Já vem ativada'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz SORT?',
+                alternativas: [
+                    'Ordena intervalo de dados',
+                    'Deleta dados',
+                    'Formata células',
+                    'Cria tabelas'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz FILTER?',
+                alternativas: [
+                    'Filtra dados baseado em critérios',
+                    'Deleta filtros',
+                    'Cria tabelas',
+                    'Formata células'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como proteger fórmulas mas permitir entrada?',
+                alternativas: [
+                    'Desbloquear células de entrada, proteger planilha',
+                    'Ctrl + P',
+                    'Não é possível',
+                    'Ocultar fórmulas'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz UNIQUE?',
+                alternativas: [
+                    'Retorna valores únicos de lista',
+                    'Deleta duplicados',
+                    'Conta valores',
+                    'Formata células'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como criar dropdown dependente?',
+                alternativas: [
+                    'Usar fórmulas INDIRECT com validação',
+                    'Ctrl + D',
+                    'Menu Arquivo > Dropdown',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz SEQUENCE?',
+                alternativas: [
+                    'Gera sequência de números',
+                    'Deleta sequências',
+                    'Ordena dados',
+                    'Cria tabelas'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como ocultar linhas/colunas?',
+                alternativas: [
+                    'Botão direito > Ocultar ou Ctrl + 9 (linha) / Ctrl + 0 (coluna)',
+                    'Deletar linhas',
+                    'Menu Arquivo > Ocultar',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz TRANSPOSE?',
+                alternativas: [
+                    'Transpõe linhas em colunas e vice-versa',
+                    'Deleta dados',
+                    'Ordena dados',
+                    'Formata células'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como criar gráfico combinado?',
+                alternativas: [
+                    'Selecionar dados > Inserir > Gráfico Combinado',
+                    'Ctrl + G',
+                    'Menu Arquivo > Gráfico',
+                    'Não é possível'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz AGGREGATE?',
+                alternativas: [
+                    'Realiza cálculos ignorando erros/valores ocultos',
+                    'Agrupa células',
+                    'Deleta dados',
+                    'Formata células'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como compartilhar pasta de trabalho?',
+                alternativas: [
+                    'Arquivo > Compartilhar (OneDrive/SharePoint)',
+                    'Ctrl + S',
+                    'Menu Editar > Compartilhar',
+                    'Enviar por email apenas'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz POWER QUERY?',
+                alternativas: [
+                    'Ferramenta de importação e transformação de dados',
+                    'Deleta consultas',
+                    'Formata dados',
+                    'Cria backups'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como criar botão para executar macro?',
+                alternativas: [
+                    'Inserir > Formas > Atribuir Macro',
+                    'Ctrl + B',
+                    'Menu Arquivo > Botão',
+                    'Não é possível'
+                ],
+                correta: 0
             }
         ]
     },
@@ -2217,6 +7217,466 @@ const modulosApostila = [
                     'Organizar elementos por ordem de importância visual',
                     'Usar apenas uma cor',
                     'Um tipo de arquivo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é grid em design?',
+                alternativas: [
+                    'Um jogo',
+                    'Sistema de linhas para alinhar elementos',
+                    'Um tipo de imagem',
+                    'Um programa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como usar teoria das cores?',
+                alternativas: [
+                    'Usar todas as cores',
+                    'Combinar cores harm on mônicas (complementares, análogas)',
+                    'Usar apenas preto',
+                    'Cores aleatórias'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é kerning?',
+                alternativas: [
+                    'Um tipo de imagem',
+                    'Espaçamento entre caracteres individuais',
+                    'Uma cor',
+                    'Um programa'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é leading/entrelinhas?',
+                alternativas: [
+                    'Uma fonte',
+                    'Espaço vertical entre linhas de texto',
+                    'Uma cor',
+                    'Um tipo de imagem'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como exportar para impressão?',
+                alternativas: [
+                    'RGB, 72 DPI',
+                    'CMYK, 300 DPI ou mais, PDF',
+                    'PNG, 150 DPI',
+                    'JPG, 100 DPI'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são fontes display?',
+                alternativas: [
+                    'Para textos longos',
+                    'Fontes decorativas para títulos e destaques',
+                    'Fontes padrão',
+                    'Fontes sem estilo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é regra dos terços?',
+                alternativas: [
+                    'Dividir em 2 partes',
+                    'Dividir imagem em 9 partes (3x3) para composição',
+                    'Usar 3 cores',
+                    'Ter 3 elementos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar contraste?',
+                alternativas: [
+                    'Usar cores similares',
+                    'Usar elementos diferentes (tamanho, cor, forma)',
+                    'Tudo igual',
+                    'Apenas uma cor'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é alinhamento em design?',
+                alternativas: [
+                    'Posicionar elementos aleatoriamente',
+                    'Organizar elementos em linha visual comum',
+                    'Deletar elementos',
+                    'Mudar cores'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é proximidade?',
+                alternativas: [
+                    'Espalhar elementos',
+                    'Agrupar elementos relacionados próximos',
+                    'Deletar elementos',
+                    'Mudar cores'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é repetição em design?',
+                alternativas: [
+                    'Nunca repetir nada',
+                    'Reusar elementos para criar consistência',
+                    'Copiar tudo',
+                    'Deletar duplicatas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar ênfase/destaque?',
+                alternativas: [
+                    'Tudo igual',
+                    'Usar cor, tamanho ou posição diferente',
+                    'Esconder elemento',
+                    'Deletar elemento'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é simetria em design?',
+                alternativas: [
+                    'Tudo assimétrico',
+                    'Equilíbrio espelhado em torno de eixo',
+                    'Elementos aleatórios',
+                    'Sem padrão'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é assimetria?',
+                alternativas: [
+                    'Simetria perfeita',
+                    'Equilíbrio sem espelhamento',
+                    'Sem equilíbrio',
+                    'Tudo igual'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como usar gradientes?',
+                alternativas: [
+                    'Nunca usar',
+                    'Transição suave entre cores para profundidade',
+                    'Apenas cores sólidas',
+                    'Deletar cores'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é texture em design?',
+                alternativas: [
+                    'Apenas cores lisas',
+                    'Aparência tátil visual (madeira, papel)',
+                    'Um tipo de fonte',
+                    'Uma cor'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar profundidade?',
+                alternativas: [
+                    'Tudo plano',
+                    'Usar sombras, gradientes, sobreposição',
+                    'Apenas 2D',
+                    'Sem efeitos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é psicologia das cores?',
+                alternativas: [
+                    'Cores aleatórias',
+                    'Significados e emoções associadas a cores',
+                    'Apenas decoração',
+                    'Sem significado'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Qual cor transmite confiança?',
+                alternativas: [
+                    'Vermelho',
+                    'Azul',
+                    'Amarelo',
+                    'Roxo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar equilíbrio visual?',
+                alternativas: [
+                    'Tudo de um lado',
+                    'Distribuir peso visual uniformemente',
+                    'Elementos aleatórios',
+                    'Sem organização'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é ponto focal?',
+                alternativas: [
+                    'Ver tudo igual',
+                    'Elemento que atrai atenção primeiro',
+                    'Sem destaque',
+                    'Tudo desfocado'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como usar tipografia efetivamente?',
+                alternativas: [
+                    'Muitas fontes diferentes',
+                    'Máximo 2-3 fontes complementares',
+                    'Uma fonte para tudo',
+                    'Fontes aleatórias'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é legibilidade?',
+                alternativas: [
+                    'Dificultar leitura',
+                    'Facilidade de ler e distinguir caracteres',
+                    'Usar fontes pequenas',
+                    'Baixo contraste'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é branding visual?',
+                alternativas: [
+                    'Sem identidade',
+                    'Elementos visuais que representam marca',
+                    'Apenas um logo',
+                    'Cores aleatórias'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar call-to-action efetivo?',
+                alternativas: [
+                    'Esconder botão',
+                    'Botão destacado com texto claro',
+                    'Sem cor',
+                    'Texto confuso'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é minimalismo?',
+                alternativas: [
+                    'Muitos elementos',
+                    'Design limpo com elementos essenciais',
+                    'Cores vibrantes sempre',
+                    'Excesso de decoração'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como usar ícones?',
+                alternativas: [
+                    'Ícones complexos',
+                    'Simples, reconhecíveis, consistentes',
+                    'Diferentes estilos',
+                    'Sem significado'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é mood board?',
+                alternativas: [
+                    'Uma cor',
+                    'Coleção de inspirações visuais para projeto',
+                    'Um programa',
+                    'Um tipo de arquivo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar identidade visual?',
+                alternativas: [
+                    'Cores e estilos aleatórios',
+                    'Paleta, fontes e elementos consistentes',
+                    'Mudar sempre',
+                    'Sem padrão'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é design responsivo?',
+                alternativas: [
+                    'Apenas desktop',
+                    'Design que se adapta a diferentes telas',
+                    'Tamanho fixo',
+                    'Apenas mobile'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como testar design?',
+                alternativas: [
+                    'Não testar',
+                    'Feedback de usuários, testes A/B',
+                    'Decidir sozinho',
+                    'Adivinhar'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é escala em design?',
+                alternativas: [
+                    'Tudo mesmo tamanho',
+                    'Variação de tamanho para hierarquia',
+                    'Elementos pequenos',
+                    'Sem proporção'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar consistência?',
+                alternativas: [
+                    'Mudar estilos constantemente',
+                    'Manter padrões de cores, fontes e espaçamento',
+                    'Design diferente em cada página',
+                    'Sem regras'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é copyright em design?',
+                alternativas: [
+                    'Usar qualquer imagem',
+                    'Direitos autorais sobre criações',
+                    'Tudo é grátis',
+                    'Copiar tudo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é mockup?',
+                alternativas: [
+                    'Produto final',
+                    'Modelo/protótipo visual do design',
+                    'Um erro',
+                    'Uma cor'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é wireframe?',
+                alternativas: [
+                    'Design colorido',
+                    'Esboço estrutural básico sem detalhes visuais',
+                    'Produto final',
+                    'Uma fonte'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é flat design?',
+                alternativas: [
+                    'Design 3D',
+                    'Estilo minimalista bidimensional',
+                    'Design complexo',
+                    'Com sombras profundas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é skeuomorfismo?',
+                alternativas: [
+                    'Design plano',
+                    'Design que imita objetos reais',
+                    'Minimalismo extremo',
+                    'Sem detalhes'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é grid system?',
+                alternativas: [
+                    'Elementos aleatórios',
+                    'Sistema de linhas guia para organizar elementos',
+                    'Sem estrutura',
+                    'Apenas bordas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é call-to-action (CTA)?',
+                alternativas: [
+                    'Texto decorativo',
+                    'Elemento que incentiva ação (botão, link)',
+                    'Imagem de fundo',
+                    'Título principal'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é branding?',
+                alternativas: [
+                    'Fazer design',
+                    'Criar identidade visual de marca',
+                    'Escolher cores',
+                    'Fazer logo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é favicon?',
+                alternativas: [
+                    'Logo grande',
+                    'Ícone pequeno exibido na aba do navegador',
+                    'Imagem de fundo',
+                    'Um vídeo'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é portfolio de design?',
+                alternativas: [
+                    'Lista de tarefas',
+                    'Coleção dos melhores trabalhos',
+                    'Agenda',
+                    'Certificados'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é pixel perfeito?',
+                alternativas: [
+                    'Design aproximado',
+                    'Design precisamente alinhado pixel por pixel',
+                    'Imagem borrada',
+                    'Sem medidas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são breakpoints?',
+                alternativas: [
+                    'Erros no design',
+                    'Pontos onde layout muda para diferentes telas',
+                    'Pausas no trabalho',
+                    'Cores quebradas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é hierarchy visual?',
+                alternativas: [
+                    'Tudo igual',
+                    'Organização de elementos por importância',
+                    'Sem ordem',
+                    'Aleatório'
                 ],
                 correta: 1
             }
@@ -2377,6 +7837,436 @@ const modulosApostila = [
                     'length(lista)'
                 ],
                 correta: 1
+            },
+            {
+                pergunta: 'O que são tuplas em Python?',
+                alternativas: [
+                    'Listas mutáveis',
+                    'Sequências imutáveis de valores',
+                    'Dicionários',
+                    'Funções'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar loop infinito?',
+                alternativas: [
+                    'for i in range(10):',
+                    'while True:',
+                    'loop forever:',
+                    'infinite loop:'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que faz break em loop?',
+                alternativas: [
+                    'Continua loop',
+                    'Sai do loop',
+                    'Reinicia loop',
+                    'Pausa loop'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que faz continue em loop?',
+                alternativas: [
+                    'Sai do loop',
+                    'Pula para próxima iteração',
+                    'Para programa',
+                    'Deleta variável'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como converter lista em string?',
+                alternativas: [
+                    'str(lista)',
+                    '\"\".join(lista)',
+                    'list_to_string()',
+                    'convert(lista)'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são list comprehensions?',
+                alternativas: [
+                    'Erros de lista',
+                    'Criar listas de forma concisa: [x for x in range(10)]',
+                    'Deletar listas',
+                    'Imprimir listas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como lidar com exceções?',
+                alternativas: [
+                    'Ignorar erros',
+                    'try: ... except:',
+                    'if error:',
+                    'catch error'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que faz pass em Python?',
+                alternativas: [
+                    'Deleta código',
+                    'Placeholder que não faz nada',
+                    'Passa valores',
+                    'Cria função'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como abrir arquivo?',
+                alternativas: [
+                    'open(\"arquivo.txt\", \"r\")',
+                    'file(\"arquivo.txt\")',
+                    'read(\"arquivo.txt\")',
+                    'get(\"arquivo.txt\")'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que são métodos de string?',
+                alternativas: [
+                    'Variáveis',
+                    'Funções integradas para manipular strings',
+                    'Loops',
+                    'Erros'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como verificar tipo de variável?',
+                alternativas: [
+                    'type(variavel)',
+                    'typeof(variavel)',
+                    'get_type()',
+                    'check()'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz .strip()?',
+                alternativas: [
+                    'Deleta string',
+                    'Remove espaços em branco das pontas',
+                    'Divide string',
+                    'Une strings'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como dividir string?',
+                alternativas: [
+                    'string.divide()',
+                    'string.split()',
+                    'split_string()',
+                    'divide(string)'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são argumentos *args?',
+                alternativas: [
+                    'Erro',
+                    'Número variável de argumentos posicionais',
+                    'Argumentos fixos',
+                    'Sem argumentos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são argumentos **kwargs?',
+                alternativas: [
+                    'Erro',
+                    'Número variável de argumentos nomeados',
+                    'Argumentos fixos',
+                    'Sem argumentos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar classe?',
+                alternativas: [
+                    'function NomeClasse:',
+                    'class NomeClasse:',
+                    'object NomeClasse:',
+                    'create class:'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é self em métodos?',
+                alternativas: [
+                    'Uma variável global',
+                    'Referência à instância da classe',
+                    'Um erro',
+                    'Um loop'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar método?',
+                alternativas: [
+                    'function nome(self):',
+                    'def nome(self):',
+                    'method nome():',
+                    'create nome():'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é __init__?',
+                alternativas: [
+                    'Erro',
+                    'Construtor da classe',
+                    'Destruidor',
+                    'Loop'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como instanciar classe?',
+                alternativas: [
+                    'NomeClasse.create()',
+                    'obj = NomeClasse()',
+                    'new NomeClasse()',
+                    'instance NomeClasse()'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é herança?',
+                alternativas: [
+                    'Copiar código',
+                    'Classe filha herda atributos/métodos da pai',
+                    'Deletar classes',
+                    'Criar variáveis'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como importar biblioteca específica?',
+                alternativas: [
+                    'from biblioteca import funcao',
+                    'get biblioteca.funcao',
+                    'use biblioteca::funcao',
+                    'require biblioteca.funcao'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz enumerate()?',
+                alternativas: [
+                    'Deleta elementos',
+                    'Retorna índice e valor ao iterar',
+                    'Conta elementos',
+                    'Ordena lista'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como ordenar lista?',
+                alternativas: [
+                    'lista.order()',
+                    'lista.sort() ou sorted(lista)',
+                    'order(lista)',
+                    'arrange(lista)'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que faz zip()?',
+                alternativas: [
+                    'Comprime arquivos',
+                    'Combina múltiplas listas em tuplas',
+                    'Deleta listas',
+                    'Ordena listas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como reverter lista?',
+                alternativas: [
+                    'lista.back()',
+                    'lista.reverse() ou lista[::-1]',
+                    'reverse_list()',
+                    'lista.backwards()'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que são lambda functions?',
+                alternativas: [
+                    'Funções grandes',
+                    'Funções anônimas de uma linha',
+                    'Erros',
+                    'Variáveis'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como usar map()?',
+                alternativas: [
+                    'Cria mapas',
+                    'Aplica função a todos elementos de iterável',
+                    'Deleta elementos',
+                    'Ordena elementos'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como usar filter()?',
+                alternativas: [
+                    'Deleta tudo',
+                    'Filtra elementos baseado em condição',
+                    'Ordena elementos',
+                    'Cria listas'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é PEP 8?',
+                alternativas: [
+                    'Um erro',
+                    'Guia de estilo para código Python',
+                    'Uma biblioteca',
+                    'Um framework'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como criar virtual environment?',
+                alternativas: [
+                    'venv create',
+                    'python -m venv nome_env',
+                    'create env',
+                    'virtual nome_env'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é pip?',
+                alternativas: [
+                    'Um jogo',
+                    'Gerenciador de pacotes Python',
+                    'Uma variável',
+                    'Um erro'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como instalar pacote com pip?',
+                alternativas: [
+                    'pip get pacote',
+                    'pip install pacote',
+                    'install pacote',
+                    'pip download pacote'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que é requirements.txt?',
+                alternativas: [
+                    'Um código',
+                    'Arquivo com lista de dependências do projeto',
+                    'Um erro',
+                    'Uma função'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como escrever comentário em Python?',
+                alternativas: [
+                    '// comentário',
+                    '# comentário',
+                    '/* comentário */',
+                    '<!-- comentário -->'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que faz lambda em Python?',
+                alternativas: [
+                    'Cria função anônima de uma linha',
+                    'Deleta funções',
+                    'Cria classes',
+                    'Importa módulos'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é list comprehension?',
+                alternativas: [
+                    'Um tipo de loop',
+                    'Forma concisa de criar listas',
+                    'Um erro',
+                    'Uma biblioteca'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como converter string para int?',
+                alternativas: [
+                    'int(string)',
+                    'str.to_int()',
+                    'convert(string)',
+                    'string.int()'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz enumerate()?',
+                alternativas: [
+                    'Conta elementos',
+                    'Retorna índice e valor em iteração',
+                    'Deleta lista',
+                    'Ordena lista'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como verificar tipo de variável?',
+                alternativas: [
+                    'type(variavel)',
+                    'variavel.type()',
+                    'typeof(variavel)',
+                    'get_type(variavel)'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é slicing?',
+                alternativas: [
+                    'Deletar lista',
+                    'Extrair partes de sequência [início:fim]',
+                    'Ordenar lista',
+                    'Criar lista'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como concatenar strings?',
+                alternativas: [
+                    'string1 + string2',
+                    'concat(string1, string2)',
+                    'string1.add(string2)',
+                    'merge(string1, string2)'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz range()?',
+                alternativas: [
+                    'Gera sequência de números',
+                    'Deleta números',
+                    'Ordena números',
+                    'Soma números'
+                ],
+                correta: 0
             }
         ]
     },
@@ -2535,6 +8425,356 @@ const modulosApostila = [
                     'Formatar texto'
                 ],
                 correta: 1
+            },
+            {
+                pergunta: 'O que faz JSON.stringify()?',
+                alternativas: [
+                    'Converter objeto em string JSON',
+                    'Deletar objetos',
+                    'Criar arrays',
+                    'Formatar HTML'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é arrow function?',
+                alternativas: [
+                    'const func = () => {}',
+                    'function func() {}',
+                    'func function',
+                    'new Function()'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é hoisting?',
+                alternativas: [
+                    'Movimento de declarações para topo do escopo',
+                    'Deletar variáveis',
+                    'Criar funções',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Diferença entre let e var?',
+                alternativas: [
+                    'Não há diferença',
+                    'let tem escopo de bloco, var de função',
+                    'var é mais moderno',
+                    'let é mais lento'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'O que faz .filter()?',
+                alternativas: [
+                    'Cria novo array com elementos que passam no teste',
+                    'Deleta elementos',
+                    'Ordena array',
+                    'Conta elementos'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é callback function?',
+                alternativas: [
+                    'Função passada como argumento para outra função',
+                    'Função que retorna',
+                    'Função principal',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como prevenir comportamento padrão de evento?',
+                alternativas: [
+                    'event.preventDefault()',
+                    'event.stop()',
+                    'event.cancel()',
+                    'event.prevent()'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz .reduce()?',
+                alternativas: [
+                    'Reduz array a único valor acumulado',
+                    'Remove elementos',
+                    'Ordena array',
+                    'Duplica array'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é this em JavaScript?',
+                alternativas: [
+                    'Referência ao objeto de contexto',
+                    'Uma string',
+                    'Um número',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz .find()?',
+                alternativas: [
+                    'Retorna primeiro elemento que satisfaz condição',
+                    'Remove elementos',
+                    'Ordena array',
+                    'Conta elementos'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é módulo ES6?',
+                alternativas: [
+                    'Sistema de import/export de código',
+                    'Um tipo de loop',
+                    'Uma função',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como exportar função?',
+                alternativas: [
+                    'export function nome() {}',
+                    'function export nome() {}',
+                    'export nome function',
+                    'send function nome'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como importar módulo?',
+                alternativas: [
+                    'import { funcao } from "arquivo"',
+                    'get funcao from arquivo',
+                    'require(funcao)',
+                    'use funcao'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é Webpack?',
+                alternativas: [
+                    'Bundler de módulos JavaScript',
+                    'Um framework',
+                    'Uma biblioteca',
+                    'Um navegador'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é npm?',
+                alternativas: [
+                    'Node Package Manager - gerenciador de pacotes',
+                    'New Programming Method',
+                    'Network Protocol Module',
+                    'No Package Manager'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz setTimeout()?',
+                alternativas: [
+                    'Executa código após delay especificado',
+                    'Para o programa',
+                    'Deleta variáveis',
+                    'Cria loops'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz setInterval()?',
+                alternativas: [
+                    'Executa código repetidamente em intervalos',
+                    'Para execução',
+                    'Deleta funções',
+                    'Cria variáveis'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como parar setInterval?',
+                alternativas: [
+                    'clearInterval(id)',
+                    'stopInterval()',
+                    'interval.stop()',
+                    'cancelInterval()'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é strict mode?',
+                alternativas: [
+                    '"use strict" - modo que impõe regras mais rígidas',
+                    'Um tipo de loop',
+                    'Uma função',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz .some()?',
+                alternativas: [
+                    'Verifica se ALGUM elemento passa no teste',
+                    'Conta todos',
+                    'Remove elementos',
+                    'Ordena array'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz .every()?',
+                alternativas: [
+                    'Verifica se TODOS elementos passam no teste',
+                    'Conta elementos',
+                    'Remove items',
+                    'Ordena array'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é destructuring de array?',
+                alternativas: [
+                    'const [a, b] = array',
+                    'array.destroy()',
+                    'delete array',
+                    'array.split()'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que são rest parameters?',
+                alternativas: [
+                    'function(...args) - agrupa argumentos em array',
+                    'Pausar função',
+                    'Deletar parâmetros',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é default parameter?',
+                alternativas: [
+                    'function(x = 5) - valor padrão se não fornecido',
+                    'Parâmetro obrigatório',
+                    'Primeiro parâmetro',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz Object.keys()?',
+                alternativas: [
+                    'Retorna array com chaves do objeto',
+                    'Deleta objeto',
+                    'Cria objeto',
+                    'Ordena objeto'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz Object.values()?',
+                alternativas: [
+                    'Retorna array com valores do objeto',
+                    'Deleta valores',
+                    'Conta valores',
+                    'Ordena valores'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é prototype?',
+                alternativas: [
+                    'Mecanismo de herança em JavaScript',
+                    'Um tipo de array',
+                    'Uma função',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é class em ES6?',
+                alternativas: [
+                    'Sintaxe para criar objetos e herança',
+                    'Um loop',
+                    'Uma função simples',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como criar instância de classe?',
+                alternativas: [
+                    'const obj = new MinhaClasse()',
+                    'const obj = MinhaClasse',
+                    'const obj = create MinhaClasse',
+                    'const obj = MinhaClasse.new()'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é constructor?',
+                alternativas: [
+                    'Método especial para inicializar objeto',
+                    'Deletar objeto',
+                    'Uma variável',
+                    'Um loop'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é extends?',
+                alternativas: [
+                    'Cria classe filha que herda de pai',
+                    'Deleta classe',
+                    'Copia classe',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz super()?',
+                alternativas: [
+                    'Chama constructor da classe pai',
+                    'Deleta pai',
+                    'Cria classe',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é getter?',
+                alternativas: [
+                    'Método que retorna propriedade como se fosse atributo',
+                    'Deleta propriedade',
+                    'Cria objeto',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é setter?',
+                alternativas: [
+                    'Método que define propriedade como se fosse atributo',
+                    'Remove propriedade',
+                    'Cria classe',
+                    'Um erro'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é Symbol?',
+                alternativas: [
+                    'Tipo de dado primitivo único',
+                    'Uma string',
+                    'Um número',
+                    'Um array'
+                ],
+                correta: 0
             }
         ]
     },
@@ -2693,6 +8933,356 @@ const modulosApostila = [
                     'Baixar arquivos'
                 ],
                 correta: 1
+            },
+            {
+                pergunta: 'O que faz git status?',
+                alternativas: [
+                    'Mostra estado atual das alterações',
+                    'Deleta arquivos',
+                    'Cria branch',
+                    'Envia commits'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é README.md?',
+                alternativas: [
+                    'Um erro',
+                    'Arquivo de documentação do projeto em Markdown',
+                    'Uma pasta',
+                    'Um comando'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como desfazer último commit local?',
+                alternativas: [
+                    'git reset HEAD~1',
+                    'git undo',
+                    'git revert last',
+                    'git remove commit'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é .gitignore?',
+                alternativas: [
+                    'Um comando',
+                    'Arquivo que lista o que Git deve ignorar',
+                    'Uma branch',
+                    'Um erro'
+                ],
+                correta: 1
+            },
+            {
+                pergunta: 'Como ver diferenças de arquivos?',
+                alternativas: [
+                    'git diff',
+                    'git compare',
+                    'git changes',
+                    'git show-diff'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é stash?',
+                alternativas: [
+                    'Guardar temporariamente alterações sem commit',
+                    'Deletar mudanças',
+                    'Criar branch',
+                    'Enviar para GitHub'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como aplicar stash salvo?',
+                alternativas: [
+                    'git stash apply ou git stash pop',
+                    'git stash get',
+                    'git stash load',
+                    'git stash use'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz git fetch?',
+                alternativas: [
+                    'Baixa mudanças sem fazer merge',
+                    'Envia commits',
+                    'Deleta branch',
+                    'Cria repositório'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como deletar branch?',
+                alternativas: [
+                    'git branch -d branch-name',
+                    'git delete branch-name',
+                    'git remove branch-name',
+                    'git drop branch-name'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é tag no Git?',
+                alternativas: [
+                    'Marcador de versão específica do código',
+                    'Uma branch',
+                    'Um commit',
+                    'Um arquivo'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como criar tag?',
+                alternativas: [
+                    'git tag v1.0',
+                    'git create-tag v1.0',
+                    'git new tag v1.0',
+                    'git add-tag v1.0'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz git merge?',
+                alternativas: [
+                    'Junta alterações de branches',
+                    'Deleta branch',
+                    'Cria commit',
+                    'Envia para GitHub'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como ver branches existentes?',
+                alternativas: [
+                    'git branch',
+                    'git list branches',
+                    'git show branches',
+                    'git get branches'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é rebase?',
+                alternativas: [
+                    'Reorganizar histórico de commits',
+                    'Deletar commits',
+                    'Criar branch',
+                    'Enviar para GitHub'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como configurar nome de usuário?',
+                alternativas: [
+                    'git config user.name "Seu Nome"',
+                    'git set user "Seu Nome"',
+                    'git user "Seu Nome"',
+                    'git name "Seu Nome"'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como configurar email?',
+                alternativas: [
+                    'git config user.email "email@example.com"',
+                    'git set email "email@example.com"',
+                    'git email "email@example.com"',
+                    'git user-email "email@example.com"'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é origin?',
+                alternativas: [
+                    'Nome padrão do repositório remoto',
+                    'Primeira branch',
+                    'Commit inicial',
+                    'Uma tag'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como adicionar repositório remoto?',
+                alternativas: [
+                    'git remote add origin URL',
+                    'git add remote URL',
+                    'git connect URL',
+                    'git set remote URL'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz git cherry-pick?',
+                alternativas: [
+                    'Aplica commit específico de outra branch',
+                    'Deleta commit',
+                    'Cria branch',
+                    'Envia commits'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como renomear branch atual?',
+                alternativas: [
+                    'git branch -m novo-nome',
+                    'git rename novo-nome',
+                    'git change-name novo-nome',
+                    'git mv novo-nome'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é HEAD?',
+                alternativas: [
+                    'Ponteiro para commit atual',
+                    'Primeira branch',
+                    'Último arquivo',
+                    'Um comando'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como ver histórico de um arquivo?',
+                alternativas: [
+                    'git log arquivo.txt',
+                    'git history arquivo.txt',
+                    'git show arquivo.txt',
+                    'git file-log arquivo.txt'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é Issues no GitHub?',
+                alternativas: [
+                    'Sistema de rastreamento de bugs e tarefas',
+                    'Erros de código',
+                    'Commits',
+                    'Branches'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que são GitHub Actions?',
+                alternativas: [
+                    'Automação de CI/CD no GitHub',
+                    'Comandos Git',
+                    'Tipo de commit',
+                    'Uma branch'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como clonar branch específica?',
+                alternativas: [
+                    'git clone -b branch-name URL',
+                    'git clone URL branch-name',
+                    'git get-branch branch-name URL',
+                    'git clone branch-name'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que faz git clean?',
+                alternativas: [
+                    'Remove arquivos não rastreados',
+                    'Deleta branch',
+                    'Limpa commits',
+                    'Formata código'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como ver quem modificou cada linha?',
+                alternativas: [
+                    'git blame arquivo.txt',
+                    'git who arquivo.txt',
+                    'git author arquivo.txt',
+                    'git show-author arquivo.txt'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é GitHub Pages?',
+                alternativas: [
+                    'Hospedagem gratuita de sites estáticos',
+                    'Documentação do Git',
+                    'Uma branch',
+                    'Um comando'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como desfazer alterações não commitadas?',
+                alternativas: [
+                    'git checkout -- arquivo.txt',
+                    'git undo arquivo.txt',
+                    'git revert arquivo.txt',
+                    'git remove arquivo.txt'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é squash?',
+                alternativas: [
+                    'Combinar múltiplos commits em um',
+                    'Deletar commits',
+                    'Criar branch',
+                    'Enviar para GitHub'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como criar repositório vazio?',
+                alternativas: [
+                    'git init',
+                    'git create',
+                    'git new',
+                    'git start'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é upstream?',
+                alternativas: [
+                    'Repositório original de um fork',
+                    'Primeira branch',
+                    'Commit inicial',
+                    'Uma tag'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como atualizar fork com original?',
+                alternativas: [
+                    'git fetch upstream e git merge',
+                    'git sync',
+                    'git update',
+                    'git pull-original'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'O que é Gist?',
+                alternativas: [
+                    'Compartilhamento rápido de código/notas no GitHub',
+                    'Um comando Git',
+                    'Uma branch',
+                    'Um tipo de commit'
+                ],
+                correta: 0
+            },
+            {
+                pergunta: 'Como contribuir para projeto open source?',
+                alternativas: [
+                    'Fork, branch, commit, pull request',
+                    'Apenas commit',
+                    'Clone e push',
+                    'Download e edit'
+                ],
+                correta: 0
             }
         ]
     }
