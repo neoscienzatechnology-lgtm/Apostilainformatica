@@ -250,18 +250,25 @@ function renderVisualResources(modulo) {
         recursos.imagens.forEach((img) => {
             const card = document.createElement('div');
             card.className = 'col-md-6 col-lg-4 mb-3';
-            card.innerHTML = `
-                <div class="visual-card h-100">
-                    <div class="visual-emoji text-center mb-2" style="font-size: 2.5rem;">
-                        ${img.emoji || '📊'}
+            
+            // Se tem HTML customizado, renderiza ele
+            if (img.html) {
+                card.innerHTML = `<div class="visual-card h-100">${img.html}</div>`;
+            } else {
+                // Renderização padrão com emoji
+                card.innerHTML = `
+                    <div class="visual-card h-100">
+                        <div class="visual-emoji text-center mb-2" style="font-size: 2.5rem;">
+                            ${img.emoji || '📊'}
+                        </div>
+                        <h6 class="text-danger mb-2">
+                            <i class="fas fa-image"></i> ${img.titulo}
+                        </h6>
+                        <p class="small text-muted mb-2">${img.descricao}</p>
+                        <span class="badge bg-light text-dark border">${img.tipo}</span>
                     </div>
-                    <h6 class="text-danger mb-2">
-                        <i class="fas fa-image"></i> ${img.titulo}
-                    </h6>
-                    <p class="small text-muted mb-2">${img.descricao}</p>
-                    <span class="badge bg-light text-dark border">${img.tipo}</span>
-                </div>
-            `;
+                `;
+            }
             visualContainer.appendChild(card);
         });
     }

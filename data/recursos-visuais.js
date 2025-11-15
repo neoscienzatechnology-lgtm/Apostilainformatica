@@ -91,28 +91,216 @@ const recursosVisuais = {
     office: {
         imagens: [
             {
-                titulo: 'Interface do Word',
+                titulo: 'Interface do Microsoft Word',
+                url: 'https://i.imgur.com/placeholder.jpg',
                 emoji: '📝',
-                descricao: 'Barra de ferramentas, Régua, Área de edição, Estilos',
+                descricao: 'Barra de ferramentas do Word: Arquivo, Início, Inserir, Design, Layout, Referências',
+                html: `
+                    <div class="visual-diagram p-3 bg-light rounded">
+                        <div style="background: #2b579a; color: white; padding: 10px; border-radius: 5px 5px 0 0;">
+                            <strong>📝 Microsoft Word</strong>
+                        </div>
+                        <div style="background: white; padding: 15px; border: 2px solid #ddd; border-radius: 0 0 5px 5px;">
+                            <div style="background: #f0f0f0; padding: 8px; margin-bottom: 10px;">
+                                <span style="margin-right: 15px;">📁 Arquivo</span>
+                                <span style="margin-right: 15px;">🏠 Início</span>
+                                <span style="margin-right: 15px;">➕ Inserir</span>
+                                <span style="margin-right: 15px;">🎨 Design</span>
+                            </div>
+                            <div style="border: 1px dashed #ccc; padding: 40px; text-align: center; background: white;">
+                                <p style="color: #999; margin: 0;">Seu documento aqui...</p>
+                                <p style="color: #999; margin: 10px 0 0 0; font-size: 14px;">📏 Régua | ✏️ Ferramentas de formatação</p>
+                            </div>
+                        </div>
+                    </div>
+                `,
+                tipo: 'interface'
+            },
+            {
+                titulo: 'Planilha Excel - Estrutura',
+                emoji: '📊',
+                descricao: 'Células, linhas (1,2,3...) e colunas (A,B,C...) formam a grade do Excel',
+                html: `
+                    <div class="visual-diagram p-3 bg-light rounded">
+                        <div style="background: #217346; color: white; padding: 10px; border-radius: 5px 5px 0 0;">
+                            <strong>📊 Microsoft Excel</strong>
+                        </div>
+                        <div style="overflow-x: auto;">
+                            <table style="border-collapse: collapse; background: white; margin: 10px 0;">
+                                <tr>
+                                    <th style="border: 1px solid #ddd; padding: 8px; background: #f0f0f0; min-width: 40px;"></th>
+                                    <th style="border: 1px solid #ddd; padding: 8px; background: #f0f0f0; min-width: 80px;">A</th>
+                                    <th style="border: 1px solid #ddd; padding: 8px; background: #f0f0f0; min-width: 80px;">B</th>
+                                    <th style="border: 1px solid #ddd; padding: 8px; background: #f0f0f0; min-width: 80px;">C</th>
+                                    <th style="border: 1px solid #ddd; padding: 8px; background: #f0f0f0; min-width: 80px;">D</th>
+                                </tr>
+                                <tr>
+                                    <td style="border: 1px solid #ddd; padding: 8px; background: #f0f0f0; font-weight: bold;">1</td>
+                                    <td style="border: 1px solid #ddd; padding: 8px;">Produto</td>
+                                    <td style="border: 1px solid #ddd; padding: 8px;">Preço</td>
+                                    <td style="border: 1px solid #ddd; padding: 8px;">Qtd</td>
+                                    <td style="border: 1px solid #ddd; padding: 8px;">Total</td>
+                                </tr>
+                                <tr>
+                                    <td style="border: 1px solid #ddd; padding: 8px; background: #f0f0f0; font-weight: bold;">2</td>
+                                    <td style="border: 1px solid #ddd; padding: 8px;">Mouse</td>
+                                    <td style="border: 1px solid #ddd; padding: 8px;">R$ 50</td>
+                                    <td style="border: 1px solid #ddd; padding: 8px;">2</td>
+                                    <td style="border: 1px solid #ddd; padding: 8px; background: #fff3cd;">=B2*C2</td>
+                                </tr>
+                                <tr>
+                                    <td style="border: 1px solid #ddd; padding: 8px; background: #f0f0f0; font-weight: bold;">3</td>
+                                    <td style="border: 1px solid #ddd; padding: 8px;">Teclado</td>
+                                    <td style="border: 1px solid #ddd; padding: 8px;">R$ 120</td>
+                                    <td style="border: 1px solid #ddd; padding: 8px;">1</td>
+                                    <td style="border: 1px solid #ddd; padding: 8px; background: #fff3cd;">=B3*C3</td>
+                                </tr>
+                            </table>
+                            <p style="font-size: 12px; color: #666; margin: 5px 0;">
+                                💡 Célula D2 = <code style="background: #fff3cd; padding: 2px 5px; border-radius: 3px;">=B2*C2</code> (multiplica preço × quantidade)
+                            </p>
+                        </div>
+                    </div>
+                `,
                 tipo: 'diagrama'
             },
             {
-                titulo: 'Excel - Fórmulas Básicas',
-                emoji: '📊 = SUM(A1:A10)',
-                descricao: 'SUM, AVERAGE, COUNT, MAX, MIN - funções essenciais',
+                titulo: 'PowerPoint - Slide Profissional',
+                emoji: '🎨',
+                descricao: 'Estrutura de um slide bem feito: título grande, bullet points, imagem de apoio',
+                html: `
+                    <div class="visual-diagram p-3 bg-light rounded">
+                        <div style="background: #d24726; color: white; padding: 10px; border-radius: 5px 5px 0 0;">
+                            <strong>🎨 Microsoft PowerPoint</strong>
+                        </div>
+                        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 0 0 5px 5px; color: white;">
+                            <h3 style="margin: 0 0 20px 0; font-size: 28px; border-bottom: 3px solid white; padding-bottom: 10px;">
+                                🚀 Meu Projeto
+                            </h3>
+                            <ul style="list-style: none; padding: 0; font-size: 18px;">
+                                <li style="margin: 10px 0;">✅ Objetivo claro</li>
+                                <li style="margin: 10px 0;">✅ Metodologia definida</li>
+                                <li style="margin: 10px 0;">✅ Resultados esperados</li>
+                            </ul>
+                            <div style="margin-top: 20px; text-align: center; background: rgba(255,255,255,0.2); padding: 20px; border-radius: 5px;">
+                                📊 [Imagem ou gráfico aqui]
+                            </div>
+                        </div>
+                    </div>
+                `,
+                tipo: 'exemplo'
+            },
+            {
+                titulo: 'Fórmulas Essenciais do Excel',
+                emoji: '🔢',
+                descricao: 'As 5 fórmulas que você PRECISA saber',
+                html: `
+                    <div class="visual-diagram p-3 bg-light rounded">
+                        <h6 class="text-success mb-3">🔢 Fórmulas Essenciais</h6>
+                        <div style="background: white; border: 2px solid #217346; border-radius: 5px; padding: 15px;">
+                            <div style="margin: 10px 0; padding: 10px; background: #f8f9fa; border-left: 4px solid #217346;">
+                                <code style="color: #217346; font-size: 16px;">=SUM(A1:A10)</code>
+                                <p style="margin: 5px 0 0 0; font-size: 13px; color: #666;">
+                                    Soma todos os valores de A1 até A10
+                                </p>
+                            </div>
+                            <div style="margin: 10px 0; padding: 10px; background: #f8f9fa; border-left: 4px solid #217346;">
+                                <code style="color: #217346; font-size: 16px;">=AVERAGE(B1:B20)</code>
+                                <p style="margin: 5px 0 0 0; font-size: 13px; color: #666;">
+                                    Calcula a média dos valores
+                                </p>
+                            </div>
+                            <div style="margin: 10px 0; padding: 10px; background: #f8f9fa; border-left: 4px solid #217346;">
+                                <code style="color: #217346; font-size: 16px;">=MAX(C1:C15)</code>
+                                <p style="margin: 5px 0 0 0; font-size: 13px; color: #666;">
+                                    Encontra o MAIOR valor
+                                </p>
+                            </div>
+                            <div style="margin: 10px 0; padding: 10px; background: #f8f9fa; border-left: 4px solid #217346;">
+                                <code style="color: #217346; font-size: 16px;">=MIN(C1:C15)</code>
+                                <p style="margin: 5px 0 0 0; font-size: 13px; color: #666;">
+                                    Encontra o MENOR valor
+                                </p>
+                            </div>
+                            <div style="margin: 10px 0; padding: 10px; background: #f8f9fa; border-left: 4px solid #217346;">
+                                <code style="color: #217346; font-size: 16px;">=COUNT(D1:D50)</code>
+                                <p style="margin: 5px 0 0 0; font-size: 13px; color: #666;">
+                                    Conta quantas células têm números
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                `,
                 tipo: 'referencia'
             },
             {
-                titulo: 'PowerPoint - Design de Slide',
-                emoji: '🎨 📊 📷',
-                descricao: 'Título grande, pouco texto, imagens de qualidade, cores harmoniosas',
-                tipo: 'dicas'
+                titulo: 'Atalhos de Teclado - Office',
+                emoji: '⌨️',
+                descricao: 'Trabalhe 10x mais rápido com esses atalhos!',
+                html: `
+                    <div class="visual-diagram p-3 bg-light rounded">
+                        <h6 class="text-danger mb-3">⌨️ Atalhos Universais</h6>
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <div style="background: white; border: 2px solid #dc3545; border-radius: 5px; padding: 10px; text-align: center;">
+                                    <div style="background: #dc3545; color: white; padding: 5px; border-radius: 3px; font-weight: bold; margin-bottom: 5px;">
+                                        Ctrl + S
+                                    </div>
+                                    <small>💾 Salvar</small>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div style="background: white; border: 2px solid #dc3545; border-radius: 5px; padding: 10px; text-align: center;">
+                                    <div style="background: #dc3545; color: white; padding: 5px; border-radius: 3px; font-weight: bold; margin-bottom: 5px;">
+                                        Ctrl + Z
+                                    </div>
+                                    <small>↩️ Desfazer</small>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div style="background: white; border: 2px solid #dc3545; border-radius: 5px; padding: 10px; text-align: center;">
+                                    <div style="background: #dc3545; color: white; padding: 5px; border-radius: 3px; font-weight: bold; margin-bottom: 5px;">
+                                        Ctrl + C
+                                    </div>
+                                    <small>📋 Copiar</small>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div style="background: white; border: 2px solid #dc3545; border-radius: 5px; padding: 10px; text-align: center;">
+                                    <div style="background: #dc3545; color: white; padding: 5px; border-radius: 3px; font-weight: bold; margin-bottom: 5px;">
+                                        Ctrl + V
+                                    </div>
+                                    <small>📌 Colar</small>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div style="background: white; border: 2px solid #dc3545; border-radius: 5px; padding: 10px; text-align: center;">
+                                    <div style="background: #dc3545; color: white; padding: 5px; border-radius: 3px; font-weight: bold; margin-bottom: 5px;">
+                                        Ctrl + B
+                                    </div>
+                                    <small><strong>N</strong> Negrito</small>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div style="background: white; border: 2px solid #dc3545; border-radius: 5px; padding: 10px; text-align: center;">
+                                    <div style="background: #dc3545; color: white; padding: 5px; border-radius: 3px; font-weight: bold; margin-bottom: 5px;">
+                                        Ctrl + P
+                                    </div>
+                                    <small>🖨️ Imprimir</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `,
+                tipo: 'referencia'
             }
         ],
         videos: [
-            'Word - Formatação profissional de documentos',
-            'Excel - Fórmulas e gráficos para iniciantes',
-            'PowerPoint - Apresentações impactantes'
+            'Word do ZERO ao AVANÇADO em 30 minutos',
+            'Excel para INICIANTES - Tutorial completo',
+            'PowerPoint: Como fazer apresentações INCRÍVEIS',
+            'Fórmulas Excel que TODO estudante precisa saber',
+            'Atalhos de teclado Office - Produtividade MÁXIMA'
         ]
     },
     

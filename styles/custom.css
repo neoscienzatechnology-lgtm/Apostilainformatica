@@ -466,6 +466,30 @@ h3.text-danger {
     letter-spacing: 0.5px;
 }
 
+/* Diagramas e visualizações HTML customizadas */
+.visual-diagram {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.visual-diagram code {
+    background-color: #f8f9fa;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: #d63384;
+}
+
+.visual-diagram table {
+    width: 100%;
+    font-size: 14px;
+}
+
+.visual-diagram h6 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
 .summary-list {
     list-style: none;
     padding: 0;
