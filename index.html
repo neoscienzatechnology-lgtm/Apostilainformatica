@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostila de Informática - Completa</title>
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="styles/custom.css">
+</head>
+<body>
+    <div class="d-flex h-100">
+        <!-- Sidebar Navigation -->
+        <nav id="sidebar" class="sidebar bg-dark text-white p-4">
+            <div class="sidebar-header mb-4">
+                <h3 class="text-danger">
+                    <i class="fas fa-book"></i> Apostila TI
+                </h3>
+                <p class="text-muted small">Informática para Jovens</p>
+            </div>
+            
+            <ul id="modulesList" class="nav flex-column gap-2">
+                <!-- Preenchido dinamicamente -->
+            </ul>
+            
+            <hr>
+            <div id="progressBox" class="progress-box mt-4">
+                <p class="small text-muted">Progresso Overall</p>
+                <div class="progress" style="height: 8px;">
+                    <div id="overallProgress" class="progress-bar bg-danger" role="progressbar" style="width: 0%"></div>
+                </div>
+                <p id="progressText" class="small text-danger mt-2">0% completo</p>
+            </div>
+        </nav>
+        
+        <!-- Main Content -->
+        <main class="flex-grow-1 overflow-auto">
+            <!-- Header -->
+            <header class="bg-danger text-white p-4 shadow-sm">
+                <div class="container-fluid">
+                    <h1 id="pageTitle" class="mb-0">
+                        <i class="fas fa-graduation-cap"></i> Bem-vindo à Apostila de Informática
+                    </h1>
+                    <p id="pageSubtitle" class="text-white-50 mt-2">Aprenda Informática de forma didática e interativa</p>
+                </div>
+            </header>
+            
+            <!-- Content Area -->
+            <div class="container-fluid p-4">
+                <div id="mainContent">
+                    <!-- Home Page -->
+                    <div id="homePage" class="row">
+                        <div class="col-lg-10 mx-auto">
+                            <div class="alert alert-info border-0 bg-light-info mb-4" role="alert">
+                                <h4 class="alert-heading">
+                                    <i class="fas fa-lightbulb"></i> Bem-vindo!
+                                </h4>
+                                <p>
+                                    Esta apostila completa foi desenvolvida especialmente para você aprender Informática de forma 
+                                    moderna, didática e super interativa. Escolha um módulo no menu à esquerda e comece sua jornada!
+                                </p>
+                            </div>
+                            
+                            <div class="row" id="modulesGrid">
+                                <!-- Cards dos módulos preenchidos dinamicamente -->
+                            </div>
+                            
+                            <div class="row mt-5">
+                                <div class="col-md-4">
+                                    <div class="info-card text-center p-4 border-left-danger">
+                                        <i class="fas fa-book fa-3x text-danger mb-3"></i>
+                                        <h5>10 Módulos Completos</h5>
+                                        <p class="text-muted">Cobertura total da Informática moderna</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="info-card text-center p-4 border-left-danger">
+                                        <i class="fas fa-gamepad fa-3x text-danger mb-3"></i>
+                                        <h5>80+ Exercícios</h5>
+                                        <p class="text-muted">Estilo Duolingo com feedback imediato</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="info-card text-center p-4 border-left-danger">
+                                        <i class="fas fa-chart-line fa-3x text-danger mb-3"></i>
+                                        <h5>Rastreie Progresso</h5>
+                                        <p class="text-muted">Veja sua evolução em tempo real</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Module Content -->
+                    <div id="modulePage" style="display: none;">
+                        <div class="row">
+                            <div class="col-lg-10 mx-auto">
+                                <!-- Breadcrumb -->
+                                <nav aria-label="breadcrumb" class="mb-4">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item">
+                                            <a href="#" onclick="showHome(); return false;" class="text-decoration-none text-danger">
+                                                <i class="fas fa-home"></i> Home
+                                            </a>
+                                        </li>
+                                        <li id="breadcrumbModule" class="breadcrumb-item active"></li>
+                                    </ol>
+                                </nav>
+                                
+                                <!-- Module Header -->
+                                <div id="moduleHeader" class="mb-5">
+                                    <h2 id="moduleTitle" class="text-danger mb-3"></h2>
+                                    <p id="moduleDescription" class="lead text-muted"></p>
+                                </div>
+                                
+                                <!-- Module Content -->
+                                <div id="moduleTheory" class="mb-5">
+                                    <!-- Conteúdo teórico preenchido dinamicamente -->
+                                </div>
+                                
+                            <!-- Module Examples -->
+                            <div id="moduleExamples" class="mb-5">
+                                <!-- Exemplos preenchidos dinamicamente -->
+                            </div>
+                            
+                            <!-- Visual Resources Section -->
+                            <div id="visualResources" class="mb-5">
+                                <h3 class="text-danger mb-4">
+                                    <i class="fas fa-images"></i> Recursos Visuais
+                                </h3>
+                                <div id="visualContent" class="row g-3">
+                                    <!-- Imagens, diagramas e infográficos -->
+                                </div>
+                            </div>
+                            
+                            <!-- Exercises -->
+                            <div id="exercisesSection" class="mb-5">
+                                <h3 class="text-danger mb-4">
+                                    <i class="fas fa-tasks"></i> Teste seu Conhecimento
+                                </h3>
+                                <p class="text-muted mb-4">
+                                    <i class="fas fa-info-circle"></i> Complete todos os 15 exercícios para dominar este módulo!
+                                </p>
+                                <div id="exercisesContainer">
+                                    <!-- Exercícios carregados dinamicamente -->
+                                </div>
+                            </div>                                <!-- Summary Box -->
+                                <div id="summaryBox" class="bg-light p-4 rounded-lg border-left-danger mb-5">
+                                    <h4 class="text-danger mb-3">
+                                        <i class="fas fa-check-circle"></i> Resumo do Módulo
+                                    </h4>
+                                    <div id="summaryContent">
+                                        <!-- Resumo preenchido dinamicamente -->
+                                    </div>
+                                </div>
+                                
+                                <!-- Navigation Buttons -->
+                                <div class="d-flex gap-3 justify-content-between mb-5">
+                                    <button id="prevBtn" onclick="previousModule()" class="btn btn-outline-danger">
+                                        <i class="fas fa-chevron-left"></i> Anterior
+                                    </button>
+                                    <button id="nextBtn" onclick="nextModule()" class="btn btn-danger">
+                                        Próximo <i class="fas fa-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Modal de Resultado de Exercício -->
+    <div class="modal fade" id="exerciseResultModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0">
+                <div id="resultHeader" class="modal-header border-0">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center p-4">
+                    <div id="resultIcon" class="mb-3" style="font-size: 3rem;"></div>
+                    <h4 id="resultText"></h4>
+                    <p id="resultMessage" class="text-muted mt-2"></p>
+                </div>
+                <div class="modal-footer border-0 justify-content-center">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Continuar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="data/exercicios.js"></script>
+    <script src="data/recursos-visuais.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
