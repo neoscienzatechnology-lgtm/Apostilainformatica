@@ -9782,20 +9782,44 @@ const conteudoModulos = {
     'redes-computadores': {
         teoria: [
             {
-                titulo: 'O que são Redes de Computadores?',
-                conteudo: 'Redes de computadores permitem que dispositivos se comuniquem e compartilhem recursos. Podem ser LAN (rede local), WAN (rede ampla) ou Internet (rede global).'
+                titulo: 'O que são Redes de Computadores? Conectando o Mundo',
+                conteudo: 'Redes de computadores são como estradas que conectam casas (computadores). Permitem compartilhar internet, arquivos, impressoras e jogar online. LAN (Local Area Network) é a rede da sua casa ou escola. WAN (Wide Area Network) conecta cidades e países. Internet é a maior rede do mundo, conectando bilhões de dispositivos. Sem redes, cada computador estaria isolado!'
             },
             {
-                titulo: 'Componentes de Rede',
-                conteudo: 'Roteador (conecta redes diferentes), Switch (conecta dispositivos na mesma rede), Modem (converte sinais), Cabo de rede (transmite dados fisicamente).'
+                titulo: 'Componentes de Rede: As Peças do Quebra-Cabeça',
+                conteudo: 'ROTEADOR: direciona tráfego entre redes, como GPS das informações. Distribui internet WiFi em casa. SWITCH: conecta vários dispositivos na mesma rede com cabos, como extensão elétrica. MODEM: converte sinal da operadora em internet utilizável. CABO DE REDE (Ethernet): transmite dados fisicamente, mais rápido e estável que WiFi. ACCESS POINT: expande sinal WiFi para áreas distantes. Cada peça tem função específica e importante!'
             },
             {
-                titulo: 'Endereços IP e MAC',
-                conteudo: 'IP identifica dispositivos na rede (ex: 192.168.1.1). MAC é o endereço físico único da placa de rede. DHCP atribui IPs automaticamente.'
+                titulo: 'Endereços IP e MAC: A Identidade dos Dispositivos',
+                conteudo: 'IP (Internet Protocol) é como o endereço da sua casa: identifica cada dispositivo na rede. Exemplo: 192.168.1.10. IPv4 tem 4 números (0-255). IPv6 é mais longo, para bilhões de dispositivos. IP PÚBLICO (visível na internet) vs IP PRIVADO (só na rede local). MAC (Media Access Control) é como RG: endereço físico único da placa de rede, não muda. DHCP (Dynamic Host Configuration Protocol) é o "atendente" que distribui IPs automaticamente quando você conecta. DNS traduz nomes (google.com) em IPs (172.217.0.0). Sem IP, computador não comunica!'
             },
             {
-                titulo: 'Protocolos de Rede',
-                conteudo: 'TCP/IP (transmissão confiável), UDP (transmissão rápida), HTTP/HTTPS (web), FTP (transferência de arquivos), DNS (resolução de nomes).'
+                titulo: 'Protocolos de Rede: As Regras da Comunicação',
+                conteudo: 'Protocolos são como idiomas que computadores falam entre si. TCP/IP: transmissão CONFIÁVEL, verifica se tudo chegou (usado em downloads, emails). UDP: transmissão RÁPIDA, não verifica (usado em jogos online, chamadas de vídeo). HTTP/HTTPS: protocolo da web (HTTPS é seguro com criptografia). FTP: transferência de arquivos grandes. SMTP/POP3/IMAP: envio e recebimento de emails. DNS: traduz nomes em IPs. ICMP: usado no comando ping para testar conexão. Cada protocolo tem propósito específico!'
+            },
+            {
+                titulo: 'Topologias de Rede: Como os Computadores se Conectam',
+                conteudo: 'ESTRELA: todos conectados a um switch central (mais comum em casas). ANEL: dispositivos em círculo, dados passam por todos. BUS: todos no mesmo cabo (antigo). MALHA: múltiplas conexões redundantes (internet é assim). HÍBRIDA: mistura de topologias. Topologia determina velocidade, confiabilidade e custo da rede.'
+            },
+            {
+                titulo: 'WiFi e Redes Sem Fio: Liberdade de Conexão',
+                conteudo: 'WiFi usa ondas de rádio para transmitir dados sem cabos. Padrões: 802.11b (antigo, lento), 802.11n (comum, bom), 802.11ac (rápido), 802.11ax/WiFi 6 (moderno, muito rápido). Frequências: 2.4 GHz (alcance maior, mais interferência) vs 5 GHz (mais rápido, alcance menor). Segurança: WPA3 (mais seguro), WPA2 (bom), WEP (inseguro, evite). Bluetooth é para curta distância (fones, mouse). NFC para pagamentos. Cada tecnologia tem uso específico!'
+            },
+            {
+                titulo: 'Curiosidade: Como Funciona o Ping?',
+                conteudo: 'Comando "ping google.com" envia pacote ICMP para o servidor. Se retornar, conexão OK. Mostra tempo de resposta (latência). Baixa latência = boa para jogos. Alta latência = lag. Teste sua internet com "ping 8.8.8.8" (Google DNS).'
+            },
+            {
+                titulo: 'Dica Visual: Diagrama de Rede Doméstica',
+                conteudo: '🌐 Internet (operadora)\n⬇️\n📡 Modem\n⬇️\n📶 Roteador WiFi\n⬇️⬇️⬇️\n💻 PC (192.168.1.2)\n📱 Celular (192.168.1.3)\n📺 Smart TV (192.168.1.4)\nTodos na mesma rede local, compartilhando internet!'
+            },
+            {
+                titulo: 'Exemplo Prático: Configurando Sua Rede',
+                conteudo: 'Abra navegador, digite 192.168.1.1 (ou 192.168.0.1), entre no roteador (admin/admin ou senha da etiqueta). Configure nome da rede WiFi, senha forte (WPA3), canal menos congestionado, desabilite WPS. Pronto, rede segura e otimizada!'
+            },
+            {
+                titulo: 'Segurança em Redes: Proteja-se de Invasões',
+                conteudo: 'Use senha WiFi forte, ative firewall, atualize firmware do roteador, desabilite WPS e UPnP, esconda SSID (nome da rede) se possível, use VPN em redes públicas, monitore dispositivos conectados. Firewall bloqueia acessos não autorizados. VPN criptografa tráfego. Sempre desconfie de WiFi público!'
             }
         ],
         exemplos: [
@@ -9827,20 +9851,44 @@ const conteudoModulos = {
     'cloud-computing': {
         teoria: [
             {
-                titulo: 'O que é Cloud Computing?',
-                conteudo: 'Cloud (nuvem) permite armazenar dados e executar programas em servidores remotos via Internet, em vez de localmente. Acesse de qualquer lugar!'
+                titulo: 'O que é Cloud Computing? O Futuro da Informática',
+                conteudo: 'Cloud Computing (computação em nuvem) significa usar recursos de computação (armazenamento, processamento, programas) pela internet, em vez de ter tudo no seu computador. É como alugar em vez de comprar. ANTES: salvava no HD, se quebrasse, perdia tudo. AGORA: salva na nuvem, acessa de qualquer lugar (PC, celular, tablet). Empresas gigantes (Google, Microsoft, Amazon) mantêm data centers com milhares de servidores. Você usa parte deles pagando ou de graça. Exemplos: Google Drive, Netflix, Gmail, iCloud, Spotify. A nuvem revolucionou como usamos tecnologia!'
             },
             {
-                titulo: 'Tipos de Serviços Cloud',
-                conteudo: 'IaaS (infraestrutura), PaaS (plataforma) e SaaS (software como serviço). Google Drive, Dropbox e OneDrive são SaaS.'
+                titulo: 'Modelos de Serviço Cloud: IaaS, PaaS, SaaS',
+                conteudo: 'SAAS (Software as a Service): você USA programas prontos pela internet. Gmail, Office 365, Canva, Spotify. Paga assinatura, não instala nada. PAAS (Platform as a Service): para DESENVOLVEDORES criarem apps sem gerenciar servidores. Google App Engine, Heroku. IAAS (Infrastructure as a Service): você ALUGA servidores, armazenamento, redes. AWS, Azure, Google Cloud. Controle total, complexidade alta. ANALOGIA: SaaS = Uber (usa pronto), PaaS = aluguel de cozinha equipada (você cozinha), IaaS = terreno vazio (você constrói tudo). Cada nível tem mais controle e mais responsabilidade!'
             },
             {
-                titulo: 'Vantagens da Nuvem',
-                conteudo: 'Acesso de qualquer dispositivo, backup automático, colaboração em tempo real, escalabilidade, sem necessidade de hardware potente.'
+                titulo: 'Vantagens da Nuvem: Por Que Todos Estão Migrando',
+                conteudo: 'ACESSO UNIVERSAL: trabalhe de casa, escola, viagem. Mesmo arquivo em todos dispositivos. BACKUP AUTOMÁTICO: não perde dados se PC quebrar, celular cair na água. COLABORAÇÃO: várias pessoas editam o mesmo documento simultaneamente (Google Docs). ESCALABILIDADE: precisa de mais espaço? Upgrade em segundos. ECONOMIA: não precisa comprar HD caro, servidor potente. ATUALIZAÇÕES: software sempre atualizado automaticamente. MOBILIDADE: trabalhe de qualquer lugar com internet. SUSTENTABILIDADE: menos hardware = menos desperdício. Desvantagens: depende de internet, custos podem crescer, menos controle sobre dados.'
             },
             {
-                titulo: 'Segurança na Nuvem',
-                conteudo: 'Use autenticação de dois fatores, criptografia ponta-a-ponta, senhas fortes. Cuidado com permissões de compartilhamento.'
+                titulo: 'Segurança na Nuvem: Proteja Seus Dados Online',
+                conteudo: 'AUTENTICAÇÃO DE DOIS FATORES (2FA): além da senha, pede código do celular. Muito mais seguro! CRIPTOGRAFIA: dados codificados, mesmo se interceptados não são legíveis. End-to-end é a mais segura. SENHAS FORTES: mínimo 12 caracteres, letras, números, símbolos. Use gerenciador de senhas. PERMISSÕES: cuidado ao compartilhar! "Qualquer pessoa com o link" pode vazar dados. Prefira "Pessoas específicas". BACKUPS MÚLTIPLOS: nuvem + HD externo. Regra 3-2-1: 3 cópias, 2 mídias diferentes, 1 offsite. VERIFICAÇÃO DE LOGIN: ative alertas de login em novo dispositivo. LEIA TERMOS: saiba onde seus dados ficam, quem tem acesso. Privacidade é direito!'
+            },
+            {
+                titulo: 'Principais Provedores Cloud: Gigantes do Mercado',
+                conteudo: 'GOOGLE WORKSPACE (Drive, Docs, Sheets, Slides): 15 GB gratuitos, integração perfeita, colaboração real-time. MICROSOFT ONEDRIVE + OFFICE 365: integrado ao Windows, Office completo online/offline, 5 GB gratuitos. DROPBOX: sincronização excelente, simples, 2 GB gratuitos. ICLOUD (Apple): integra iPhone/Mac, 5 GB gratuitos, backup automático de fotos. AMAZON DRIVE/PHOTOS: ilimitado para fotos Prime, integra Alexa. MEGA: 20 GB gratuitos, foco em privacidade, criptografia forte. Escolha depende de ecossistema (Apple, Google, Microsoft) e necessidades (espaço, segurança, preço).'
+            },
+            {
+                titulo: 'Cloud vs Local: Quando Usar Cada Um',
+                conteudo: 'USE NUVEM para: documentos importantes (backup automático), trabalho colaborativo, acesso de vários dispositivos, arquivos que precisa sempre disponíveis. USE LOCAL para: arquivos muito grandes (vídeos 4K), dados super sensíveis, quando internet é ruim/cara, jogos e programas pesados. IDEAL: HÍBRIDO! Nuvem para documentos e fotos, local para trabalho pesado. Sincronize o que importa, guarde localmente o que é grande. Melhor dos dois mundos!'
+            },
+            {
+                titulo: 'Curiosidade: Quantos Data Centers Existem?',
+                conteudo: 'Google tem mais de 30 data centers globalmente, com milhões de servidores. Amazon AWS tem 99 zonas de disponibilidade em 31 regiões. Eles consomem energia equivalente a cidades inteiras, mas otimizam ao máximo. Sua foto no Drive pode estar fisicamente em servidor na Holanda, EUA e Singapura ao mesmo tempo (redundância)!'
+            },
+            {
+                titulo: 'Dica Visual: Arquitetura Cloud',
+                conteudo: '👤 Você (qualquer dispositivo)\n⬇️ Internet\n☁️ NUVEM (data centers globais)\n⬇️⬇️⬇️\n📄 Arquivos (Drive)\n✉️ Emails (Gmail)\n🎵 Músicas (Spotify)\n🎬 Vídeos (Netflix)\nTudo acessível 24/7 de qualquer lugar!'
+            },
+            {
+                titulo: 'Exemplo Prático: Migrando para a Nuvem',
+                conteudo: 'PASSO 1: Escolha provedor (Google Drive para começar). PASSO 2: Instale app sincronização no PC. PASSO 3: Mova documentos importantes para pasta sincronizada. PASSO 4: Ative 2FA para segurança. PASSO 5: Configure backup automático de fotos no celular. PASSO 6: Compartilhe pastas específicas com família/trabalho. PASSO 7: Monitore espaço usado, limpe arquivos antigos. Resultado: nunca mais perde dados, acessa tudo de qualquer lugar!'
+            },
+            {
+                titulo: 'Tendências Futuras: Edge Computing e Quantum Cloud',
+                conteudo: 'EDGE COMPUTING: processar dados mais perto do usuário (menos latência). Carros autônomos, IoT, realidade aumentada precisam disso. QUANTUM CLOUD: computação quântica na nuvem para problemas impossíveis hoje (criptografia, simulações moleculares). SERVERLESS: código executa sem gerenciar servidores. AI/ML as a Service: inteligência artificial sem expertise técnica. Multi-cloud: usar vários provedores simultaneamente. Futuro é híbrido, distribuído e inteligente!'
             }
         ],
         exemplos: [
@@ -9872,20 +9920,44 @@ const conteudoModulos = {
     'excel-avancado': {
         teoria: [
             {
-                titulo: 'Fórmulas Avançadas no Excel',
-                conteudo: 'VLOOKUP busca valores em tabelas, IF aninhados para múltiplas condições, SUMIF para soma condicional, INDEX+MATCH para buscas complexas.'
+                titulo: 'Fórmulas Avançadas: O Poder Real do Excel',
+                conteudo: 'VLOOKUP (PROCV): busca valor em tabela vertical. =VLOOKUP(valor_procurado, tabela, número_coluna, FALSO). Exemplo: =VLOOKUP(A2, Produtos!A:C, 3, FALSE) busca preço do produto. HLOOKUP: versão horizontal. INDEX+MATCH: mais flexível que VLOOKUP, busca em qualquer direção. =INDEX(intervalo_retorno, MATCH(valor_procurado, intervalo_procura, 0)). SUMIF/SUMIFS: soma condicional. =SUMIF(intervalo, critério, soma_intervalo). COUNTIF: conta células com critério. AVERAGEIF: média condicional. IF ANINHADO: múltiplas condições. =IF(A1>90, "A", IF(A1>80, "B", IF(A1>70, "C", "D"))). Fórmulas transformam Excel em supercalculadora!'
             },
             {
-                titulo: 'Tabelas Dinâmicas (Pivot Tables)',
-                conteudo: 'Resumem grandes conjuntos de dados em segundos. Agrupe, filtre e analise milhares de linhas sem fórmulas complexas.'
+                titulo: 'Tabelas Dinâmicas: Análise de Dados em Segundos',
+                conteudo: 'Pivot Tables (Tabelas Dinâmicas) resumem MILHARES de linhas instantaneamente sem fórmulas! COMO CRIAR: Selecione dados > Inserir > Tabela Dinâmica. Arraste campos para Linhas, Colunas, Valores, Filtros. Excel calcula somas, médias, contagens automaticamente. AGRUPAR: junte datas por mês/ano, valores por faixas. SEGMENTAÇÃO: filtros visuais interativos. ATUALIZAR: dados mudam? Clique direito > Atualizar. USO REAL: vendas por região/mês, despesas por categoria, notas por aluno/matéria. Dashboard executivo em minutos! Aprender Pivot Tables multiplica sua produtividade por 10!'
             },
             {
-                titulo: 'Gráficos Profissionais',
-                conteudo: 'Gráficos de linha (tendências), barras (comparações), pizza (proporções), dispersão (correlações). Customize cores e estilos.'
+                titulo: 'Gráficos Profissionais: Visualize Seus Dados',
+                conteudo: 'TIPOS: LINHAS (tendências ao longo do tempo, ex: vendas mensais). COLUNAS/BARRAS (comparações entre categorias, ex: vendas por produto). PIZZA (proporções de um todo, ex: market share). DISPERSÃO (correlações, ex: altura vs peso). ÁREA (volume ao longo do tempo). COMBINADO (duas métricas, ex: vendas + margem). PERSONALIZAÇÃO: títulos claros, cores harmônicas, legendas posicionadas bem, eixos rotulados, sem 3D desnecessário (dificulta leitura). SPARKLINES: mini gráficos dentro de células, ótimos para dashboards. DICA: gráfico conta história, escolha tipo que comunica melhor sua mensagem!'
             },
             {
-                titulo: 'Macros e Automação',
-                conteudo: 'Macros automatizam tarefas repetitivas. Grave sequências de ações e execute com um clique. VBA permite programação avançada.'
+                titulo: 'Macros e VBA: Automação Completa',
+                conteudo: 'MACROS: gravam sequência de ações e repetem com 1 clique. GRAVAR MACRO: Desenvolvedor > Gravar Macro > faça ações > Parar Gravação. Atalho para executar. Exemplo: formatar relatório (negrito cabeçalho, bordas, cores) vira 1 clique. VBA (Visual Basic for Applications): linguagem de programação do Excel. Escreva código para lógica complexa, loops, condições, interação com usuário. APLICAÇÕES: importar dados de vários arquivos, enviar emails automáticos, criar relatórios personalizados, validar entradas, integrar com banco de dados. SEGURANÇA: macros podem ter vírus, só ative de fontes confiáveis. Habilite: Arquivo > Opções > Central de Confiabilidade > Habilitar Macros.'
+            },
+            {
+                titulo: 'Formatação Condicional Avançada: Destaque Inteligente',
+                conteudo: 'Formatação condicional DESTACA células automaticamente baseado em regras. BARRAS DE DADOS: visualize magnitudes. ESCALAS DE COR: gradiente de verde (alto) a vermelho (baixo). CONJUNTOS DE ÍCONES: setas, semáforos, estrelas. REGRAS PERSONALIZADAS: use fórmulas! Exemplo: =E($B2>1000, $C2<50) destaca vendas altas com estoque baixo. APLICAÇÕES: notas abaixo da média em vermelho, valores duplicados destacados, prazos vencidos em negrito, top 10 em verde. GERENCIAR REGRAS: controle precedência quando várias regras aplicam. Formatação condicional torna dados VISUALMENTE inteligentes!'
+            },
+            {
+                titulo: 'Validação de Dados: Controle de Entradas',
+                conteudo: 'Validação de dados LIMITA o que pode ser digitado em célula, evita erros. LISTA SUSPENSA: =Lista_Produtos, usuário só escolhe da lista. NÚMERO: entre 0 e 100 (ex: notas). DATA: apenas datas futuras. TAMANHO TEXTO: CPF com 11 dígitos. FÓRMULA PERSONALIZADA: =E(A1>0, A1<=SOMA(B:B)) valida que valor não excede total. MENSAGEM DE ENTRADA: instrução ao clicar. ALERTA DE ERRO: mensagem se entrada inválida. USO: formulários, controle de estoque, entrada de dados por equipe. Reduz erros, padroniza informações!'
+            },
+            {
+                titulo: 'Tabelas Inteligentes: Organização Profissional',
+                conteudo: 'Converter intervalo em TABELA (Ctrl+T) traz superpoderes! AUTO-FORMATAÇÃO: design profissional automático. CABEÇALHOS FIXOS: rolagem sem perder referência. FILTROS AUTOMÁTICOS: clique na seta, filtre/ordene. FÓRMULAS ESTRUTURADAS: =[@Vendas]*[@Comissão] em vez de B2*C2, mais legível! LINHA DE TOTAIS: soma/média automática. EXPANSÃO: adicione linha, tabela cresce, fórmulas copiam. NOME DA TABELA: referencie facilmente em fórmulas. Gráficos e Pivot Tables se atualizam quando tabela muda. Sempre use tabelas em vez de intervalos comuns!'
+            },
+            {
+                titulo: 'Power Query: ETL Sem Programação',
+                conteudo: 'Power Query TRANSFORMA dados sujos em limpos! Importa de várias fontes (Excel, CSV, banco de dados, web). LIMPAR: remove duplicatas, erros, espaços. TRANSFORMAR: divida colunas, mescle, pivote, agregue. COMBINAR: junte múltiplas tabelas/arquivos. ATUALIZAR: dados mudam? Clique Atualizar, transformações reaplicam. INTERFACE VISUAL: sem código, cliques intuitivos. M language: para transformações avançadas. EXEMPLO: importa 50 arquivos CSV mensais, consolida, limpa, agrupa por região. Atualiza todo mês automaticamente. Power Query = Excel super vitaminado!'
+            },
+            {
+                titulo: 'Curiosidade: Limites do Excel',
+                conteudo: 'Excel tem 1.048.576 linhas e 16.384 colunas (versões modernas). Planilha pode ter até 2 GB. Fórmulas podem ter 8.192 caracteres. Nomes de células: até 255 caracteres. Apesar de poderoso, para MILHÕES de linhas, use banco de dados (SQL) ou ferramentas Big Data (Python Pandas). Excel é campeão até ~100.000 linhas com bom desempenho.'
+            },
+            {
+                titulo: 'Exemplo Prático: Dashboard Executivo',
+                conteudo: 'Crie dashboard com: 1) Tabela Dinâmica de vendas por mês/produto. 2) Gráfico de linhas mostrando tendência. 3) Gráfico de colunas comparando regiões. 4) KPIs (indicadores chave): total vendas, crescimento %, ticket médio (fórmulas). 5) Segmentação de dados para filtrar interativamente. 6) Formatação condicional em KPIs (verde se cresceu, vermelho se caiu). 7) Sparklines mostrando tendência de cada produto. Resultado: visão executiva completa em 1 página, atualiza automaticamente!'
             }
         ],
         exemplos: [
@@ -9917,20 +9989,44 @@ const conteudoModulos = {
     'design-grafico-basico': {
         teoria: [
             {
-                titulo: 'Princípios de Design',
-                conteudo: 'Contraste (destaque), Alinhamento (organização), Repetição (consistência), Proximidade (agrupamento). Fundamentais para design efetivo.'
+                titulo: 'Princípios Fundamentais de Design: CARP',
+                conteudo: 'CONTRASTE: diferença visual que DESTACA elementos importantes. Cores opostas, tamanhos diferentes, fontes variadas. Sem contraste, tudo é monótono. ALINHAMENTO: organiza elementos em linhas invisíveis, cria coerência visual. Nunca deixe texto ou imagens "flutuando" aleatoriamente. REPETIÇÃO: reutilize cores, fontes, estilos para criar CONSISTÊNCIA e identidade visual. Marca forte repete elementos. PROXIMIDADE: agrupe elementos relacionados, separe os não relacionados. Organiza informação hierarquicamente. Esses 4 princípios transformam design amador em profissional! Pratique identificando em logos, sites, cartazes.'
             },
             {
-                titulo: 'Cores e Tipografia',
-                conteudo: 'Teoria das cores: primárias, secundárias, complementares. Paleta harmônica. Fontes serifadas (formais) vs sans-serif (modernas). Legibilidade é essencial.'
+                titulo: 'Teoria das Cores: A Psicologia Visual',
+                conteudo: 'CORES PRIMÁRIAS: vermelho, azul, amarelo (base de todas). SECUNDÁRIAS: verde, laranja, roxo (mistura de 2 primárias). CÍRCULO CROMÁTICO: roda de cores mostra relações. CORES COMPLEMENTARES: opostas na roda (vermelho/verde, azul/laranja), alto CONTRASTE. ANÁLOGAS: vizinhas na roda (azul, azul-verde, verde), HARMONIA suave. TRIÁDICAS: 3 cores equidistantes, EQUILÍBRIO vibrante. MONOCROMÁTICA: variações de 1 cor (azul claro, azul, azul escuro), ELEGANTE. PSICOLOGIA: vermelho (energia, paixão, urgência), azul (confiança, calma, profissionalismo), verde (natureza, saúde, crescimento), amarelo (otimismo, atenção, cuidado), roxo (luxo, criatividade, mistério), laranja (entusiasmo, amigabilidade), preto (elegância, poder), branco (pureza, simplicidade). Use ferramentas: Adobe Color, Coolors, Paletton.'
             },
             {
-                titulo: 'Ferramentas de Design',
-                conteudo: 'Canva (online, fácil), GIMP (gratuito, poderoso), Adobe Photoshop (profissional, pago), Figma (interfaces, colaborativo).'
+                titulo: 'Tipografia: A Arte das Letras',
+                conteudo: 'SERIF (com serifa): fontes tradicionais com "pézinhos" (Times, Georgia). Transmite FORMALIDADE, TRADIÇÃO. Boa para impressos longos. SANS-SERIF (sem serifa): fontes modernas limpas (Arial, Helvetica, Roboto). Transmite MODERNIDADE, CLAREZA. Ideal para web. SCRIPT: imitam escrita à mão (cursiva). DECORATIVA, use com MODERAÇÃO. DISPLAY: decorativas, chamativas. Apenas títulos, nunca textos longos. LEGIBILIDADE: espaçamento adequado (leading, kerning, tracking), tamanho mínimo 16px web, contraste com fundo. HIERARQUIA: título (grande, negrito), subtítulo (médio), corpo (normal). Máximo 2-3 fontes por design. COMBINAÇÕES: Serif + Sans-serif funciona bem. Google Fonts: biblioteca gratuita gigante!'
             },
             {
-                titulo: 'Formatos de Imagem',
-                conteudo: 'JPG (fotos, com perda), PNG (transparência, sem perda), SVG (vetorial, escalável), GIF (animações). Use o formato correto!'
+                titulo: 'Ferramentas de Design: Do Iniciante ao Profissional',
+                conteudo: 'CANVA: online, SUPER FÁCIL, templates prontos, arrasta-e-solta. Grátis com limitações, Pro vale a pena. Ideal para redes sociais, apresentações, flyers. FIGMA: design de interfaces (apps, sites), COLABORATIVO em tempo real, gratuito para uso pessoal. Substitui Sketch. ADOBE PHOTOSHOP: edição de FOTOS profissional, manipulação, efeitos. Pago, curva de aprendizado. ADOBE ILLUSTRATOR: design VETORIAL (logos, ícones), escala sem perder qualidade. Pago. GIMP: alternativa GRATUITA ao Photoshop, open-source, poderoso mas interface confusa. INKSCAPE: alternativa gratuita ao Illustrator. AFFINITY DESIGNER/PHOTO: pago mas mais barato que Adobe, ótimo. Começe no Canva, depois Figma (interfaces) ou GIMP (fotos).'
+            },
+            {
+                titulo: 'Formatos de Imagem: Quando Usar Cada Um',
+                conteudo: 'JPG/JPEG: FOTOS, compacto, perde qualidade ao salvar. Sem transparência. Use para: fotos web, backgrounds. PNG: imagens com TRANSPARÊNCIA, sem perda de qualidade. Maior que JPG. Use para: logos, ícones, gráficos com fundo transparente. SVG: VETORIAL, escala infinitamente sem perder qualidade (1px ou 1000px, sempre nítido). Arquivos pequenos. Use para: logos, ícones, ilustrações. GIF: ANIMAÇÕES simples, 256 cores apenas. Use para: memes, animações curtas. WEBP: moderno, melhor compressão que JPG. Use para: web moderna. PDF: documentos que precisam impressão, preserva formatação. TIFF: altíssima qualidade, arquivos enormes. Impressão profissional. RAW: foto sem processo, máxima flexibilidade de edição. REGRA: Web = JPG/PNG/SVG/WEBP. Impressão = PDF/TIFF. Logos = SVG/PNG.'
+            },
+            {
+                titulo: 'Layouts e Composição: Organizando Elementos',
+                conteudo: 'GRID: estrutura invisível que organiza elementos. 12 colunas é padrão. Bootstrap usa isso. REGRA DOS TERÇOS: divida imagem em 9 partes (3x3), coloque elementos importantes nas interseções. Fotos ficam mais interessantes. PROPORÇÃO ÁUREA (Fibonacci): 1:1.618, proporção encontrada na natureza, visualmente agradável. ESPAÇO EM BRANCO (whitespace): áreas vazias dão respiro, melhoram legibilidade. Não tenha medo do vazio! HIERARQUIA VISUAL: tamanho, cor, posição guiam olhar. Mais importante = maior/mais colorido/no topo. EQUILÍBRIO: simétrico (formal, estável) vs assimétrico (dinâmico, interessante). F-PATTERN: olhos escaneiam em F (web), coloque informação importante à esquerda/topo.'
+            },
+            {
+                titulo: 'Design Responsivo: Uma Arte Para Todas as Telas',
+                conteudo: 'Design deve funcionar em celular (320px+), tablet (768px+), desktop (1024px+). MOBILE-FIRST: projete para celular PRIMEIRO, depois expanda. BREAKPOINTS: pontos onde layout muda. Bootstrap usa 576/768/992/1200px. IMAGENS FLEXÍVEIS: max-width: 100%, nunca estouram. TIPOGRAFIA ESCALÁVEL: use rem/em em vez de px. NAVEGAÇÃO: menu hamburguer no mobile, expandido no desktop. GRID FLEXÍVEL: 1 coluna mobile, 2-3 colunas tablet, 4+ colunas desktop. TESTE: Chrome DevTools simula dispositivos. BrowserStack testa navegadores reais. 60% do tráfego é mobile, design responsivo é OBRIGATÓRIO!'
+            },
+            {
+                titulo: 'Curiosidade: Golden Ratio no Design',
+                conteudo: 'Proporção Áurea (1:1.618) aparece em logos famosos: Apple, Twitter, Pepsi. Partênnon grego usa. Mona Lisa usa. Natureza usa (conchas, flores). Nosso cérebro acha essa proporção naturalmente bela. Ferramenta: PhiMatrix sobrepõe grade áurea em designs.'
+            },
+            {
+                titulo: 'Dica Visual: Anatomia de um Layout Perfeito',
+                conteudo: '📱 MOBILE: 1 coluna, menu compacto, botões grandes\n💻 TABLET: 2 colunas, menu expandido\n🖥️ DESKTOP: 3+ colunas, sidebar, espaço generoso\n🎨 Cores harmônicas, tipografia hierárquica\n📊 Grid estruturado, alinhamento consistente\nResultado: design profissional e responsivo!'
+            },
+            {
+                titulo: 'Exemplo Prático: Criando um Cartão de Visita',
+                conteudo: 'PASSO 1: Canva, busque template "cartão de visita". PASSO 2: Escolha paleta (use Coolors.co). PASSO 3: Troque textos (nome, profissão, contatos). PASSO 4: Adicione logo (SVG ou PNG com transparência). PASSO 5: Aplique CARP: contraste entre fundo e texto, alinhamento centralizado ou à esquerda, repetição de cores em elementos, proximidade de informações relacionadas. PASSO 6: Fonte legível (sans-serif, mínimo 10pt). PASSO 7: Export PDF (impressão) e PNG (digital). Resultado: cartão profissional em 15 minutos!'
             }
         ],
         exemplos: [
@@ -9964,20 +10060,44 @@ const conteudoModulos = {
     'python-introducao': {
         teoria: [
             {
-                titulo: 'Por que Python?',
-                conteudo: 'Python é simples, poderoso e versátil. Usado em web, ciência de dados, automação, IA. Sintaxe clara, comunidade gigante, milhares de bibliotecas.'
+                titulo: 'Por que Python? A Linguagem Mais Popular do Mundo',
+                conteudo: 'Python é SIMPLES (sintaxe limpa, quase inglês), PODEROSO (inteligência artificial, ciência de dados, web, automação) e VERSÁTIL (funciona em tudo). Criado por Guido van Rossum em 1991. Usado por Google, Netflix, NASA, Instagram. VANTAGENS: fácil de aprender (ideal para iniciantes), comunidade gigante (milhões de desenvolvedores), bibliotecas incríveis (faz qualquer coisa), empregabilidade alta (salários bons), produtividade (escreve menos, faz mais). APLICAÇÕES: web (Django, Flask), data science (Pandas, NumPy), machine learning (TensorFlow, PyTorch), automação (scripts), jogos (Pygame), hacking ético. Se fosse aprender UMA linguagem, seria Python!'
             },
             {
-                titulo: 'Variáveis e Tipos',
-                conteudo: 'Variáveis armazenam valores. name = "João" (string), idade = 25 (int), altura = 1.75 (float), ativo = True (bool). Python detecta tipo automaticamente.'
+                titulo: 'Variáveis e Tipos de Dados: Guardando Informações',
+                conteudo: 'VARIÁVEIS armazenam valores, como caixinhas nomeadas. Python detecta tipo automaticamente (tipagem dinâmica). TIPOS: INT (inteiros): idade = 25, quantidade = -10. FLOAT (decimais): altura = 1.75, preco = 19.99. STRING (textos): nome = "João", mensagem = \'Olá!\'. BOOL (booleano): ativo = True, concluido = False. LIST (listas): notas = [8, 7.5, 9, 6], frutas = ["maçã", "banana"]. TUPLE (tupla, imutável): coordenadas = (10, 20). DICT (dicionário, chave-valor): pessoa = {"nome": "Maria", "idade": 30}. NONE: ausência de valor. CONVENÇÃO: nomes em minúsculas, separados por _ (snake_case): nome_completo, total_vendas. Python é case-sensitive (Nome ≠ nome). Type(): mostra tipo. Casting: int("10") converte string em inteiro.'
             },
             {
-                titulo: 'Estruturas de Controle',
-                conteudo: 'if/elif/else (condições), for (loop com iteração), while (loop com condição), break (sair do loop), continue (próxima iteração).'
+                titulo: 'Estruturas de Controle: Tomando Decisões e Repetindo Ações',
+                conteudo: 'IF/ELIF/ELSE: tomam DECISÕES. if idade >= 18: print("Maior de idade") elif idade >= 13: print("Adolescente") else: print("Criança"). Indentação (4 espaços) é OBRIGATÓRIA em Python! FOR: repete para cada item. for i in range(5): print(i) → 0,1,2,3,4. for fruta in ["maçã", "banana"]: print(fruta). WHILE: repete enquanto condição verdadeira. contador = 0; while contador < 5: print(contador); contador += 1. BREAK: sai do loop. CONTINUE: pula para próxima iteração. PASS: placeholder vazio. OPERADORES: == (igual), != (diferente), > < >= <=, and or not. Estruturas controlam FLUXO do programa!'
             },
             {
-                titulo: 'Funções e Módulos',
-                conteudo: 'def nomeFuncao(): define função reutilizável. import modulo traz código externo. Organize código em arquivos .py separados.'
+                titulo: 'Funções: Reutilizando Código Inteligentemente',
+                conteudo: 'FUNÇÕES encapsulam código reutilizável. def saudacao(nome): return f"Olá, {nome}!". Chame: print(saudacao("Maria")) → "Olá, Maria!". PARÂMETROS: valores de entrada. RETURN: valor de saída. PARÂMETROS PADRÃO: def potencia(base, expoente=2): return base**expoente. *ARGS: número variável de argumentos. **KWARGS: argumentos nomeados variáveis. LAMBDA: funções anônimas de 1 linha. quadrado = lambda x: x**2. ESCOPO: variáveis dentro de função são locais. Global: palavra-chave global. DOCSTRINGS: documentação da função em """texto""". Funções deixam código ORGANIZADO, TESTÁVEL, REUTILIZÁVEL!'
+            },
+            {
+                titulo: 'Módulos e Bibliotecas: Superpoderes Prontos',
+                conteudo: 'MÓDULOS: arquivos .py com código reutilizável. IMPORT: traz código externo. import math; print(math.sqrt(16)) → 4.0. from math import sqrt; print(sqrt(16)). import math as m (alias). BIBLIOTECAS PADRÃO: math (matemática), random (aleatoriedade), datetime (datas), os (sistema operacional), json (manipula JSON), re (regex). INSTALAR BIBLIOTECAS: pip install nome_biblioteca. POPULARES: requests (HTTP), pandas (análise de dados), numpy (computação numérica), matplotlib (gráficos), flask/django (web), pygame (jogos), beautifulsoup (web scraping), tensorflow (IA). PyPI (Python Package Index): 400.000+ pacotes! Bibliotecas multiplicam poder do Python!'
+            },
+            {
+                titulo: 'Listas e Dicionários: Estruturas de Dados Essenciais',
+                conteudo: 'LISTAS: coleções ordenadas mutáveis. frutas = ["maçã", "banana", "uva"]. ACESSO: frutas[0] → "maçã" (início em 0). frutas[-1] → "uva" (último). SLICE: frutas[0:2] → ["maçã", "banana"]. ADICIONAR: frutas.append("laranja"), frutas.insert(1, "kiwi"). REMOVER: frutas.remove("banana"), frutas.pop(). ORDENAR: frutas.sort(), sorted(frutas). LEN: len(frutas) → tamanho. IN: "maçã" in frutas → True. DICIONÁRIOS: pares chave-valor. pessoa = {"nome": "João", "idade": 25, "cidade": "SP"}. ACESSO: pessoa["nome"] → "João". ADICIONAR: pessoa["profissao"] = "Dev". KEYS/VALUES: pessoa.keys(), pessoa.values(). ITERAR: for chave, valor in pessoa.items(). Listas para sequências, dicionários para dados estruturados!'
+            },
+            {
+                titulo: 'Tratamento de Erros: Programa Robusto',
+                conteudo: 'ERROS acontecem! TRY/EXCEPT trata graciosamente. try: numero = int(input("Número: ")) except ValueError: print("Não é número!"). TIPOS DE ERROS: ValueError (valor inválido), TypeError (tipo errado), ZeroDivisionError (divisão por 0), FileNotFoundError (arquivo não existe), KeyError (chave inexistente), IndexError (índice fora do alcance). ELSE: executa se não houver erro. FINALLY: sempre executa (cleanup). RAISE: lança erro manualmente. if idade < 0: raise ValueError("Idade não pode ser negativa"). Tratar erros evita crashes, melhora experiência do usuário!'
+            },
+            {
+                titulo: 'Arquivos: Lendo e Escrevendo Dados',
+                conteudo: 'ABRIR: file = open("dados.txt", "r"). MODOS: "r" (ler), "w" (escrever, sobrescreve), "a" (append, adiciona), "r+" (ler e escrever). LER: conteudo = file.read(), linhas = file.readlines(), linha = file.readline(). ESCREVER: file.write("texto"). FECHAR: file.close() (sempre!). CONTEXT MANAGER: with open("dados.txt", "r") as file: conteudo = file.read() # fecha automaticamente. CSV: import csv; reader = csv.reader(file). JSON: import json; dados = json.load(file). Manipular arquivos = persistência de dados!'
+            },
+            {
+                titulo: 'Curiosidade: Python Zen (PEP 20)',
+                conteudo: 'Digite "import this" no Python. Mostra 19 aforismos: "Bonito é melhor que feio", "Explícito é melhor que implícito", "Simples é melhor que complexo", "Legibilidade conta". Filosofia Python: código claro, elegante, simples. Pep8: guia de estilo oficial.'
+            },
+            {
+                titulo: 'Exemplo Prático: Calculadora de IMC',
+                conteudo: 'def calcular_imc(peso, altura): return peso / (altura ** 2)\n\ndef classificar_imc(imc):\n    if imc < 18.5: return "Abaixo do peso"\n    elif imc < 25: return "Peso normal"\n    elif imc < 30: return "Sobrepeso"\n    else: return "Obesidade"\n\npeso = float(input("Peso (kg): "))\naltura = float(input("Altura (m): "))\nimc = calcular_imc(peso, altura)\nprint(f"IMC: {imc:.1f} - {classificar_imc(imc)}")\n\nSimples, útil, didático!'
             }
         ],
         exemplos: [
@@ -10011,20 +10131,48 @@ const conteudoModulos = {
     'javascript-avancado': {
         teoria: [
             {
-                titulo: 'ES6+ Moderno',
-                conteudo: 'let/const (escopo), arrow functions (=&gt;), destructuring ({nome, idade} = obj), spread operator (...arr), template literals (`texto ${var}`).'
+                titulo: 'ES6+ Moderno: JavaScript do Futuro (Já Presente)',
+                conteudo: 'ECMAScript 6 (2015) revolucionou JavaScript! LET/CONST: substitua var. let permite reatribuição, const não. Escopo de bloco (não vazam de if/for). ARROW FUNCTIONS: const soma = (a, b) => a + b; mais conciso. const quadrado = x => x*x (parâmetro único sem parênteses). TEMPLATE LITERALS: `Olá, ${nome}! Você tem ${idade} anos.` (interpolação). DESTRUCTURING: const {nome, idade} = pessoa; const [primeiro, segundo] = array; extrai valores. SPREAD OPERATOR: [...array1, ...array2] concatena. {...obj1, ...obj2} mescla objetos. REST PARAMETERS: function soma(...numeros) aceita quantidade variável. DEFAULT PARAMETERS: function saudacao(nome = "Visitante"). CLASSES: class Pessoa { constructor(nome) { this.nome = nome } }. MÓDULOS: import/export para organizar código. ES6+ torna JavaScript ELEGANTE, PRODUTIVO!'
             },
             {
-                titulo: 'Assíncrono e Promises',
-                conteudo: 'async/await para código assíncrono limpo. Promises para operações futuras. fetch() para requisições HTTP. then/catch para tratamento.'
+                titulo: 'Assíncrono: Promises, Async/Await - Dominando o Tempo',
+                conteudo: 'JavaScript é SINGLE-THREADED mas pode fazer várias coisas "ao mesmo tempo" com ASSINCRONIA. CALLBACKS: função passada para executar depois. Callback hell = aninhamento excessivo (pesadelo). PROMISES: representa operação futura. 3 estados: pending (aguardando), fulfilled (sucesso), rejected (erro). fetch("api.com/dados").then(res => res.json()).then(data => console.log(data)).catch(err => console.error(err)). ASYNC/AWAIT: sintaxe mais limpa. async function buscarDados() { try { const res = await fetch("api.com/dados"); const data = await res.json(); console.log(data); } catch(err) { console.error(err); } }. AWAIT pausa execução até Promise resolver, mas não bloqueia thread. PROMISE.ALL: espera múltiplas Promises. PROMISE.RACE: primeira que resolver. Assincronia é ESSENCIAL para web moderna (APIs, I/O)!'
             },
             {
-                titulo: 'DOM Manipulation',
-                conteudo: 'querySelector() seleciona elementos. addEventListener() escuta eventos. createElement() cria elementos. classList manipula classes CSS.'
+                titulo: 'DOM Manipulation: Controlando a Página Dinamicamente',
+                conteudo: 'DOM (Document Object Model) é representação em memória da página HTML. JavaScript MANIPULA o DOM. SELECIONAR: document.getElementById("id"), document.querySelector(".classe"), document.querySelectorAll("div"). MODIFICAR CONTEÚDO: elemento.textContent = "Novo texto", elemento.innerHTML = "<strong>HTML</strong>". ATRIBUTOS: elemento.getAttribute("src"), elemento.setAttribute("alt", "Descrição"). ESTILOS: elemento.style.color = "red", elemento.style.display = "none". CLASSES: elemento.classList.add("ativo"), elemento.classList.remove("inativo"), elemento.classList.toggle("visible"). CRIAR ELEMENTOS: const div = document.createElement("div"); div.textContent = "Olá"; document.body.appendChild(div). REMOVER: elemento.remove(). EVENTOS: elemento.addEventListener("click", function). DOM manipulation = interatividade!'
             },
             {
-                titulo: 'Frameworks Modernos',
-                conteudo: 'React (componentes), Vue (progressivo), Angular (completo), Svelte (compilado). Escolha depende do projeto e time.'
+                titulo: 'Eventos: Respondendo a Ações do Usuário',
+                conteudo: 'EVENTOS capturam ações: cliques, teclas, mouse, formularios. LISTENER: botao.addEventListener("click", () => alert("Clicou!")). TIPOS: click, dblclick, mouseenter, mouseleave, mousemove, keydown, keyup, keypress, submit (formulário), change (input), input (digitação), focus, blur, load, scroll, resize. EVENT OBJECT: função recebe evento. btn.addEventListener("click", (e) => { console.log(e.target); e.preventDefault(); }). PREVENT DEFAULT: cancela comportamento padrão (ex: submit recarregar página). STOP PROPAGATION: para borbulhamento. DELEGAÇÃO: adicione listener em pai, detecte filho clicado (eficiente para muitos elementos). REMOVER LISTENER: removeEventListener(). Eventos = páginas reativas!'
+            },
+            {
+                titulo: 'Fetch API: Comunicando com Servidores',
+                conteudo: 'FETCH: substituto moderno de XMLHttpRequest. Faz requisições HTTP. GET: fetch("api.com/usuarios").then(res => res.json()).then(data => console.log(data)). POST: fetch("api.com/usuarios", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ nome: "João", idade: 25 }) }). PUT/DELETE: mude method. HEADERS: metadados da requisição. CORS: Cross-Origin Resource Sharing, servidor precisa permitir. ASYNC/AWAIT com fetch: const res = await fetch(url); const data = await res.json(). TRATAMENTO DE ERROS: if (!res.ok) throw new Error("Erro HTTP"). Fetch conecta front-end a back-end/APIs!'
+            },
+            {
+                titulo: 'Local Storage e Session Storage: Armazenamento no Navegador',
+                conteudo: 'ARMAZENAR dados no navegador sem cookies. LOCAL STORAGE: persiste mesmo após fechar navegador. localStorage.setItem("nome", "João"), localStorage.getItem("nome"), localStorage.removeItem("nome"), localStorage.clear(). SESSION STORAGE: limpa ao fechar aba. sessionStorage.setItem(). LIMITAÇÕES: ~5-10 MB, apenas strings (use JSON.stringify/parse para objetos). COOKIES: também armazenam, mas vão em requisições HTTP, menor (4KB). INDEXEDDB: banco de dados no navegador (grande, complexo). USO: preferências do usuário, carrinho de compras, cache de dados, temas, tokens de autenticação. Cuidado: acessível por JavaScript, não armazene senhas!'
+            },
+            {
+                titulo: 'Frameworks e Bibliotecas Modernas: Acelerando Desenvolvimento',
+                conteudo: 'REACT (Facebook): biblioteca de COMPONENTES. Declara UI, React atualiza DOM. JSX: HTML no JavaScript. Hooks: useState, useEffect. Virtual DOM: performance. Ecossistema gigante. VUE (Evan You): framework PROGRESSIVO. Fácil de aprender, flexível. Template-based. Vuex para estado. ANGULAR (Google): framework COMPLETO. TypeScript, opinião forte, curva de aprendizado. Empresarial. SVELTE: COMPILADOR, não framework runtime. Código mais rápido, menor bundle. NEXT.JS: React com SSR (Server-Side Rendering), SEO melhor. NUXT.JS: Vue com SSR. ESCOLHA depende: React (popular, empregos), Vue (fácil), Angular (enterprise), Svelte (performance). Vanilla JS é base, frameworks aceleram!'
+            },
+            {
+                titulo: 'Modularização: Organizando Código Profissional',
+                conteudo: 'MÓDULOS ES6: divida código em arquivos. EXPORT: export const PI = 3.14; export function soma(a,b) { return a+b; }. export default Classe. IMPORT: import { PI, soma } from "./math.js"; import Classe from "./Classe.js". NAMED EXPORTS: vários por arquivo. DEFAULT EXPORT: um por arquivo (classe, função principal). ALIAS: import { soma as adicao }. IMPORT ALL: import * as Math from "./math.js". WEBPACK/PARCEL/VITE: bundlers que empacotam módulos. NPM: gerenciador de pacotes, instala bibliotecas. package.json: dependências do projeto. Modularização = código escalável, manutenível, testável!'
+            },
+            {
+                titulo: 'Curiosidade: JavaScript Não é Java!',
+                conteudo: 'Apesar do nome, JavaScript NÃO tem relação com Java! Nome foi estratégia de marketing (Java era popular em 1995). JavaScript foi criado por Brendan Eich em 10 dias na Netscape. Inicialmente LiveScript, renomeado para JavaScript. Hoje, uma das linguagens mais usadas do mundo!'
+            },
+            {
+                titulo: 'Dica Visual: Fluxo de Requisição Fetch',
+                conteudo: '👤 Usuário clica botão\n⬇️\n💻 JS: fetch("api.com/dados")\n⬇️\n🌐 Requisição HTTP para servidor\n⬇️\n📦 Servidor processa e responde (JSON)\n⬇️\n💻 JS: .then(res => res.json())\n⬇️\n📊 Dados processados, DOM atualizado\n⬇️\n👁️ Usuário vê resultado\nTudo sem recarregar página!'
+            },
+            {
+                titulo: 'Exemplo Prático: Lista de Tarefas Interativa',
+                conteudo: 'HTML: <input id="tarefa"> <button id="adicionar">+</button> <ul id="lista"></ul>\n\nJS:\nconst input = document.getElementById("tarefa");\nconst btn = document.getElementById("adicionar");\nconst lista = document.getElementById("lista");\n\nbtn.addEventListener("click", () => {\n  if (input.value.trim()) {\n    const li = document.createElement("li");\n    li.textContent = input.value;\n    li.addEventListener("click", () => li.classList.toggle("concluida"));\n    lista.appendChild(li);\n    input.value = "";\n  }\n});\n\nCSS: .concluida { text-decoration: line-through; opacity: 0.5; }\n\nResultado: adiciona tarefas, clica para marcar concluída!'
             }
         ],
         exemplos: [
@@ -10057,20 +10205,44 @@ const conteudoModulos = {
     'git-github': {
         teoria: [
             {
-                titulo: 'Controle de Versão com Git',
-                conteudo: 'Git rastreia mudanças no código. Commit salva versão, Branch cria ramificação, Merge junta branches. Histórico completo de alterações.'
+                titulo: 'Controle de Versão com Git: Máquina do Tempo do Código',
+                conteudo: 'Git é sistema de CONTROLE DE VERSÃO distribuído. Rastreia TODAS as mudanças no código, quem fez, quando fez. Por que usar? HISTÓRICO completo (volta a qualquer versão), COLABORAÇÃO (vários devs no mesmo projeto), BACKUP (código seguro), BRANCHES (experimenta sem quebrar), PROFISSIONALISMO (essencial em empresas). Criado por Linus Torvalds (criador do Linux) em 2005. CONCEITOS: REPOSITORY (repo): pasta com histórico Git. WORKING DIRECTORY: arquivos que você edita. STAGING AREA: prepara arquivos para commit. COMMIT: snapshot do código com mensagem. BRANCH: linha do tempo paralela. MERGE: junta branches. REMOTE: repo na nuvem (GitHub). Git != GitHub. Git é ferramenta, GitHub é plataforma de hospedagem!'
             },
             {
-                titulo: 'GitHub - Repositórios Online',
-                conteudo: 'GitHub hospeda repositórios Git na nuvem. Colaboração, Pull Requests, Issues, Actions (CI/CD). Portfólio de desenvolvedores.'
+                titulo: 'GitHub: Rede Social de Programadores',
+                conteudo: 'GitHub hospeda repositórios Git NA NUVEM. Maior plataforma de código aberto do mundo (100M+ usuários, 300M+ repos). FEATURES: REPOSITÓRIOS: públicos (código aberto) ou privados. COLLABORATION: Issues (bugs, features), Pull Requests (propor mudanças), Code Review (revisar código de outros), Discussions. ACTIONS: CI/CD, automata workflows. PAGES: hospedar sites estáticos GRATIS. GISTS: compartilhar snippets. WIKI: documentação. RELEASES: versões do software. PROFILE: portfólio de desenvolvedor (recrutadores olham!). README: primeira impressão do repo. .gitignore: arquivos que Git ignora (node_modules, .env). GitHub = currículo, portfólio, colaboração!'
             },
             {
-                titulo: 'Workflow Básico',
-                conteudo: 'git init (inicializa), git add (prepara), git commit (salva), git push (envia), git pull (baixa). Clone repositórios com git clone.'
+                titulo: 'Workflow Básico: Do Código ao GitHub em Passos',
+                conteudo: '1) INSTALAR GIT: git-scm.com, baixe e instale. 2) CONFIGURAR: git config --global user.name "Seu Nome"; git config --global user.email "email@example.com". 3) INICIALIZAR: git init (cria repo local na pasta). 4) STATUS: git status (mostra arquivos modificados/não rastreados). 5) ADICIONAR: git add arquivo.txt (stage específico) ou git add . (stage tudo). 6) COMMIT: git commit -m "Mensagem descritiva" (salva snapshot). 7) CRIAR REPO GITHUB: github.com, New Repository. 8) CONECTAR: git remote add origin https://github.com/usuario/repo.git. 9) PUSH: git push -u origin main (envia para GitHub). 10) PULL: git pull origin main (baixa atualizações). CLONE: git clone URL (copia repo existente). Workflow: edita > add > commit > push. Repita!'
             },
             {
-                titulo: 'Branches e Colaboração',
-                conteudo: 'main/master = branch principal. Crie branch para features (git branch feature). Merge após revisão. Evita conflitos.'
+                titulo: 'Branches: Trabalhando em Paralelo Sem Medo',
+                conteudo: 'BRANCH = linha do tempo independente. MAIN/MASTER: branch principal, código estável, produção. CRIAR BRANCH: git branch nome-feature. TROCAR: git checkout nome-feature ou git switch nome-feature. CRIAR E TROCAR: git checkout -b nome-feature. LISTAR: git branch (local), git branch -a (todas). DELETAR: git branch -d nome-feature (local), git push origin --delete nome-feature (remoto). MERGE: git checkout main; git merge nome-feature (junta feature na main). CONFLITOS: quando mesmo código editado em 2 branches. Git marca conflitos, resolva manualmente, depois commit. BOAS PRÁTICAS: branch para cada feature/bug. Nomes descritivos (feature/login, bugfix/crash-ao-salvar). Nunca trabalhe direto na main. Delete branches após merge. Branches = segurança, organização, paralelismo!'
+            },
+            {
+                titulo: 'Pull Requests: Colaboração Profissional',
+                conteudo: 'PULL REQUEST (PR) propõe mudanças de uma branch para outra. WORKFLOW: 1) Crie branch feature. 2) Desenvolva, commit, push. 3) No GitHub, clique "New Pull Request". 4) Escolha base (main) e compare (feature). 5) Título e descrição clara. 6) Reviewers revisam código, comentam, sugerem mudanças. 7) Autor faz ajustes se necessário. 8) Aprovado? Merge! 9) Delete branch. BENEFÍCIOS: CODE REVIEW (qualidade), DISCUSSÃO (decisões documentadas), TESTE (CI roda testes), HISTÓRICO (razão das mudanças). TEMPLATES: crie .github/pull_request_template.md para padronizar. DRAFT PR: indica trabalho em progresso. Squash merge: condensa commits. PR = colaboração civilizada!'
+            },
+            {
+                titulo: 'Comandos Essenciais: Sua Caixa de Ferramentas Git',
+                conteudo: 'INICIALIZAR: git init. CLONAR: git clone URL. STATUS: git status. ADICIONAR: git add arquivo / git add . COMMITAR: git commit -m "mensagem". HISTORICO: git log (completo), git log --oneline (compacto). DIFERENÇAS: git diff (mudanças não staged), git diff --staged. BRANCHES: git branch, git checkout, git merge. DESFAZER: git checkout -- arquivo (descarta mudanças locais), git reset HEAD arquivo (unstage), git reset --hard HEAD~1 (volta 1 commit, CUIDADO). REMOTO: git remote add origin URL, git push origin main, git pull origin main, git fetch (baixa sem merge). STASH: git stash (guarda mudanças temporariamente), git stash pop (reaplica). TAGS: git tag v1.0, git push origin v1.0. AJUDA: git --help comando. Pratique, memorize gradualmente!'
+            },
+            {
+                titulo: '.gitignore: O Que Não Commitar',
+                conteudo: '.gitignore lista arquivos/pastas que Git IGNORA. Por quê? Evita commitar: arquivos grandes, senhas/tokens (.env), dependências (node_modules, venv), arquivos temporários (.DS_Store, Thumbs.db), builds (dist/, build/). SINTAXE: # comentário, *.log (todos .log), /pasta (pasta específica), !exceção.log (não ignore este). TEMPLATES: github.com/github/gitignore (templates prontos para Node, Python, etc). GLOBAL: git config --global core.excludesfile ~/.gitignore_global (ignora em todos repos). Sempre adicione .gitignore ANTES do primeiro commit! Se já commitou: git rm --cached arquivo (remove do Git, mantém local).'
+            },
+            {
+                titulo: 'GitHub Actions: Automação e CI/CD',
+                conteudo: 'GitHub Actions automatiza workflows: testes, build, deploy. CI/CD (Continuous Integration/Deployment): testa e publica automaticamente. WORKFLOW: arquivo YAML em .github/workflows/. TRIGGERS: push, pull_request, schedule. JOBS: ações a executar. RUNNERS: máquinas que executam (Ubuntu, Windows, macOS). EXEMPLO: name: CI / on: [push] / jobs: build: runs-on: ubuntu-latest / steps: - uses: actions/checkout@v2 - run: npm install - run: npm test. USO: rodar testes a cada push, deploy automático para produção, notificar Slack, publicar pacote NPM. Marketplace: ações prontas da comunidade. Actions = DevOps simplificado!'
+            },
+            {
+                titulo: 'Curiosidade: Maior Repositório do GitHub',
+                conteudo: 'Microsoft/vscode (Visual Studio Code) tem 160.000+ stars, 28.000+ forks, milhares de contribuidores. Linux kernel, React, TensorFlow também gigantes. Seu próximo projeto pode ser o próximo viral! Open source muda o mundo.'
+            },
+            {
+                titulo: 'Exemplo Prático: Primeiro Projeto no GitHub',
+                conteudo: '1) Crie pasta "meu-projeto", adicione index.html. 2) git init. 3) git add . 4) git commit -m "Initial commit". 5) GitHub.com: New Repository "meu-projeto". 6) git remote add origin URL. 7) git push -u origin main. 8) Adicione README.md explicando projeto. 9) git add README.md, git commit -m "Add README", git push. 10) Compartilhe link com mundo! Portfólio começou!'
             }
         ],
         exemplos: [
